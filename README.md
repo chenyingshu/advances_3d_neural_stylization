@@ -17,17 +17,23 @@ Conference or Journal Year. <br>
 ## Table of Contents
 - [Mesh Stylization](#mesh-stylization)
 - [Volumetric Stylization](#volumetric-stylization)
-- [Implicit Field Stylization](#implicit-field-stylization)
+- [Novel View Stylization](#novel-view-stylization)
 - [2D Baselines](#)
 - [Evaluation Datasets](#)
 
 
 ## Mesh Stylization
+
+
+## Volumetric Stylization
+
+
+## Novel View Stylization
+
+### General Neural Rendering
 **Learning to stylize novel views**<br>
 *Hsin-Ping Huang, Hung-Yu Tseng, Saurabh Saini, Maneesh Singh, Ming-Hsuan Yang.* <br>
 Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2021. <br>
 [[Paper](https://arxiv.org/abs/2105.13509)] [[Project](https://hhsinping.github.io/3d_scene_stylization/)] [[Github](https://github.com/hhsinping/stylescene)] 
 
-## Volumetric Stylization
-
-## Implicit Field Stylization
+### Implicit Field Based Rendering
