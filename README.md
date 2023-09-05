@@ -40,5 +40,6 @@ _Features_:
 - Point-cloud based feature
 - Style feature transformation
 
+<!-- CLIP3DStyler Arxiv 2023, point cloud based neural rendering-->
 
 ### Implicit Field Based Rendering
