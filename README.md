@@ -50,7 +50,7 @@ add more recent works
 ## Volumetric Stylization
 **Efficient Neural Style Transfer For Volumetric Simulations**<br>
 *Joshua Aurand, Raphaël Oritz, Sylvia Nauer, Vinicius Azevedo*<br>
-ACM SIGGRAPH Asia, 2022. [[Paper](https://studios.disneyresearch.com/app/uploads/2022/10/Efficient-Neural-Style-Transfer-For-Volumetric-Simulations.pdf)][[Video](https://youtu.be/8tD5Yt3smDw)]
+ACM SIGGRAPH Asia, 2022. [[Paper](https://studios.disneyresearch.com/app/uploads/2022/10/Efficient-Neural-Style-Transfer-For-Volumetric-Simulations.pdf)][[Video](https://youtu.be/8tD5Yt3smDw)]<br>
 _Features_:
 - mainly for smoke
 - view-independent stylization
