@@ -24,11 +24,11 @@ Conference or Journal Year. <br>
 |  Abbr.  |  Title   | Book  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
 |  |**Mesh Stylization**  | || |  |
-|  | Neural 3D Mesh Renderer |CVPR 2018|[[Paper](https://arxiv.org/abs/1711.07566)]|[[Project](https://hiroharu-kato.com/assets/downloads/cvpr_2018_poster.pdf)] | [[Github](https://github.com/hiroharu-kato/style_transfer_3d)] |
+|  Neural Renderer | Neural 3D Mesh Renderer |CVPR 2018|[[Paper](https://arxiv.org/abs/1711.07566)]|[[Project](https://hiroharu-kato.com/assets/downloads/cvpr_2018_poster.pdf)] | [[Github](https://github.com/hiroharu-kato/style_transfer_3d)] |
 |  StyleMesh  | StyleMesh: Style Transfer for Indoor 3D Scene Reconstructions   | CVPR 2022   |  [[Paper](https://arxiv.org/abs/2112.01530)]  |  [[Project](https://lukashoel.github.io/stylemesh/)]  | [[Github](https://github.com/lukasHoel/stylemesh)]   | 
 | Text2Mesh |Text2Mesh: Text-Driven Neural Stylization for Meshes  |CVPR 2022|[[Paper](https://arxiv.org/abs/2112.03221)]| [[Project](https://threedle.github.io/text2mesh/)] | [[Github](https://github.com/threedle/text2mesh)]  |
 |  |**Volumetric Stylization**  | || |  |
-|  | Efficient Neural Style Transfer For Volumetric Simulations | ACM SIGGRAPH Asia, 2022|  [[Paper](https://studios.disneyresearch.com/app/uploads/2022/10/Efficient-Neural-Style-Transfer-For-Volumetric-Simulations.pdf)]| |  |
+|  | Efficient Neural Style Transfer For Volumetric Simulations | ACM SIGGRAPH Asia, 2022|  [[Paper](https://studios.disneyresearch.com/app/uploads/2022/10/Efficient-Neural-Style-Transfer-For-Volumetric-Simulations.pdf)]| [[Project](https://studios.disneyresearch.com/2022/11/30/efficient-neural-style-transfer-for-volumetric-simulations/)] |  |
 |  | **Novel View Stylization** | || |  |
 |  LSNV  | Learning to stylize novel views |  ICCV 2021  | [[Paper](https://arxiv.org/abs/2105.13509)]   | [[Project](https://hhsinping.github.io/3d_scene_stylization/)]   |  [[Github](https://github.com/hhsinping/stylescene)] |
 | StyleNeRFpp | Stylizing 3D Scene via Implicit Representation and HyperNetwork |WACV 2022 | [[Paper](https://arxiv.org/abs/2105.13016)] |  [[Project](https://ztex08010518.github.io/3dstyletransfer/)] | [[Github](https://github.com/ztex08010518/Stylizing-3D-Scene)] |
@@ -36,16 +36,17 @@ Conference or Journal Year. <br>
 |3D Photo Stylization | 3D Photo Stylization: Learning to Generate Stylized Novel Views from a Single Image | CVPR 2022|[[Paper](https://arxiv.org/abs/2112.00169)]|[[Project](https://pages.cs.wisc.edu/~fmu/style3d/)]  | [[Github](https://github.com/fmu2/3d_photo_stylization)]  |
 | ARF |ARF: Artistic Radiance Fields  | ECCV 2022|[[Paper](https://arxiv.org/abs/2206.06360)]|[[Project](https://www.cs.cornell.edu/projects/arf/)] | [[Github](https://github.com/Kai-46/ARF-svox2)] |
 | UINS | Unified Implicit Neural Stylization |ECCV 2022 |[[Paper](https://arxiv.org/abs/2204.01943)]|[[Project](https://zhiwenfan.github.io/INS/)]  | [[Github](https://github.com/VITA-Group/INS)] |
-| INS | Instant Neural Radiance Fields Stylization | |[[Paper](https://arxiv.org/abs/2303.16884)]| | [[Github](https://github.com/lsx0101/Instant-NeRF-Stylization)] |
-|ArtNV |Artistic Style Novel View Synthesis Based on A Single Image  |CVPR 2022 |[[Paper](https://openaccess.thecvf.com/content/CVPR2022W/CVFAD/papers/Tseng_Artistic_Style_Novel_View_Synthesis_Based_on_a_Single_Image_CVPRW_2022_paper.pdf)]|[[Project](https://kuan-wei-tseng.github.io/ArtNV)]  |[[Github](https://github.com/Kuan-Wei-Tseng/ArtNV)]  |
-| SNeRF |SNeRF: Stylized Neural Implicit Representations for 3D Scenes  | SIGGRAPH 2022|[[Paper](https://arxiv.org/abs/2207.02363)]| |  |
+| INS | Instant Neural Radiance Fields Stylization | ArXiv 2023 |[[Paper](https://arxiv.org/abs/2303.16884)]| | [[Github](https://github.com/lsx0101/Instant-NeRF-Stylization)] |
+|ArtNV |Artistic Style Novel View Synthesis Based on A Single Image  |CVPRW 2022, SIGGRAPH Posters 2022 |[[Paper](https://openaccess.thecvf.com/content/CVPR2022W/CVFAD/papers/Tseng_Artistic_Style_Novel_View_Synthesis_Based_on_a_Single_Image_CVPRW_2022_paper.pdf)]|[[Project](https://kuan-wei-tseng.github.io/ArtNV)]  |[[Github](https://github.com/Kuan-Wei-Tseng/ArtNV)]  |
+| SNeRF |SNeRF: Stylized Neural Implicit Representations for 3D Scenes  | SIGGRAPH 2022|[[Paper](https://arxiv.org/abs/2207.02363)]| [[Project](https://research.facebook.com/publications/snerf-stylized-neural-implicit-representations-for-3d-scenes/)] |  |
 | LipRF | Transforming Radiance Field with Lipschitz Network for Photorealistic 3D Scene Stylization |CVPR 2023 |[[Paper](https://arxiv.org/abs/2303.13232)]| |  |
 |StyleRF  | StyleRF: Zero-shot 3D Style Transfer of Neural Radiance Fields | CVPR 2023|[[Paper](https://arxiv.org/abs/2303.10598)]|[[Project](https://kunhao-liu.github.io/StyleRF/)] | [[Github](https://github.com/Kunhao-Liu/StyleRF)] |
 | Ref-NPR | Ref-NPR: Reference-Based Non-Photorealistic Radiance Fields for Controllable Scene Stylization | CVPR 2023|[[Paper](https://arxiv.org/abs/2212.02766)]|[[Project](https://ref-npr.github.io/)] |  [[Github](https://github.com/dvlab-research/Ref-NPR/)] |
 | NeRF-art | NeRF-Art: Text-Driven Neural Radiance Fields Stylization | TVCG 2023|[[Paper](https://arxiv.org/abs/2212.08070)]| [[Project](https://cassiepython.github.io/nerfart/)]|  [[Github](https://github.com/cassiePython/NeRF-Art)]|
 |InstructN2N  | Instruct-NeRF2NeRF | ICCV 2023|[[Paper](https://arxiv.org/abs/2303.12789)] |[[Project](https://instruct-nerf2nerf.github.io/)]  | [[Github](https://github.com/ayaanzhaque/instruct-nerf2nerf)] |
-|  |Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field  | CVPR 2023|[[Paper](https://arxiv.org/abs/2303.13277)]|[[Project](https://zju3dv.github.io/sine/)] |  [[Github](https://github.com/zju3dv/SINE)]  |
-|  |  | || |  |
+| SINE |Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field  | CVPR 2023|[[Paper](https://arxiv.org/abs/2303.13277)]|[[Project](https://zju3dv.github.io/sine/)] |  [[Github](https://github.com/zju3dv/SINE)]  |
+| LocalStyleNeRF | Locally Stylized Neural Radiance Fields | ICCV 2023 | | [[Project](https://nerfstyle.hkustvgd.com/)] |  |
+| | | | | |  |
 
 
 ## Mesh Stylization
