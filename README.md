@@ -46,10 +46,9 @@ Conference or Journal Year. <br>
 |StyleRF  | StyleRF: Zero-shot 3D Style Transfer of Neural Radiance Fields | CVPR 2023|[[Paper](https://arxiv.org/abs/2303.10598)]|[[Project](https://kunhao-liu.github.io/StyleRF/)] | [[Github](https://github.com/Kunhao-Liu/StyleRF)] |
 | Ref-NPR | Ref-NPR: Reference-Based Non-Photorealistic Radiance Fields for Controllable Scene Stylization | CVPR 2023|[[Paper](https://arxiv.org/abs/2212.02766)]|[[Project](https://ref-npr.github.io/)] |  [[Github](https://github.com/dvlab-research/Ref-NPR/)] |
 | UPST-NeRF | UPST-NeRF: Universal Photorealistic Style Transfer of Neural Radiance Fields for 3D Scene | Arxiv 2022 | [[Paper](https://arxiv.org/pdf/2208.07059.pdf)] | [[Project](https://semchan.github.io/UPST_NeRF/)] | [[Github](https://github.com/semchan/UPST-NeRF)] |
-
 | LocalStyleNeRF | Locally Stylized Neural Radiance Fields | ICCV 2023 | | [[Project](https://nerfstyle.hkustvgd.com/)] |  |
-| |**text-driven Stylization** | | | |  |
-| SINE |Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field  | CVPR 2023|[[Paper](https://arxiv.org/abs/2303.13277)]|[[Project](https://zju3dv.github.io/sine/)] |  [[Github](https://github.com/zju3dv/SINE)]  |
+| |**Text-driven Stylization** | | | |  |
+| SINE |Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field  | CVPR 2023|[[Paper](https://arxiv.org/abs/2303.13277)]|[[Project](https://zju3dv.github.io/sine/)] |  [[Github](https://github.com/zju3dv/SINE)]|
 | NeRF-art | NeRF-Art: Text-Driven Neural Radiance Fields Stylization | TVCG 2023|[[Paper](https://arxiv.org/abs/2212.08070)]| [[Project](https://cassiepython.github.io/nerfart/)]|  [[Github](https://github.com/cassiePython/NeRF-Art)]|
 |InstructN2N  | Instruct-NeRF2NeRF | ICCV 2023|[[Paper](https://arxiv.org/abs/2303.12789)] |[[Project](https://instruct-nerf2nerf.github.io/)]  | [[Github](https://github.com/ayaanzhaque/instruct-nerf2nerf)] |
 | | | | | |  |
