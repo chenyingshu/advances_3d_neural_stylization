@@ -17,21 +17,31 @@ Conference or Journal Year. <br>
 ## Table of Contents
 - [Mesh Stylization](#mesh-stylization)
 - [Volumetric Stylization](#volumetric-stylization)
+- [Point Cloud Stylization](#point-cloud-stylization)
 - [Novel View Stylization](#novel-view-stylization)
 - [2D Baselines](#)
 - [Evaluation Datasets](#)
 ## Overview ##
-|  Abbr.  |  Title   | Book  | Paper  | Project  | Github  |
+|  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
 |  |**Mesh Stylization**  | || |  |
 |  Neural Renderer | Neural 3D Mesh Renderer |CVPR 2018|[[Paper](https://arxiv.org/abs/1711.07566)]|[[Project](https://hiroharu-kato.com/assets/downloads/cvpr_2018_poster.pdf)] | [[Github](https://github.com/hiroharu-kato/style_transfer_3d)] |
+| PAPARAZZI | PAPARAZZI: Surface Editing by way of Multi-View Image Processing | SIGGRAPH Asia 2018 | [[Paper](https://www.dgp.toronto.edu/projects/paparazzi/paparazzi-surface-editing-by-way-of-multi-view-image-processing-siggraph-asia-2018-liu-et-al.pdf)] | [[Project](https://www.dgp.toronto.edu/projects/paparazzi/)] | [[Github](https://github.com/HTDerekLiu/Paparazzi)] |
 | 3DStyleNet | 3DStyleNet: Creating 3D Shapes with Geometric and Texture Style | ICCV 2021| [[Paper](https://research.nvidia.com/labs/toronto-ai/3DStyleNet/assets/3dstyle-paper.pdf)] | [[Project](https://research.nvidia.com/labs/toronto-ai/3DStyleNet/)] |  |
 |  StyleMesh  | StyleMesh: Style Transfer for Indoor 3D Scene Reconstructions   | CVPR 2022 |  [[Paper](https://arxiv.org/abs/2112.01530)]  |  [[Project](https://lukashoel.github.io/stylemesh/)]  | [[Github](https://github.com/lukasHoel/stylemesh)]   | 
 | Creative Birds | Creative Birds: Self-Supervised Single-View 3D Style Transfer | ICCV 2023 | [[Paper](https://arxiv.org/abs/2307.14127)] | | [[Github](https://github.com/wrk226/creative_birds)] |
 | Text2Mesh |Text2Mesh: Text-Driven Neural Stylization for Meshes  |CVPR 2022|[[Paper](https://arxiv.org/abs/2112.03221)]| [[Project](https://threedle.github.io/text2mesh/)] | [[Github](https://github.com/threedle/text2mesh)]  |
+| Text2Scene | Text2Scene: Text-Driven Indoor Scene Stylization With Part-Aware Details  |CVPR 2023|[[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Hwang_Text2Scene_Text-Driven_Indoor_Scene_Stylization_With_Part-Aware_Details_CVPR_2023_paper.html)]| [[Video](https://www.youtube.com/watch?v=CGIXY2kwIYM)] | [[Github](https://github.com/uvavision/Text2Scene)]  |
+| TEXTure | TEXTure: Text-Guided Texturing of 3D Shapes | SIGGRAPH 2023 | [[Paper](https://arxiv.org/abs/2302.01721)] | [[Project](https://texturepaper.github.io/TEXTurePaper/)] | [[Github](https://github.com/TEXTurePaper/TEXTurePaper)] |
+| Text2Tex | Text2Tex: Text-driven Texture Synthesis via Diffusion Models | ICCV 2023 | [[Paper](https://daveredrum.github.io/Text2Tex/static/Text2Tex.pdf)] | [[Project](https://daveredrum.github.io/Text2Tex/)] | [[Github](https://github.com/daveredrum/Text2Tex)] |
 | X-Mesh | X-Mesh:Towards Fast and Accurate Text-driven 3D Stylization via Dynamic Textual Guidance | ICCV 2023 | [[Paper](https://arxiv.org/abs/2303.15764)] | [[Project](https://xmu-xiaoma666.github.io/Projects/X-Mesh/)] | [[Github](https://github.com/xmu-xiaoma666/X-Mesh)] |
 |  |**Volumetric Stylization**  | || |  |
-| VolumeNST | Efficient Neural Style Transfer For Volumetric Simulations | ACM SIGGRAPH Asia, 2022|  [[Paper](https://studios.disneyresearch.com/app/uploads/2022/10/Efficient-Neural-Style-Transfer-For-Volumetric-Simulations.pdf)]| [[Project](https://studios.disneyresearch.com/2022/11/30/efficient-neural-style-transfer-for-volumetric-simulations/)] |  |
+| TNST |Transport-Based Neural Style Transfer for Smoke Simulations|  SIGGRAPH Asia 2019| [[Paper](http://arxiv.org/abs/1905.07442)] | [[Video](https://www.youtube.com/watch?v=67qVRhoOQPE)]|[[Github](https://github.com/byungsook/neural-flow-style/tree/tnst)]  |
+| LNST | Lagrangian Neural Style Transfer for Fluids | SIGGRAPH 2020 | [[Paper](http://arxiv.org/abs/2005.00803)] | [[Video](https://www.youtube.com/watch?v=WPmUsIVf3-4)]|[[Github](https://github.com/byungsook/neural-flow-style/tree/lnst)]  |
+| SKPN | Volumetric appearance stylization with stylizing kernel prediction network|SIGGRAPH 2021  | [[Paper](https://sites.cs.ucsb.edu/~lingqi/publications/paper_volst.pdf))] | [[Video](https://dl.acm.org/doi/abs/10.1145/3450626.3459799)]|  |
+| ENST | Efficient Neural Style Transfer For Volumetric Simulations | SIGGRAPH Asia 2022|  [[Paper](https://studios.disneyresearch.com/app/uploads/2022/10/Efficient-Neural-Style-Transfer-For-Volumetric-Simulations.pdf)]| [[Project](https://studios.disneyresearch.com/2022/11/30/efficient-neural-style-transfer-for-volumetric-simulations/)] |  |
+|  | **Point Cloud Stylization** | || |  |
+| PSNet | PSNet: A Style Transfer Network for Point Cloud Stylization on Geometry and Color |WACV 2020 | [[Paper](https://openaccess.thecvf.com/content_WACV_2020/html/Cao_PSNet_A_Style_Transfer_Network_for_Point_Cloud_Stylization_on_WACV_2020_paper.html)]| [[Video](https://www.youtube.com/watch?v=EbUOg1gVcFw&t=1818s)] | [[Github](https://github.com/xucao-42/psnet)] |
 |  | **Novel View Stylization** | || |  |
 |  LSNV  | Learning to stylize novel views |  ICCV 2021  | [[Paper](https://arxiv.org/abs/2105.13509)]   | [[Project](https://hhsinping.github.io/3d_scene_stylization/)]   |  [[Github](https://github.com/hhsinping/stylescene)] |
 | HyperStyle | Stylizing 3D Scene via Implicit Representation and HyperNetwork |WACV 2022 | [[Paper](https://arxiv.org/abs/2105.13016)] |  [[Project](https://ztex08010518.github.io/3dstyletransfer/)] | [[Github](https://github.com/ztex08010518/Stylizing-3D-Scene)] |
@@ -47,10 +57,12 @@ Conference or Journal Year. <br>
 | Ref-NPR | Ref-NPR: Reference-Based Non-Photorealistic Radiance Fields for Controllable Scene Stylization | CVPR 2023|[[Paper](https://arxiv.org/abs/2212.02766)]|[[Project](https://ref-npr.github.io/)] |  [[Github](https://github.com/dvlab-research/Ref-NPR/)] |
 | UPST-NeRF | UPST-NeRF: Universal Photorealistic Style Transfer of Neural Radiance Fields for 3D Scene | Arxiv 2022 | [[Paper](https://arxiv.org/pdf/2208.07059.pdf)] | [[Project](https://semchan.github.io/UPST_NeRF/)] | [[Github](https://github.com/semchan/UPST-NeRF)] |
 | LocalStyleNeRF | Locally Stylized Neural Radiance Fields | ICCV 2023 | | [[Project](https://nerfstyle.hkustvgd.com/)] |  |
-| |**Text-driven Stylization** | | | |  |
 | SINE |Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field  | CVPR 2023|[[Paper](https://arxiv.org/abs/2303.13277)]|[[Project](https://zju3dv.github.io/sine/)] |  [[Github](https://github.com/zju3dv/SINE)]|
+| |**Text-driven Stylization** | | | |  |
 | NeRF-art | NeRF-Art: Text-Driven Neural Radiance Fields Stylization | TVCG 2023|[[Paper](https://arxiv.org/abs/2212.08070)]| [[Project](https://cassiepython.github.io/nerfart/)]|  [[Github](https://github.com/cassiePython/NeRF-Art)]|
+| TSNeRF | TSNeRF: Text-driven stylized neural radiance fields via semantic contrastive learning | Computers & Graphics 2023,  CCF CAD/Graphics 2023 | [[Paper](https://www.sciencedirect.com/science/article/pii/S0097849323001796)] | |  |
 |InstructN2N  | Instruct-NeRF2NeRF | ICCV 2023|[[Paper](https://arxiv.org/abs/2303.12789)] |[[Project](https://instruct-nerf2nerf.github.io/)]  | [[Github](https://github.com/ayaanzhaque/instruct-nerf2nerf)] |
+| Blending-NeRF| Blending-NeRF: Text-Driven Localized Editing in Neural Radiance Fields | ICCV 2023 | [[Paper](https://arxiv.org/pdf/2308.11974)] | [[Project](https://seokhunchoi.github.io/Blending-NeRF/)] |  |
 | | | | | |  |
 
 
@@ -86,6 +98,15 @@ ACM SIGGRAPH Asia, 2022. [[Paper](https://studios.disneyresearch.com/app/uploads
 _Features_:
 - mainly for smoke
 - view-independent stylization
+
+## Point Cloud Stylization
+**PSNet: A Style Transfer Network for Point Cloud Stylization on Geometry and Color**<br>
+*Xu Cao, Weimin Wang, Katashi Nagao, Ryosuke Nakamura*<br>
+Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2020<br>
+[[Paper](https://openaccess.thecvf.com/content_WACV_2020/html/Cao_PSNet_A_Style_Transfer_Network_for_Point_Cloud_Stylization_on_WACV_2020_paper.html)] [[Github](https://github.com/xucao-42/psnet)] [[Video](https://www.youtube.com/watch?v=EbUOg1gVcFw&t=1818s)]
+_Features_:
+- explicit point cloud stylization
+- geometric and color stylization
 
 ## Novel View Stylization
 ### General Neural Rendering
