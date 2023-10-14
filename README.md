@@ -1,5 +1,9 @@
 # <p align='center'>`Advances in 3D Neural Stylization`</p>
 
+A review of 3D neural stylization papers, mainly neural stylization on 3D data with image or text reference.
+
+Other variants are also welcomed, e.g., with other/no reference, 3D-aware neural stylization.
+
 ## Contributing
 
 If you think I have missed out on something (or) have any suggestions (papers, implementations and other resources), feel free to [pull a request](https://github.com/chenyingshu/advances_3d_neural_stylization/pulls)
@@ -13,6 +17,58 @@ markdown format:
 Conference or Journal Year. <br>
 [[Paper](link)] [[Project](link)] [[Github](link)] [[Video](link)] [[Data](link)]
 ```
+
+## Surveys
+<!--**Advances in 3D Neural Stylization: A Survey** <br>
+Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung<br>
+-->
+<!--If you find this work useful, please cite our paper:
+```bibtex
+@article{,
+  title={},
+  author={},
+  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  year={2023}
+}
+```-->
+
+### Other related surveys, courses
+**Neural Style Transfer: A Review** [[Paper](https://arxiv.org/abs/1705.04058)] [[Project](https://github.com/ycjing/Neural-Style-Transfer-Papers)] <br>
+Yongcheng Jing, Yezhou Yang, Zunlei Feng, Jingwen Ye, Yizhou Yu, Mingli Song <br>
+*IEEE Transactions on Visualization and Computer Graphics, 2019*
+
+**Multimodal Image Synthesis and Editing: The Generative AI Era** [[Paper](https://arxiv.org/abs/2112.13592)]  [[Project](https://fnzhan.com/Generative-AI/)]  <br>
+Fangneng Zhan, Yingchen Yu, Rongliang Wu, Jiahui Zhang, Shijian Lu, Lingjie Liu, Adam Kortylewski, Christian Theobalt, Eric Xing <br>
+*IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023*
+
+**Diffusion Models in Vision: A Survey** [[Paper](https://arxiv.org/abs/2209.04747)] [[Project](https://github.com/CroitoruAlin/Diffusion-Models-in-Vision-A-Survey)] <br>
+Florinel-Alin Croitoru, Vlad Hondru, Radu Tudor Ionescu, Mubarak Shah <br>
+*IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023*
+
+**Diffusion Models: A Comprehensive Survey of Methods and Applications** [[Paper](https://arxiv.org/abs/2209.00796)][[Project](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy)] <br>
+Ling Yang, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang <br>
+*ACM Computing Surveys 2023*
+
+**State of the Art on Neural Rendering** [[Paper](https://arxiv.org/abs/2004.03805)] <br>
+Ayush Tewari, Ohad Fried, Justus Thies, Vincent Sitzmann, Stephen Lombardi, Kalyan Sunkavalli, Ricardo Martin-Brualla, Tomas Simon, Jason Saragih, Matthias Nießner, Rohit Pandey, Sean Fanello, Gordon Wetzstein, Jun-Yan Zhu, Christian Theobalt, Maneesh Agrawala, Eli Shechtman, Dan B Goldman, Michael Zollhöfer <br>
+*State of the Art Report at EUROGRAPHICS 2020* <br>
+**Neural Rendering** [[Project](https://www.neuralrender.com/CVPR/)] <br>
+*CVPR 2020 Tutorial* <br>
+**Advances in Neural Rendering** [[Paper](https://dl.acm.org/doi/10.1145/3450508.3464573)] [[Project](https://www.neuralrender.com/)] <br>
+*SIGGRAPH 2021 Courses*
+
+
+**Advances in Neural Rendering** [[Paper](https://arxiv.org/abs/2111.05849)] <br>
+Ayush Tewari, Justus Thies, Ben Mildenhall, Pratul Srinivasan, Edgar Tretschk, Yifan Wang, Christoph Lassner, Vincent Sitzmann, Ricardo Martin-Brualla, Stephen Lombardi, Tomas Simon, Christian Theobalt, Matthias Niessner, Jonathan T. Barron, Gordon Wetzstein, Michael Zollhoefer, Vladislav Golyanik <br>
+*State of the Art Report at EUROGRAPHICS 2022*
+
+**Neural Fields in Visual Computing and Beyond** [[Paper](https://arxiv.org/abs/2111.11426)]  [[Project](https://neuralfields.cs.brown.edu/)]  <br>
+Yiheng Xie, Towaki Takikawa, Shunsuke Saito, Or Litany, Shiqin Yan, Numair Khan, Federico Tombari, James Tompkin, Vincent Sitzmann, Srinath Sridhar <br>
+*State of the Art Report at EUROGRAPHICS 2022* <br>
+**Neural Fields for Visual Computing** [[Paper](https://dl.acm.org/doi/abs/10.1145/3587423.3595477)] [[Project](https://neuralfields.cs.brown.edu/siggraph23.html)] <br>
+Towaki Takikawa, Shunsuke Saito, James Tompkin, Vincent Sitzmann, Srinath Sridhar, Or Litany, Alex Yu <br>
+*SIGGRAPH 2023 Courses*
+
 
 ## Table of Contents
 - [Mesh Stylization](#mesh-stylization)
@@ -33,6 +89,7 @@ Conference or Journal Year. <br>
 | Text2Mesh |Text2Mesh: Text-Driven Neural Stylization for Meshes  |CVPR 2022|[[Paper](https://arxiv.org/abs/2112.03221)]| [[Project](https://threedle.github.io/text2mesh/)] | [[Github](https://github.com/threedle/text2mesh)]  |
 | TANGO |TANGO: Text-driven Photorealistic and Robust 3D Stylization via Lighting Decomposition  |NeurIPS 2022|[[Paper](http://arxiv.org/abs/2210.11277)]| [[Project](https://cyw-3d.github.io/tango/)] | [[Github](https://github.com/Gorilla-Lab-SCUT/tango)]  |
 | Text2Scene | Text2Scene: Text-Driven Indoor Scene Stylization With Part-Aware Details  |CVPR 2023|[[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Hwang_Text2Scene_Text-Driven_Indoor_Scene_Stylization_With_Part-Aware_Details_CVPR_2023_paper.html)]| [[Video](https://www.youtube.com/watch?v=CGIXY2kwIYM)] | [[Github](https://github.com/uvavision/Text2Scene)]  |
+| TextDeformer | TextDeformer: Geometry Manipulation using Text Guidance | SIGGRAPH Conf 2023 | [[Paper](https://arxiv.org/abs/2304.13348)] | [[Project](https://threedle.github.io/TextDeformer/)] | [[Github](https://github.com/threedle/TextDeformer)] |
 | TEXTure | TEXTure: Text-Guided Texturing of 3D Shapes | SIGGRAPH Conf 2023 | [[Paper](https://arxiv.org/abs/2302.01721)] | [[Project](https://texturepaper.github.io/TEXTurePaper/)] | [[Github](https://github.com/TEXTurePaper/TEXTurePaper)] |
 | Text2Tex | Text2Tex: Text-driven Texture Synthesis via Diffusion Models | ICCV 2023 | [[Paper](https://daveredrum.github.io/Text2Tex/static/Text2Tex.pdf)] | [[Project](https://daveredrum.github.io/Text2Tex/)] | [[Github](https://github.com/daveredrum/Text2Tex)] |
 | X-Mesh | X-Mesh:Towards Fast and Accurate Text-driven 3D Stylization via Dynamic Textual Guidance | ICCV 2023 | [[Paper](https://arxiv.org/abs/2303.15764)] | [[Project](https://xmu-xiaoma666.github.io/Projects/X-Mesh/)] | [[Github](https://github.com/xmu-xiaoma666/X-Mesh)] |
