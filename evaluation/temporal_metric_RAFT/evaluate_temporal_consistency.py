@@ -7,8 +7,8 @@ By Yingshu Chen
 This script evaluates both warpping MSE and warpping LPIPS with occulsion masks
 
 CUDA_VISIBLE_DEVICES=0 python evaluate_temporal_consistency.py \
---data_dir ../svox2/opt/ckpt/Gatys/chair_iter5_14/test_renders_path_blackbg \
---flow_dir ../svox2/dataset/nerf_synthetic/chair/optical_flow 
+--data_dir ../results/chair_14/test_renders_path_blackbg \
+--flow_dir ../results/nerf_synthetic/chair/optical_flow 
 '''
 
 import sys

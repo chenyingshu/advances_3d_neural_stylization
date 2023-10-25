@@ -11,8 +11,8 @@ This script is to:
 CUDA_VISIBLE_DEVICES=0 python compute_flow_occlusion.py \
 --model models/raft-sintel.pth \
 --mixed_precision \
---data_dir ../svox2/dataset/nerf_synthetic/chair/test_path \
---out_dir ../svox2/dataset/nerf_synthetic/chair/optical_flow 
+--data_dir ../results/nerf_synthetic/chair/test_path \
+--out_dir ../results/nerf_synthetic/chair/optical_flow 
 
 '''
 import sys
@@ -137,6 +137,7 @@ if __name__ == "__main__":
 
                 err = (coords0 - coords2).norm(dim=1)
                 occ = (err[0] > thresh).float().cuda() 
+                occ = padder.unpad(occ)
                 # print("occ.shape", occ.shape) #H,W            
                 occ_img = Image.fromarray((occ.cpu().numpy() * 255.).astype(np.uint8))
                 filename = os.path.join(fw_occ_dir, os.path.basename(imfile1).split(".")[0]+".png")
