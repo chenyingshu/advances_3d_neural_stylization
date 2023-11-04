@@ -74,7 +74,7 @@ if __name__ == "__main__":
     parser.add_argument('--data_dir', type=str,  default='data/scene/path',   help='path to data folder')
     parser.add_argument('--out_dir',  type=str,  default='results/scene',help='path to output folder')
 
-    parser.add_argument('--intervals', default=[1,10], help='short/long range, 1 or 10')
+    parser.add_argument('--intervals', default="1,10", help='short/long range, 1 or 10, 3 for synthetic data')
     parser.add_argument('--max_side', type=int, default=1024, help='maximum image side')
 
     args = parser.parse_args()
@@ -90,6 +90,7 @@ if __name__ == "__main__":
     exts = ['.png', '.jpg', '.jpeg', '.exr']
     frames = os.listdir(args.data_dir)
     frames =sorted([os.path.join(args.data_dir, x) for x in frames if not x.startswith('.') and any((x.lower().endswith(ext) for ext in exts))], key=sort_key)
+    print("Found %d frames"%len(frames))
 
     # load model
     print("===> Load %s" %args.model)
@@ -103,7 +104,9 @@ if __name__ == "__main__":
     thresh = 1.
 
     # different ranges
-    for interval in args.intervals:
+    intervals = list(args.intervals.split(","))
+    for interval in intervals:
+        interval = int(interval)
 
         # create output directory
         fw_flow_dir = os.path.join(args.out_dir, "fw_flow_%d"%interval)
@@ -114,7 +117,7 @@ if __name__ == "__main__":
             os.makedirs(fw_occ_dir)
 
         with torch.no_grad():
-            for f_id in tqdm(range(0, len(frames)-interval, interval)):
+            for f_id in tqdm(range(0, len(frames)-interval)):
                 imfile1 = frames[f_id]
                 imfile2 = frames[f_id + interval]
                 

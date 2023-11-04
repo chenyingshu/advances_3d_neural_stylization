@@ -66,8 +66,9 @@ if __name__ == "__main__":
 
     parser.add_argument('--data_dir', type=str,  default='data/scene/path',   help='path to data folder')
     parser.add_argument('--flow_dir', type=str,  default='data/scene/optical_flow',   help='path to estimated optical flow folder')
-    # parser.add_argument('--out_dir',  type=str,  default='results/eval/scene',help='path to output folder')
-    parser.add_argument('--intervals', default=[1,10], help='short/long range, 1 or 10')
+    parser.add_argument('--style',  type=int, help='style id')
+    parser.add_argument('--intervals', default="1,10", help='short/long range, 1 or 10, 3 for synthetic data')
+    # parser.add_argument('--intervals', nargs="+", type=int, default=[1,10])
     parser.add_argument('--max_side', type=int, default=1024, help='maximum image side')
 
     args = parser.parse_args()
@@ -80,6 +81,7 @@ if __name__ == "__main__":
     frame_names = os.listdir(args.data_dir)
     frames =sorted([os.path.join(args.data_dir, x) for x in frame_names if not x.startswith('.') and any((x.lower().endswith(ext) for ext in exts))], key=sort_key)
     frame_names = [os.path.basename(x).split(".")[0] for x in frames]
+    print("Evaluating %d frames"%len(frames))
 
 
     ## Initializing LPIPS model
@@ -89,27 +91,32 @@ if __name__ == "__main__":
     # Create output file, save result in optical flow folder
     metric_file = os.path.join(args.flow_dir, "WarpError.txt")
     with open(metric_file, "a") as f:
-        f.write(str(datetime.now())+"\n")
+        f.write("*********************\n")
+        f.write("evaluate %s\n"%args.data_dir)
+        f.write(str(datetime.now()))
+        if args.style is not None:
+            f.write(" - Style ID: %d"%args.style)
+        f.write("\n")
     
 
     ### Start evaluation
     # different ranges
-
+    intervals = list(args.intervals.split(","))
     with open(metric_file, "a") as f:
-        for interval in args.intervals:
-
+        for interval in intervals:
+            interval = int(interval)
             # get optical flow and occlusion map
             fw_flow_dir = os.path.join(args.flow_dir, "fw_flow_%d"%interval)
             fw_occ_dir = os.path.join(args.flow_dir, "fw_occlusion_%d"%interval)
             flow_files = sorted(glob.glob(os.path.join(fw_flow_dir, '*.flo')), key=sort_key)
             occ_files = sorted(glob.glob(os.path.join(fw_occ_dir, '*.png')), key=sort_key)
-            assert len(flow_files) == len(occ_files)
-            assert len(flow_files) == int((len(frames)-1)/interval)
+            # assert len(flow_files) == len(occ_files)
+            # assert len(flow_files) == (len(frames)-interval)
 
             err = 0 # MSE
             dist = 0 # LPIPS
             cnt = 0 # evaluated frames
-            for f_id in tqdm(range(0, len(frames)-interval, interval)):
+            for f_id in tqdm(range(0, len(frames)-interval)):
 
                 ### load input images
                 imfile1 = frames[f_id]
