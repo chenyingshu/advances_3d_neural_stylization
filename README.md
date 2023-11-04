@@ -75,53 +75,59 @@ Towaki Takikawa, Shunsuke Saito, James Tompkin, Vincent Sitzmann, Srinath Sridha
 - [Volumetric Stylization](#volumetric-stylization)
 - [Point Cloud Stylization](#point-cloud-stylization)
 - [Novel View Stylization](#novel-view-stylization)
-- [2D Baselines](#)
-- [Evaluation Datasets](#)
+- [Evaluation](evaluation)
+<!-- - [2D Baselines](#) -->
 ## Overview ##
+<div align=left> 
+  Image guidance: <img align=top src="assets/icon_image.png" width="32" height="32"> 
+  Text guidance: <img align=top src="assets/icon_text.png" width="32" height="32"> 
+  3D guidance: <img align=top src="assets/icon_obj.png" width="32" height="32"> 
+</div>
+
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
 |  |**Mesh Stylization**  | || |  |
-|  Neural Renderer | Neural 3D Mesh Renderer |CVPR 2018|[[Paper](https://arxiv.org/abs/1711.07566)]|[[Project](https://hiroharu-kato.com/assets/downloads/cvpr_2018_poster.pdf)] | [[Github](https://github.com/hiroharu-kato/style_transfer_3d)] |
-| PAPARAZZI | PAPARAZZI: Surface Editing by way of Multi-View Image Processing | SIGGRAPH Asia 2018 | [[Paper](https://www.dgp.toronto.edu/projects/paparazzi/paparazzi-surface-editing-by-way-of-multi-view-image-processing-siggraph-asia-2018-liu-et-al.pdf)] | [[Project](https://www.dgp.toronto.edu/projects/paparazzi/)] | [[Github](https://github.com/HTDerekLiu/Paparazzi)] |
-| 3DStyleNet | 3DStyleNet: Creating 3D Shapes with Geometric and Texture Style | ICCV 2021| [[Paper](https://research.nvidia.com/labs/toronto-ai/3DStyleNet/assets/3dstyle-paper.pdf)] | [[Project](https://research.nvidia.com/labs/toronto-ai/3DStyleNet/)] |  |
-|  StyleMesh  | StyleMesh: Style Transfer for Indoor 3D Scene Reconstructions   | CVPR 2022 |  [[Paper](https://arxiv.org/abs/2112.01530)]  |  [[Project](https://lukashoel.github.io/stylemesh/)]  | [[Github](https://github.com/lukasHoel/stylemesh)]   | 
-| Creative Birds | Creative Birds: Self-Supervised Single-View 3D Style Transfer | ICCV 2023 | [[Paper](https://arxiv.org/abs/2307.14127)] | | [[Github](https://github.com/wrk226/creative_birds)] |
-| Text2Mesh |Text2Mesh: Text-Driven Neural Stylization for Meshes  |CVPR 2022|[[Paper](https://arxiv.org/abs/2112.03221)]| [[Project](https://threedle.github.io/text2mesh/)] | [[Github](https://github.com/threedle/text2mesh)]  |
-| TANGO |TANGO: Text-driven Photorealistic and Robust 3D Stylization via Lighting Decomposition  |NeurIPS 2022|[[Paper](http://arxiv.org/abs/2210.11277)]| [[Project](https://cyw-3d.github.io/tango/)] | [[Github](https://github.com/Gorilla-Lab-SCUT/tango)]  |
-| Text2Scene | Text2Scene: Text-Driven Indoor Scene Stylization With Part-Aware Details  |CVPR 2023|[[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Hwang_Text2Scene_Text-Driven_Indoor_Scene_Stylization_With_Part-Aware_Details_CVPR_2023_paper.html)]| [[Video](https://www.youtube.com/watch?v=CGIXY2kwIYM)] | [[Github](https://github.com/uvavision/Text2Scene)]  |
-| TextDeformer | TextDeformer: Geometry Manipulation using Text Guidance | SIGGRAPH Conf 2023 | [[Paper](https://arxiv.org/abs/2304.13348)] | [[Project](https://threedle.github.io/TextDeformer/)] | [[Github](https://github.com/threedle/TextDeformer)] |
-| TEXTure | TEXTure: Text-Guided Texturing of 3D Shapes | SIGGRAPH Conf 2023 | [[Paper](https://arxiv.org/abs/2302.01721)] | [[Project](https://texturepaper.github.io/TEXTurePaper/)] | [[Github](https://github.com/TEXTurePaper/TEXTurePaper)] |
-| Text2Tex | Text2Tex: Text-driven Texture Synthesis via Diffusion Models | ICCV 2023 | [[Paper](https://daveredrum.github.io/Text2Tex/static/Text2Tex.pdf)] | [[Project](https://daveredrum.github.io/Text2Tex/)] | [[Github](https://github.com/daveredrum/Text2Tex)] |
-| X-Mesh | X-Mesh:Towards Fast and Accurate Text-driven 3D Stylization via Dynamic Textual Guidance | ICCV 2023 | [[Paper](https://arxiv.org/abs/2303.15764)] | [[Project](https://xmu-xiaoma666.github.io/Projects/X-Mesh/)] | [[Github](https://github.com/xmu-xiaoma666/X-Mesh)] |
+|  Neural Renderer <br><img src="assets/icon_image.png" width="20" height="20">  | Neural 3D Mesh Renderer |CVPR 2018|[[Paper](https://arxiv.org/abs/1711.07566)]|[[Project](https://hiroharu-kato.com/assets/downloads/cvpr_2018_poster.pdf)] | [[Github](https://github.com/hiroharu-kato/style_transfer_3d)] |
+| PAPARAZZI <br><img src="assets/icon_image.png" width="20" height="20">| PAPARAZZI: Surface Editing by way of Multi-View Image Processing | SIGGRAPH Asia 2018 | [[Paper](https://www.dgp.toronto.edu/projects/paparazzi/paparazzi-surface-editing-by-way-of-multi-view-image-processing-siggraph-asia-2018-liu-et-al.pdf)] | [[Project](https://www.dgp.toronto.edu/projects/paparazzi/)] | [[Github](https://github.com/HTDerekLiu/Paparazzi)] |
+| 3DStyleNet <br><img src="assets/icon_obj.png" width="20" height="20">| 3DStyleNet: Creating 3D Shapes with Geometric and Texture Style | ICCV 2021| [[Paper](https://research.nvidia.com/labs/toronto-ai/3DStyleNet/assets/3dstyle-paper.pdf)] | [[Project](https://research.nvidia.com/labs/toronto-ai/3DStyleNet/)] |  |
+|  StyleMesh <br><img src="assets/icon_image.png" width="20" height="20">| StyleMesh: Style Transfer for Indoor 3D Scene Reconstructions   | CVPR 2022 |  [[Paper](https://arxiv.org/abs/2112.01530)]  |  [[Project](https://lukashoel.github.io/stylemesh/)]  | [[Github](https://github.com/lukasHoel/stylemesh)]   | 
+| Creative Birds <br><img src="assets/icon_text.png" width="20" height="20">| Creative Birds: Self-Supervised Single-View 3D Style Transfer | ICCV 2023 | [[Paper](https://arxiv.org/abs/2307.14127)] | | [[Github](https://github.com/wrk226/creative_birds)] |
+| Text2Mesh <br><img src="assets/icon_text.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20">|Text2Mesh: Text-Driven Neural Stylization for Meshes  |CVPR 2022|[[Paper](https://arxiv.org/abs/2112.03221)]| [[Project](https://threedle.github.io/text2mesh/)] | [[Github](https://github.com/threedle/text2mesh)]  |
+| TANGO <br><img src="assets/icon_text.png" width="20" height="20">|TANGO: Text-driven Photorealistic and Robust 3D Stylization via Lighting Decomposition  |NeurIPS 2022|[[Paper](http://arxiv.org/abs/2210.11277)]| [[Project](https://cyw-3d.github.io/tango/)] | [[Github](https://github.com/Gorilla-Lab-SCUT/tango)]  |
+| Text2Scene <br><img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_text.png" width="20" height="20">| Text2Scene: Text-Driven Indoor Scene Stylization With Part-Aware Details  |CVPR 2023|[[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Hwang_Text2Scene_Text-Driven_Indoor_Scene_Stylization_With_Part-Aware_Details_CVPR_2023_paper.html)]| [[Video](https://www.youtube.com/watch?v=CGIXY2kwIYM)] | [[Github](https://github.com/uvavision/Text2Scene)]  |
+| TextDeformer <br><img src="assets/icon_text.png" width="20" height="20">| TextDeformer: Geometry Manipulation using Text Guidance | SIGGRAPH Conf 2023 | [[Paper](https://arxiv.org/abs/2304.13348)] | [[Project](https://threedle.github.io/TextDeformer/)] | [[Github](https://github.com/threedle/TextDeformer)] |
+| TEXTure <br><img src="assets/icon_text.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20">| TEXTure: Text-Guided Texturing of 3D Shapes | SIGGRAPH Conf 2023 | [[Paper](https://arxiv.org/abs/2302.01721)] | [[Project](https://texturepaper.github.io/TEXTurePaper/)] | [[Github](https://github.com/TEXTurePaper/TEXTurePaper)] |
+| Text2Tex <br><img src="assets/icon_text.png" width="20" height="20">| Text2Tex: Text-driven Texture Synthesis via Diffusion Models | ICCV 2023 | [[Paper](https://daveredrum.github.io/Text2Tex/static/Text2Tex.pdf)] | [[Project](https://daveredrum.github.io/Text2Tex/)] | [[Github](https://github.com/daveredrum/Text2Tex)] |
+| X-Mesh <br><img src="assets/icon_text.png" width="20" height="20">| X-Mesh:Towards Fast and Accurate Text-driven 3D Stylization via Dynamic Textual Guidance | ICCV 2023 | [[Paper](https://arxiv.org/abs/2303.15764)] | [[Project](https://xmu-xiaoma666.github.io/Projects/X-Mesh/)] | [[Github](https://github.com/xmu-xiaoma666/X-Mesh)] |
 |  |**Volumetric Stylization**  | || |  |
-| TNST |Transport-Based Neural Style Transfer for Smoke Simulations|  SIGGRAPH Asia 2019| [[Paper](http://arxiv.org/abs/1905.07442)] | [[Video](https://www.youtube.com/watch?v=67qVRhoOQPE)]|[[Github](https://github.com/byungsook/neural-flow-style/tree/tnst)]  |
-| LNST | Lagrangian Neural Style Transfer for Fluids | SIGGRAPH 2020 | [[Paper](http://arxiv.org/abs/2005.00803)] | [[Video](https://www.youtube.com/watch?v=WPmUsIVf3-4)]|[[Github](https://github.com/byungsook/neural-flow-style/tree/lnst)]  |
-| SKPN | Volumetric appearance stylization with stylizing kernel prediction network|SIGGRAPH 2021  | [[Paper](https://sites.cs.ucsb.edu/~lingqi/publications/paper_volst.pdf))] | [[Video](https://dl.acm.org/doi/abs/10.1145/3450626.3459799)]|  |
-| ENST | Efficient Neural Style Transfer For Volumetric Simulations | SIGGRAPH Asia 2022|  [[Paper](https://studios.disneyresearch.com/app/uploads/2022/10/Efficient-Neural-Style-Transfer-For-Volumetric-Simulations.pdf)]| [[Project](https://studios.disneyresearch.com/2022/11/30/efficient-neural-style-transfer-for-volumetric-simulations/)] |  |
+| TNST <br><img src="assets/icon_image.png" width="20" height="20">|Transport-Based Neural Style Transfer for Smoke Simulations|  SIGGRAPH Asia 2019| [[Paper](http://arxiv.org/abs/1905.07442)] | [[Video](https://www.youtube.com/watch?v=67qVRhoOQPE)]|[[Github](https://github.com/byungsook/neural-flow-style/tree/tnst)]  |
+| LNST <br><img src="assets/icon_image.png" width="20" height="20">| Lagrangian Neural Style Transfer for Fluids | SIGGRAPH 2020 | [[Paper](http://arxiv.org/abs/2005.00803)] | [[Video](https://www.youtube.com/watch?v=WPmUsIVf3-4)]|[[Github](https://github.com/byungsook/neural-flow-style/tree/lnst)]  |
+| SKPN <br><img src="assets/icon_image.png" width="20" height="20">| Volumetric appearance stylization with stylizing kernel prediction network|SIGGRAPH 2021  | [[Paper](https://sites.cs.ucsb.edu/~lingqi/publications/paper_volst.pdf)] | [[Video](https://dl.acm.org/doi/abs/10.1145/3450626.3459799)]|  |
+| ENST <br><img src="assets/icon_image.png" width="20" height="20">| Efficient Neural Style Transfer For Volumetric Simulations | SIGGRAPH Asia 2022|  [[Paper](https://studios.disneyresearch.com/app/uploads/2022/10/Efficient-Neural-Style-Transfer-For-Volumetric-Simulations.pdf)]| [[Project](https://studios.disneyresearch.com/2022/11/30/efficient-neural-style-transfer-for-volumetric-simulations/)] |  |
 |  | **Point Cloud Stylization** | || |  |
-| PSNet | PSNet: A Style Transfer Network for Point Cloud Stylization on Geometry and Color |WACV 2020 | [[Paper](https://openaccess.thecvf.com/content_WACV_2020/html/Cao_PSNet_A_Style_Transfer_Network_for_Point_Cloud_Stylization_on_WACV_2020_paper.html)]| [[Video](https://www.youtube.com/watch?v=EbUOg1gVcFw&t=1818s)] | [[Github](https://github.com/xucao-42/psnet)] |
+| PSNet <br><img src="assets/icon_obj.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20">| PSNet: A Style Transfer Network for Point Cloud Stylization on Geometry and Color |WACV 2020 | [[Paper](https://openaccess.thecvf.com/content_WACV_2020/html/Cao_PSNet_A_Style_Transfer_Network_for_Point_Cloud_Stylization_on_WACV_2020_paper.html)]| [[Video](https://www.youtube.com/watch?v=EbUOg1gVcFw&t=1818s)] | [[Github](https://github.com/xucao-42/psnet)] |
 |  | **Novel View Stylization** | || |  |
-|  LSNV  | Learning to stylize novel views |  ICCV 2021  | [[Paper](https://arxiv.org/abs/2105.13509)]   | [[Project](https://hhsinping.github.io/3d_scene_stylization/)]   |  [[Github](https://github.com/hhsinping/stylescene)] |
-| HyperStyle | Stylizing 3D Scene via Implicit Representation and HyperNetwork |WACV 2022 | [[Paper](https://arxiv.org/abs/2105.13016)] |  [[Project](https://ztex08010518.github.io/3dstyletransfer/)] | [[Github](https://github.com/ztex08010518/Stylizing-3D-Scene)] |
-| StylizedNeRF | StylizedNeRF: Consistent 3D Scene Stylization as Stylized NeRF via 2D-3D Mutual Learning | CVPR 2022|[[Paper](https://arxiv.org/abs/2205.12183)]| [[Project](http://geometrylearning.com/StylizedNeRF/)]| [[Github](https://github.com/IGLICT/StylizedNeRF)] |
-|3D Photo Stylization | 3D Photo Stylization: Learning to Generate Stylized Novel Views from a Single Image | CVPR 2022|[[Paper](https://arxiv.org/abs/2112.00169)]|[[Project](https://pages.cs.wisc.edu/~fmu/style3d/)]  | [[Github](https://github.com/fmu2/3d_photo_stylization)]  |
-| ARF |ARF: Artistic Radiance Fields  | ECCV 2022|[[Paper](https://arxiv.org/abs/2206.06360)]|[[Project](https://www.cs.cornell.edu/projects/arf/)] | [[Github](https://github.com/Kai-46/ARF-svox2)] |
-| UINS | Unified Implicit Neural Stylization |ECCV 2022 |[[Paper](https://arxiv.org/abs/2204.01943)]|[[Project](https://zhiwenfan.github.io/INS/)]  | [[Github](https://github.com/VITA-Group/INS)] |
-| INS | Instant Neural Radiance Fields Stylization | ArXiv 2023 |[[Paper](https://arxiv.org/abs/2303.16884)]| | [[Github](https://github.com/lsx0101/Instant-NeRF-Stylization)] |
-|ArtNV |Artistic Style Novel View Synthesis Based on A Single Image  |CVPRW 2022, SIGGRAPH Posters 2022 |[[Paper](https://openaccess.thecvf.com/content/CVPR2022W/CVFAD/papers/Tseng_Artistic_Style_Novel_View_Synthesis_Based_on_a_Single_Image_CVPRW_2022_paper.pdf)]|[[Project](https://kuan-wei-tseng.github.io/ArtNV)]  |[[Github](https://github.com/Kuan-Wei-Tseng/ArtNV)]  |
-| SNeRF |SNeRF: Stylized Neural Implicit Representations for 3D Scenes  | SIGGRAPH 2022|[[Paper](https://arxiv.org/abs/2207.02363)]| [[Project](https://research.facebook.com/publications/snerf-stylized-neural-implicit-representations-for-3d-scenes/)] |  |
-| LipRF | Transforming Radiance Field with Lipschitz Network for Photorealistic 3D Scene Stylization |CVPR 2023 |[[Paper](https://arxiv.org/abs/2303.13232)] | |  |
-|StyleRF  | StyleRF: Zero-shot 3D Style Transfer of Neural Radiance Fields | CVPR 2023|[[Paper](https://arxiv.org/abs/2303.10598)]|[[Project](https://kunhao-liu.github.io/StyleRF/)] | [[Github](https://github.com/Kunhao-Liu/StyleRF)] |
-| Ref-NPR | Ref-NPR: Reference-Based Non-Photorealistic Radiance Fields for Controllable Scene Stylization | CVPR 2023|[[Paper](https://arxiv.org/abs/2212.02766)]|[[Project](https://ref-npr.github.io/)] |  [[Github](https://github.com/dvlab-research/Ref-NPR/)] |
-| UPST-NeRF | UPST-NeRF: Universal Photorealistic Style Transfer of Neural Radiance Fields for 3D Scene | Arxiv 2022 | [[Paper](https://arxiv.org/pdf/2208.07059.pdf)] | [[Project](https://semchan.github.io/UPST_NeRF/)] | [[Github](https://github.com/semchan/UPST-NeRF)] |
-| LocalStyleNeRF | Locally Stylized Neural Radiance Fields | ICCV 2023 |[[Paper](https://arxiv.org/abs/2309.10684)] | [[Project](https://nerfstyle.hkustvgd.com/)] | [[Github](https://github.com/hkust-vgd/nerfstyle)] |
-| SINE |Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field  | CVPR 2023|[[Paper](https://arxiv.org/abs/2303.13277)]|[[Project](https://zju3dv.github.io/sine/)] |  [[Github](https://github.com/zju3dv/SINE)]|
-| |**Text-driven Stylization** | | | |  |
-| NeRF-art | NeRF-Art: Text-Driven Neural Radiance Fields Stylization | TVCG 2023|[[Paper](https://arxiv.org/abs/2212.08070)]| [[Project](https://cassiepython.github.io/nerfart/)]|  [[Github](https://github.com/cassiePython/NeRF-Art)]|
-| TSNeRF | TSNeRF: Text-driven stylized neural radiance fields via semantic contrastive learning | Computers & Graphics 2023,  CCF CAD/Graphics 2023 | [[Paper](https://www.sciencedirect.com/science/article/pii/S0097849323001796)] | |  |
-|InstructN2N  | Instruct-NeRF2NeRF | ICCV 2023|[[Paper](https://arxiv.org/abs/2303.12789)] |[[Project](https://instruct-nerf2nerf.github.io/)]  | [[Github](https://github.com/ayaanzhaque/instruct-nerf2nerf)] |
-| Blending-NeRF| Blending-NeRF: Text-Driven Localized Editing in Neural Radiance Fields | ICCV 2023 | [[Paper](https://arxiv.org/pdf/2308.11974)] | [[Project](https://seokhunchoi.github.io/Blending-NeRF/)] |  |
-| | | | | |  |
+|  LSNV <br><img src="assets/icon_image.png" width="20" height="20"> | Learning to stylize novel views |  ICCV 2021  | [[Paper](https://arxiv.org/abs/2105.13509)]   | [[Project](https://hhsinping.github.io/3d_scene_stylization/)]   |  [[Github](https://github.com/hhsinping/stylescene)] |
+| HyperStyle <br><img src="assets/icon_image.png" width="20" height="20"> | Stylizing 3D Scene via Implicit Representation and HyperNetwork |WACV 2022 | [[Paper](https://arxiv.org/abs/2105.13016)] |  [[Project](https://ztex08010518.github.io/3dstyletransfer/)] | [[Github](https://github.com/ztex08010518/Stylizing-3D-Scene)] |
+| StylizedNeRF <br><img src="assets/icon_image.png" width="20" height="20"> | StylizedNeRF: Consistent 3D Scene Stylization as Stylized NeRF via 2D-3D Mutual Learning | CVPR 2022|[[Paper](https://arxiv.org/abs/2205.12183)]| [[Project](http://geometrylearning.com/StylizedNeRF/)]| [[Github](https://github.com/IGLICT/StylizedNeRF)] |
+|3D Photo Stylization <br><img src="assets/icon_image.png" width="20" height="20">| 3D Photo Stylization: Learning to Generate Stylized Novel Views from a Single Image | CVPR 2022|[[Paper](https://arxiv.org/abs/2112.00169)]|[[Project](https://pages.cs.wisc.edu/~fmu/style3d/)]  | [[Github](https://github.com/fmu2/3d_photo_stylization)]  |
+| ARF <br><img src="assets/icon_image.png" width="20" height="20">|ARF: Artistic Radiance Fields  | ECCV 2022|[[Paper](https://arxiv.org/abs/2206.06360)]|[[Project](https://www.cs.cornell.edu/projects/arf/)] | [[Github](https://github.com/Kai-46/ARF-svox2)] |
+| UINS <br><img src="assets/icon_image.png" width="20" height="20"> | Unified Implicit Neural Stylization |ECCV 2022 |[[Paper](https://arxiv.org/abs/2204.01943)]|[[Project](https://zhiwenfan.github.io/INS/)]  | [[Github](https://github.com/VITA-Group/INS)] |
+| INS <br><img src="assets/icon_image.png" width="20" height="20"> | Instant Neural Radiance Fields Stylization | ArXiv 2023 |[[Paper](https://arxiv.org/abs/2303.16884)]| | [[Github](https://github.com/lsx0101/Instant-NeRF-Stylization)] |
+|ArtNV <br><img src="assets/icon_image.png" width="20" height="20">|Artistic Style Novel View Synthesis Based on A Single Image  |CVPRW 2022, SIGGRAPH Posters 2022 |[[Paper](https://openaccess.thecvf.com/content/CVPR2022W/CVFAD/papers/Tseng_Artistic_Style_Novel_View_Synthesis_Based_on_a_Single_Image_CVPRW_2022_paper.pdf)]|[[Project](https://kuan-wei-tseng.github.io/ArtNV)]  |[[Github](https://github.com/Kuan-Wei-Tseng/ArtNV)]  |
+| SNeRF <br><img src="assets/icon_image.png" width="20" height="20"> |SNeRF: Stylized Neural Implicit Representations for 3D Scenes  | SIGGRAPH 2022|[[Paper](https://arxiv.org/abs/2207.02363)]| [[Project](https://research.facebook.com/publications/snerf-stylized-neural-implicit-representations-for-3d-scenes/)] |  |
+| LipRF <br><img src="assets/icon_image.png" width="20" height="20">| Transforming Radiance Field with Lipschitz Network for Photorealistic 3D Scene Stylization |CVPR 2023 |[[Paper](https://arxiv.org/abs/2303.13232)] | |  |
+|StyleRF  <br><img src="assets/icon_image.png" width="20" height="20">| StyleRF: Zero-shot 3D Style Transfer of Neural Radiance Fields | CVPR 2023|[[Paper](https://arxiv.org/abs/2303.10598)]|[[Project](https://kunhao-liu.github.io/StyleRF/)] | [[Github](https://github.com/Kunhao-Liu/StyleRF)] |
+| Ref-NPR <br><img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_text.png" width="20" height="20">| Ref-NPR: Reference-Based Non-Photorealistic Radiance Fields for Controllable Scene Stylization | CVPR 2023|[[Paper](https://arxiv.org/abs/2212.02766)]|[[Project](https://ref-npr.github.io/)] |  [[Github](https://github.com/dvlab-research/Ref-NPR/)] |
+| UPST-NeRF <br><img src="assets/icon_image.png" width="20" height="20">| UPST-NeRF: Universal Photorealistic Style Transfer of Neural Radiance Fields for 3D Scene | Arxiv 2022 | [[Paper](https://arxiv.org/pdf/2208.07059.pdf)] | [[Project](https://semchan.github.io/UPST_NeRF/)] | [[Github](https://github.com/semchan/UPST-NeRF)] |
+| LocalStyleNeRF <br><img src="assets/icon_image.png" width="20" height="20">| Locally Stylized Neural Radiance Fields | ICCV 2023 |[[Paper](https://arxiv.org/abs/2309.10684)] | [[Project](https://nerfstyle.hkustvgd.com/)] | [[Github](https://github.com/hkust-vgd/nerfstyle)] |
+| SINE <br><img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_text.png" width="20" height="20">|Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field  | CVPR 2023|[[Paper](https://arxiv.org/abs/2303.13277)]|[[Project](https://zju3dv.github.io/sine/)] |  [[Github](https://github.com/zju3dv/SINE)]|
+| NeRF-art <br><img src="assets/icon_text.png" width="20" height="20">| NeRF-Art: Text-Driven Neural Radiance Fields Stylization | TVCG 2023|[[Paper](https://arxiv.org/abs/2212.08070)]| [[Project](https://cassiepython.github.io/nerfart/)]|  [[Github](https://github.com/cassiePython/NeRF-Art)]|
+| TSNeRF <br><img src="assets/icon_text.png" width="20" height="20">| TSNeRF: Text-driven stylized neural radiance fields via semantic contrastive learning | Computers & Graphics 2023,  CCF CAD/Graphics 2023 | [[Paper](https://www.sciencedirect.com/science/article/pii/S0097849323001796)] | |  |
+|InstructN2N <br><img src="assets/icon_text.png" width="20" height="20"> | Instruct-NeRF2NeRF | ICCV 2023|[[Paper](https://arxiv.org/abs/2303.12789)] |[[Project](https://instruct-nerf2nerf.github.io/)]  | [[Github](https://github.com/ayaanzhaque/instruct-nerf2nerf)] |
+| Blending-NeRF <br><img src="assets/icon_text.png" width="20" height="20">| Blending-NeRF: Text-Driven Localized Editing in Neural Radiance Fields | ICCV 2023 | [[Paper](https://arxiv.org/pdf/2308.11974)] | [[Project](https://seokhunchoi.github.io/Blending-NeRF/)] |  |
+<!--| | | | | |  | -->
+<!--| |**Text-driven Stylization** | | | |  |-->
 
 
 ## Mesh Stylization
@@ -132,6 +138,23 @@ _Features_:
 - approximate gradient for rasterization
 - single-image 3d mesh reconstruction with 2d supervision
 - gradient-based 3d mesh editing including 2d->3d style transfer(image->mesh)
+
+
+**PAPARAZZI: Surface Editing by way of Multi-View Image Processing**<br>
+*Hsueh-Ti Derek Liu, Michael Tao, Alec Jacobson*<br>
+SIGGRAPH Asia 2018.  [[Paper](https://www.dgp.toronto.edu/projects/paparazzi/paparazzi-surface-editing-by-way-of-multi-view-image-processing-siggraph-asia-2018-liu-et-al.pdf)]  [[Project](https://www.dgp.toronto.edu/projects/paparazzi/)]  [[Github](https://github.com/HTDerekLiu/Paparazzi)]  <br>
+_Features_:
+- image-guided mesh surface stylization
+- vertex position optimization
+- sample training cameras on the offset surface
+
+**3DStyleNet: Creating 3D Shapes with Geometric and Texture Style**<br>
+*Kangxue Yin, Jun Gao, Maria Shugrina, Sameh Khamis, Sanja Fidler*<br>
+ICCV 2021. [[Paper](https://research.nvidia.com/labs/toronto-ai/3DStyleNet/assets/3dstyle-paper.pdf)]  [[Project](https://research.nvidia.com/labs/toronto-ai/3DStyleNet/)]  <br>
+_Features_:
+- 3D shape and texture style tranfer
+- 3D textured model as guidance
+- Large 3D data driven
 
 **StyleMesh: Style Transfer for Indoor 3D Scene Reconstructions**<br>
 *Lukas Höllein, Justin Johnson, Matthias Nießner*<br>
@@ -147,15 +170,64 @@ _Features_:
 - based on CLIP[[Github](https://github.com/openai/CLIP)]
 - handle low quality meshes
 
-add more recent works
+**TANGO: Text-driven Photorealistic and Robust 3D Stylization via Lighting Decomposition** <br>
+*Yongwei Chen, Rui Chen, Jiabao Lei, Yabin Zhang, Kui Jia*<br>
+Neurips 2022. [[Paper](http://arxiv.org/abs/2210.11277)] [[Project](https://cyw-3d.github.io/tango/)] [[Github](https://github.com/Gorilla-Lab-SCUT/tango)] <br>
+
+**Creative Birds: Self-Supervised Single-View 3D Style Transfer**<br>
+*Renke Wang, Guimin Que, Shuo Chen, Xiang Li, Jun Li, Jian Yang* <br>
+ICCV 2023. [[Paper](https://arxiv.org/abs/2307.14127)] [[Github](https://github.com/wrk226/creative_birds)]<br>
+
+**Text2Scene: Text-Driven Indoor Scene Stylization With Part-Aware Details**<br>
+*Inwoo Hwang, Hyeonwoo Kim, Young Min Kim*<br>
+CVPR 2023. [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Hwang_Text2Scene_Text-Driven_Indoor_Scene_Stylization_With_Part-Aware_Details_CVPR_2023_paper.html)] [[Video](https://www.youtube.com/watch?v=CGIXY2kwIYM)] [[Github](https://github.com/uvavision/Text2Scene)] <br>
+
+**TextDeformer: Geometry Manipulation using Text Guidance**<br>
+*William Gao, Noam Aigerman, Thibault Groueix, Vladimir G. Kim, Rana Hanocka*<br>
+SIGGRAPH Conference Proceedings 2023. [[Paper](https://arxiv.org/abs/2304.13348)]  [[Project](https://threedle.github.io/TextDeformer/)] [[Github](https://github.com/threedle/TextDeformer)] <br>
+
+**TEXTure: Text-Guided Texturing of 3D Shapes**<br>
+*Elad Richardson, Gal Metzer, Yuval Alaluf, Raja Giryes, Daniel Cohen-Or*<br>
+SIGGRAPH Conference Proceedings 2023. [[Paper](https://arxiv.org/abs/2302.01721)]  [[Project](https://texturepaper.github.io/TEXTurePaper/)]  [[Github](https://github.com/TEXTurePaper/TEXTurePaper)] <br>
+
+**Text2Tex: Text-driven Texture Synthesis via Diffusion Models**<br>
+*Dave Zhenyu Chen, Yawar Siddiqui, Hsin-Ying Lee, Sergey Tulyakov, Matthias Nießner*<br>
+ICCV 2023. [[Paper](https://daveredrum.github.io/Text2Tex/static/Text2Tex.pdf)]  [[Project](https://daveredrum.github.io/Text2Tex/)]  [[Github](https://github.com/daveredrum/Text2Tex)] <br>
+
+**X-Mesh:Towards Fast and Accurate Text-driven 3D Stylization via Dynamic Textual Guidance**<br>
+*Yiwei Ma, Xiaioqing Zhang, Xiaoshuai Sun, Jiayi Ji, Haowei Wang, Guannan Jiang, Weilin Zhuang, Rongrong Ji*<br>
+ICCV 2023. [[Paper](https://arxiv.org/abs/2303.15764)]  [[Project](https://xmu-xiaoma666.github.io/Projects/X-Mesh/)]  [[Github](https://github.com/xmu-xiaoma666/X-Mesh)] <br>
 
 ## Volumetric Stylization
+**Transport-Based Neural Style Transfer for Smoke Simulations**  <br>
+*Byungsoo Kim, Vinicius C. Azevedo, Markus Gross, Barbara Solenthaler*<br>
+SIGGRAPH Asia 2019.| [[Paper](http://arxiv.org/abs/1905.07442)]  [[Video](https://www.youtube.com/watch?v=67qVRhoOQPE)] [[Github](https://github.com/byungsook/neural-flow-style/tree/tnst)]  <br>
+_Features_:
+- dynamic smoke
+- optimization-based stylization
+ 
+**Lagrangian Neural Style Transfer for Fluids** <br>
+*Byungsoo Kim, Vinicius C. Azevedo, Markus Gross, Barbara Solenthaler*<br>
+SIGGRAPH 2020. [[Paper](http://arxiv.org/abs/2005.00803)]  [[Video](https://www.youtube.com/watch?v=WPmUsIVf3-4)] [[Github](https://github.com/byungsook/neural-flow-style/tree/lnst)]  <br>
+_Features_:
+- fluid
+- optimization-based stylization
+  
+**Volumetric appearance stylization with stylizing kernel prediction network** <br>
+*Jie Guo, Mengtian Li, Zijing Zong, Yuntao Liu, Jingwu He, Yanwen Guo, Ling-Qi Yan*<br>
+SIGGRAPH 2021. [[Paper](https://sites.cs.ucsb.edu/~lingqi/publications/paper_volst.pdf))]  [[Video](https://dl.acm.org/doi/abs/10.1145/3450626.3459799)]|  <br>
+_Features_:
+- dynamic or static model
+- arbitrary style transfer
+
 **Efficient Neural Style Transfer For Volumetric Simulations**<br>
 *Joshua Aurand, Raphaël Oritz, Sylvia Nauer, Vinicius Azevedo*<br>
 ACM SIGGRAPH Asia, 2022. [[Paper](https://studios.disneyresearch.com/app/uploads/2022/10/Efficient-Neural-Style-Transfer-For-Volumetric-Simulations.pdf)][[Video](https://youtu.be/8tD5Yt3smDw)]<br>
 _Features_:
 - mainly for smoke
 - view-independent stylization
+- feed-forward network for acceleration
+
 
 ## Point Cloud Stylization
 **PSNet: A Style Transfer Network for Point Cloud Stylization on Geometry and Color**<br>
@@ -174,10 +246,19 @@ ICCV 2021. [[Paper](https://arxiv.org/abs/2105.13509)] [[Project](https://hhsinp
 _Features_:
 - Point-cloud based feature
 - Style feature transformation
+- Require MVS reconstruction, depth rendering
+
+
+**3D Photo Stylization: Learning to Generate Stylized Novel Views from a Single Image**<br>
+*Fangzhou Mu, Jian Wang, Yicheng Wu, Yin Li*<br>
+CVPR 2022. [[Paper](https://arxiv.org/abs/2112.00169)] [[Project](https://pages.cs.wisc.edu/~fmu/style3d/)] [[Github](https://github.com/fmu2/3d_photo_stylization)]  <br>
+_Features_:
+- pre-trained NeRF with color prediction module replaced with a style network
+- mutual learning for two parts mentioned above
 
 **Artistic Style Novel View Synthesis Based on A Single Image**<br>
 *Kuan-Wei Tseng, Yao-Chih Lee, Chu-Song Chen*<br>
-CVPR 2022.[[Paper](https://openaccess.thecvf.com/content/CVPR2022W/CVFAD/papers/Tseng_Artistic_Style_Novel_View_Synthesis_Based_on_a_Single_Image_CVPRW_2022_paper.pdf)] [[Project](https://kuan-wei-tseng.github.io/ArtNV)] [[Github](https://github.com/Kuan-Wei-Tseng/ArtNV)] <br>
+CVPR Workshop 2022 / SIGGRAPH Poster 2022.[[Paper](https://openaccess.thecvf.com/content/CVPR2022W/CVFAD/papers/Tseng_Artistic_Style_Novel_View_Synthesis_Based_on_a_Single_Image_CVPRW_2022_paper.pdf)] [[Project](https://kuan-wei-tseng.github.io/ArtNV)] [[Github](https://github.com/Kuan-Wei-Tseng/ArtNV)] <br>
 _Features_:
 - based on Synsin(differentiable point cloud renderer)[[Paper](https://arxiv.org/abs/1912.08804)]
 - occlusion aware dense matching
@@ -196,13 +277,6 @@ _Features_:
 **StylizedNeRF: Consistent 3D Scene Stylization as Stylized NeRF via 2D-3D Mutual Learning**<br>
 *Yi-Hua Huang, Yue He, Yu-Jie Yuan, Yu-Kun Lai, Lin Gao*<br>
 CVPR 2022. [[Paper](https://arxiv.org/abs/2205.12183)] [[Project](http://geometrylearning.com/StylizedNeRF/)] [[Github](https://github.com/IGLICT/StylizedNeRF)]  <br>
-_Features_:
-- pre-trained NeRF with color prediction module replaced with a style network
-- mutual learning for two parts mentioned above
-
-**3D Photo Stylization: Learning to Generate Stylized Novel Views from a Single Image**<br>
-*Fangzhou Mu, Jian Wang, Yicheng Wu, Yin Li*<br>
-CVPR 2022. [[Paper](https://arxiv.org/abs/2112.00169)] [[Project](https://pages.cs.wisc.edu/~fmu/style3d/)] [[Github](https://github.com/fmu2/3d_photo_stylization)]  <br>
 _Features_:
 - pre-trained NeRF with color prediction module replaced with a style network
 - mutual learning for two parts mentioned above
@@ -255,20 +329,13 @@ CVPR 2023. [[Paper](https://arxiv.org/abs/2212.02766)] [[Project](https://ref-np
 _Features_:
 - reference based ray registration process and a template-based feature matching scheme to achieve geometrically and perceptually consistent stylization
 
-**NeRF-Art: Text-Driven Neural Radiance Fields Stylization**<br>
-*Can Wang, Ruixiang Jiang, Menglei Chai, Mingming He, Dongdong Chen, Jing Liao*<br>
-TVCG 2023. [[Paper](https://arxiv.org/abs/2212.08070)] [[Project](https://cassiepython.github.io/nerfart/)] [[Github](https://github.com/cassiePython/NeRF-Art)] <br>
+**Locally Stylized Neural Radiance Fields**<br>
+*Hong-Wing Pang, Binh-Son Hua, Sai-Kit Yeung*<br>
+ICCV 2023. [[Paper](https://arxiv.org/abs/2309.10684)]  [[Project](https://nerfstyle.hkustvgd.com/)] [[Github](https://github.com/hkust-vgd/nerfstyle)] <br>
 _Features_:
-- combine CLIP[[Github](https://github.com/openai/CLIP)] with NeRF
-- cover global structures and local details 
-- adopt a weight regularization to effectively reduce cloudy artifacts and geometry noises
-
-**Instruct-NeRF2NeRF**<br>
-*Ayaan Haque, Matthew Tancik, Alexei A. Efros, Aleksander Holynski, Angjoo Kanazawa*<br>
-ICCV 2023. [[Paper](https://arxiv.org/abs/2303.12789)] [[Project](https://instruct-nerf2nerf.github.io/)] [[Github](https://github.com/ayaanzhaque/instruct-nerf2nerf)] <br>
-_Features_:
-- extract shape and appearance priors from a 2D diffusion model
-- edit input images and change 3d implicit field representation
+- explicitly semantic match stylization
+- based on instant-NGP
+- room stylization
 
 **Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field**<br>
 *Chong Bao, Yinda Zhang, Bangbang Yang, Tianxing Fan, Zesong Yang, Hujun Bao, Guofeng Zhang, Zhaopeng Cui*<br>
@@ -278,5 +345,25 @@ _Features_:
 - cyclic constraints with a proxy mesh for geometric editing
 - the color compositing mechanism to enhance texture editing
 - feature-cluster-based regularization to control the affected editing area and maintain irrelevant parts unchanged
+- 
+**NeRF-Art: Text-Driven Neural Radiance Fields Stylization**<br>
+*Can Wang, Ruixiang Jiang, Menglei Chai, Mingming He, Dongdong Chen, Jing Liao*<br>
+TVCG 2023. [[Paper](https://arxiv.org/abs/2212.08070)] [[Project](https://cassiepython.github.io/nerfart/)] [[Github](https://github.com/cassiePython/NeRF-Art)] <br>
+_Features_:
+- combine CLIP[[Github](https://github.com/openai/CLIP)] with NeRF
+- cover global structures and local details 
+- adopt a weight regularization to effectively reduce cloudy artifacts and geometry noises
+
+**Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions**<br>
+*Ayaan Haque, Matthew Tancik, Alexei A. Efros, Aleksander Holynski, Angjoo Kanazawa*<br>
+ICCV 2023. [[Paper](https://arxiv.org/abs/2303.12789)] [[Project](https://instruct-nerf2nerf.github.io/)] [[Github](https://github.com/ayaanzhaque/instruct-nerf2nerf)] <br>
+_Features_:
+- extract shape and appearance priors from a 2D diffusion model
+- edit input images and change 3d implicit field representation
+
+**Blending-NeRF: Text-Driven Localized Editing in Neural Radiance Fields**<br>
+ICCV 2023. [[Paper](https://arxiv.org/pdf/2308.11974)]  [[Project](https://seokhunchoi.github.io/Blending-NeRF/)] <br>
+_Features_:
+- text-guided local editing
 
 <!--[[Paper]()] [[Project]()] [[Github]()] <br>-->
