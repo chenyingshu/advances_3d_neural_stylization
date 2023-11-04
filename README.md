@@ -75,7 +75,7 @@ Towaki Takikawa, Shunsuke Saito, James Tompkin, Vincent Sitzmann, Srinath Sridha
 - [Volumetric Stylization](#volumetric-stylization)
 - [Point Cloud Stylization](#point-cloud-stylization)
 - [Novel View Stylization](#novel-view-stylization)
-- [Evaluation](evaluation)
+- [Evaluation]()
 <!-- - [2D Baselines](#) -->
 ## Overview ##
 <div align=left> 
