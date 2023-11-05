@@ -34,40 +34,30 @@ Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung<br>
 
 ### Other related surveys, courses
 **Neural Style Transfer: A Review** [[Paper](https://arxiv.org/abs/1705.04058)] [[Project](https://github.com/ycjing/Neural-Style-Transfer-Papers)] <br>
-Yongcheng Jing, Yezhou Yang, Zunlei Feng, Jingwen Ye, Yizhou Yu, Mingli Song <br>
-*IEEE Transactions on Visualization and Computer Graphics, 2019*
+*Yongcheng Jing, Yezhou Yang, Zunlei Feng, Jingwen Ye, Yizhou Yu, Mingli Song.* TVCG, 2019.
 
 **Multimodal Image Synthesis and Editing: The Generative AI Era** [[Paper](https://arxiv.org/abs/2112.13592)]  [[Project](https://fnzhan.com/Generative-AI/)]  <br>
-Fangneng Zhan, Yingchen Yu, Rongliang Wu, Jiahui Zhang, Shijian Lu, Lingjie Liu, Adam Kortylewski, Christian Theobalt, Eric Xing <br>
-*IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023*
+*Fangneng Zhan, Yingchen Yu, Rongliang Wu, Jiahui Zhang, Shijian Lu, Lingjie Liu, Adam Kortylewski, Christian Theobalt, Eric Xing.* TPAMI, 2023.
 
 **Diffusion Models in Vision: A Survey** [[Paper](https://arxiv.org/abs/2209.04747)] [[Project](https://github.com/CroitoruAlin/Diffusion-Models-in-Vision-A-Survey)] <br>
-Florinel-Alin Croitoru, Vlad Hondru, Radu Tudor Ionescu, Mubarak Shah <br>
-*IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023*
+*Florinel-Alin Croitoru, Vlad Hondru, Radu Tudor Ionescu, Mubarak Shah.* TPAMI, 2023.
 
 **Diffusion Models: A Comprehensive Survey of Methods and Applications** [[Paper](https://arxiv.org/abs/2209.00796)][[Project](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy)] <br>
-Ling Yang, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang <br>
-*ACM Computing Surveys 2023*
+*Ling Yang, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang.* ACM Computing Surveys 2023.
 
 **State of the Art on Neural Rendering** [[Paper](https://arxiv.org/abs/2004.03805)] <br>
-Ayush Tewari, Ohad Fried, Justus Thies, Vincent Sitzmann, Stephen Lombardi, Kalyan Sunkavalli, Ricardo Martin-Brualla, Tomas Simon, Jason Saragih, Matthias Nießner, Rohit Pandey, Sean Fanello, Gordon Wetzstein, Jun-Yan Zhu, Christian Theobalt, Maneesh Agrawala, Eli Shechtman, Dan B Goldman, Michael Zollhöfer <br>
-*State of the Art Report at EUROGRAPHICS 2020* <br>
-**Neural Rendering** [[Project](https://www.neuralrender.com/CVPR/)] <br>
-*CVPR 2020 Tutorial* <br>
-**Advances in Neural Rendering** [[Paper](https://dl.acm.org/doi/10.1145/3450508.3464573)] [[Project](https://www.neuralrender.com/)] <br>
-*SIGGRAPH 2021 Courses*
+*Ayush Tewari, Ohad Fried, Justus Thies, Vincent Sitzmann, Stephen Lombardi, Kalyan Sunkavalli, Ricardo Martin-Brualla, Tomas Simon, Jason Saragih, Matthias Nießner, Rohit Pandey, Sean Fanello, Gordon Wetzstein, Jun-Yan Zhu, Christian Theobalt, Maneesh Agrawala, Eli Shechtman, Dan B Goldman, Michael Zollhöfer.* State of the Art Report at EUROGRAPHICS 2020. <br>
+**Neural Rendering** [[Project](https://www.neuralrender.com/CVPR/)] CVPR 2020 Tutorial. <br>
+**Advances in Neural Rendering** [[Paper](https://dl.acm.org/doi/10.1145/3450508.3464573)] [[Project](https://www.neuralrender.com/)] SIGGRAPH 2021 Courses.
 
 
 **Advances in Neural Rendering** [[Paper](https://arxiv.org/abs/2111.05849)] <br>
-Ayush Tewari, Justus Thies, Ben Mildenhall, Pratul Srinivasan, Edgar Tretschk, Yifan Wang, Christoph Lassner, Vincent Sitzmann, Ricardo Martin-Brualla, Stephen Lombardi, Tomas Simon, Christian Theobalt, Matthias Niessner, Jonathan T. Barron, Gordon Wetzstein, Michael Zollhoefer, Vladislav Golyanik <br>
-*State of the Art Report at EUROGRAPHICS 2022*
+*Ayush Tewari, Justus Thies, Ben Mildenhall, Pratul Srinivasan, Edgar Tretschk, Yifan Wang, Christoph Lassner, Vincent Sitzmann, Ricardo Martin-Brualla, Stephen Lombardi, Tomas Simon, Christian Theobalt, Matthias Niessner, Jonathan T. Barron, Gordon Wetzstein, Michael Zollhoefer, Vladislav Golyanik.* State of the Art Report at EUROGRAPHICS 2022.
 
 **Neural Fields in Visual Computing and Beyond** [[Paper](https://arxiv.org/abs/2111.11426)]  [[Project](https://neuralfields.cs.brown.edu/)]  <br>
-Yiheng Xie, Towaki Takikawa, Shunsuke Saito, Or Litany, Shiqin Yan, Numair Khan, Federico Tombari, James Tompkin, Vincent Sitzmann, Srinath Sridhar <br>
-*State of the Art Report at EUROGRAPHICS 2022* <br>
+*Yiheng Xie, Towaki Takikawa, Shunsuke Saito, Or Litany, Shiqin Yan, Numair Khan, Federico Tombari, James Tompkin, Vincent Sitzmann, Srinath Sridhar.* State of the Art Report at EUROGRAPHICS 2022. <br>
 **Neural Fields for Visual Computing** [[Paper](https://dl.acm.org/doi/abs/10.1145/3587423.3595477)] [[Project](https://neuralfields.cs.brown.edu/siggraph23.html)] <br>
-Towaki Takikawa, Shunsuke Saito, James Tompkin, Vincent Sitzmann, Srinath Sridhar, Or Litany, Alex Yu <br>
-*SIGGRAPH 2023 Courses*
+*Towaki Takikawa, Shunsuke Saito, James Tompkin, Vincent Sitzmann, Srinath Sridhar, Or Litany, Alex Yu.* SIGGRAPH 2023 Courses.<br>
 
 
 ## Table of Contents
