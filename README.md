@@ -31,8 +31,12 @@ Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung<br>
   year={2023}
 }
 ```-->
-
+<details>
+  <summary>
+    
 ### Other related surveys, courses
+  </summary>
+  
 **Neural Style Transfer: A Review** [[Paper](https://arxiv.org/abs/1705.04058)] [[Project](https://github.com/ycjing/Neural-Style-Transfer-Papers)] <br>
 *Yongcheng Jing, Yezhou Yang, Zunlei Feng, Jingwen Ye, Yizhou Yu, Mingli Song.* TVCG, 2019.
 
@@ -59,6 +63,7 @@ Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung<br>
 **Neural Fields for Visual Computing** [[Paper](https://dl.acm.org/doi/abs/10.1145/3587423.3595477)] [[Project](https://neuralfields.cs.brown.edu/siggraph23.html)] <br>
 *Towaki Takikawa, Shunsuke Saito, James Tompkin, Vincent Sitzmann, Srinath Sridhar, Or Litany, Alex Yu.* SIGGRAPH 2023 Courses.<br>
 
+</details>
 
 ## Table of Contents
 - [Mesh Stylization](#mesh-stylization)
@@ -67,7 +72,13 @@ Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung<br>
 - [Novel View Stylization](#novel-view-stylization)
 - [Evaluation]()
 <!-- - [2D Baselines](#) -->
+
+
+<details open>
+  <summary>
+    
 ## Overview ##
+  </summary>
 <div align=left> 
   Image guidance: <img align=top src="assets/icon_image.png" width="32" height="32"> 
   Text guidance: <img align=top src="assets/icon_text.png" width="32" height="32"> 
@@ -120,6 +131,7 @@ Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung<br>
 <!--| | | | | |  | -->
 <!--| |**Text-driven Stylization** | | | |  |-->
 
+</details>
 
 ## Mesh Stylization
 **Neural 3D Mesh Renderer**<br>
