@@ -135,6 +135,7 @@ Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung<br>
 |InstructN2N <br><img src="assets/icon_text.png" width="20" height="20"> | Instruct-NeRF2NeRF | ICCV 2023|[[Paper](https://arxiv.org/abs/2303.12789)] |[[Project](https://instruct-nerf2nerf.github.io/)]  | [[Github](https://github.com/ayaanzhaque/instruct-nerf2nerf)] |
 | Blending-NeRF <br><img src="assets/icon_text.png" width="20" height="20">| Blending-NeRF: Text-Driven Localized Editing in Neural Radiance Fields | ICCV 2023 | [[Paper](https://arxiv.org/pdf/2308.11974)] | [[Project](https://seokhunchoi.github.io/Blending-NeRF/)] |  |
 |Vox-E <br><img src="assets/icon_text.png" width="20" height="20">|Vox-E: Text-guided Voxel Editing of 3D Objects |ICCV 2023 |[[Paper](https://arxiv.org/abs/2303.12048/)]|[[Project](https://tau-vailab.github.io/Vox-E/)]|[[Github](https://github.com/TAU-VAILab/Vox-E)]|
+|3D VADER <br><img src="assets/icon_text.png" width="20" height="20">|Autodecoding Latent 3D Diffusion Models |NeuIPS 2023 |[[Paper](https://arxiv.org/abs/2307.05445)]|[[Project](https://snap-research.github.io/3DVADER/)]|[[Github](https://github.com/snap-research/3DVADER)]|
 <!--| | | | | |  | -->
 <!--| |**Text-driven Stylization** | | | |  |-->
 
