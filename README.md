@@ -139,7 +139,8 @@ Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung<br>
 | Blending-NeRF <br><img src="assets/icon_text.png" width="20" height="20">| Blending-NeRF: Text-Driven Localized Editing in Neural Radiance Fields | ICCV 2023 | [[Paper](https://arxiv.org/pdf/2308.11974)] | [[Project](https://seokhunchoi.github.io/Blending-NeRF/)] |  |
 |Vox-E <br><img src="assets/icon_text.png" width="20" height="20">|Vox-E: Text-guided Voxel Editing of 3D Objects |ICCV 2023 |[[Paper](https://arxiv.org/abs/2303.12048/)]|[[Project](https://tau-vailab.github.io/Vox-E/)]|[[Github](https://github.com/TAU-VAILab/Vox-E)]|
 |ProlificDreamer <br><img src="assets/icon_text.png" width="20" height="20">|ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation |NeurIPS 2023 |[[Paper](https://arxiv.org/abs/2305.16213)]|[[Project](https://ml.cs.tsinghua.edu.cn/prolificdreamer/)]|[[Github](https://github.com/thu-ml/prolificdreamer)]|
-
+|CoARF | CoARF: Controllable 3D Artistic Style Transfer for Radiance Fields| 3DV 2024| | |  |
+|MuVieCAST | MuVieCAST: Multi-View Consistent Artistic Style Transfer|3DV 2024 | | |  |
 <!--| | | | | |  | -->
 <!--| |**Text-driven Stylization** | | | |  |-->
 
