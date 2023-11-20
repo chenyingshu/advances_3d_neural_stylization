@@ -2,7 +2,7 @@
 
 A review of 3D neural stylization papers, mainly neural stylization on 3D data with image or text reference.
 
-Other variants are also welcomed, e.g., with other/no reference, 3D-aware neural stylization.
+Other variants are also welcomed, e.g., with other/no reference, 3D-aware neural stylization, non-neural 3D stylization.
 
 ## Contributing
 
@@ -89,7 +89,8 @@ Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung<br>
 |  ----  |  ----    | ----  |----   |----  |----  |
 |  |**Mesh Stylization**  | || |  |
 |  Neural Renderer <br><img src="assets/icon_image.png" width="20" height="20">  | Neural 3D Mesh Renderer |CVPR 2018|[[Paper](https://arxiv.org/abs/1711.07566)]|[[Project](https://hiroharu-kato.com/assets/downloads/cvpr_2018_poster.pdf)] | [[Github](https://github.com/hiroharu-kato/style_transfer_3d)] |
-| PAPARAZZI <br><img src="assets/icon_image.png" width="20" height="20">| PAPARAZZI: Surface Editing by way of Multi-View Image Processing | SIGGRAPH Asia 2018 | [[Paper](https://www.dgp.toronto.edu/projects/paparazzi/paparazzi-surface-editing-by-way-of-multi-view-image-processing-siggraph-asia-2018-liu-et-al.pdf)] | [[Project](https://www.dgp.toronto.edu/projects/paparazzi/)] | [[Github](https://github.com/HTDerekLiu/Paparazzi)] |
+| Paparazzi <br><img src="assets/icon_image.png" width="20" height="20">| Paparazzi: Surface Editing by way of Multi-View Image Processing | SIGGRAPH Asia 2018 | [[Paper](https://www.dgp.toronto.edu/projects/paparazzi/paparazzi-surface-editing-by-way-of-multi-view-image-processing-siggraph-asia-2018-liu-et-al.pdf)] | [[Project](https://www.dgp.toronto.edu/projects/paparazzi/)] | [[Github](https://github.com/HTDerekLiu/Paparazzi)] |
+| DGTS <br><img src="assets/icon_obj.png" width="20" height="20">| Deep Geometric Texture Synthesis| SIGGRAPH 2020 | [[Paper](https://arxiv.org/abs/2007.00074)] | [[Project](https://ranahanocka.github.io/geometric-textures/)]| [[Github](https://github.com/amirhertz/geometric-textures)]|
 | 3DStyleNet <br><img src="assets/icon_obj.png" width="20" height="20">| 3DStyleNet: Creating 3D Shapes with Geometric and Texture Style | ICCV 2021| [[Paper](https://research.nvidia.com/labs/toronto-ai/3DStyleNet/assets/3dstyle-paper.pdf)] | [[Project](https://research.nvidia.com/labs/toronto-ai/3DStyleNet/)] |  |
 |  StyleMesh <br><img src="assets/icon_image.png" width="20" height="20">| StyleMesh: Style Transfer for Indoor 3D Scene Reconstructions   | CVPR 2022 |  [[Paper](https://arxiv.org/abs/2112.01530)]  |  [[Project](https://lukashoel.github.io/stylemesh/)]  | [[Github](https://github.com/lukasHoel/stylemesh)]   | 
 | Creative Birds <br><img src="assets/icon_text.png" width="20" height="20">| Creative Birds: Self-Supervised Single-View 3D Style Transfer | ICCV 2023 | [[Paper](https://arxiv.org/abs/2307.14127)] | | [[Github](https://github.com/wrk226/creative_birds)] |
@@ -148,6 +149,26 @@ Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung<br>
 
 </details>
 
+<details open>
+  <summary>
+    
+## Other 3D Stylization
+  </summary>
+  
+<div align=left> 
+  Image guidance: <img align=top src="assets/icon_image.png" width="32" height="32"> 
+  Text guidance: <img align=top src="assets/icon_text.png" width="32" height="32"> 
+  3D guidance: <img align=top src="assets/icon_obj.png" width="32" height="32"> 
+</div>
+
+|  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
+|  ----  |  ----    | ----  |----   |----  |----  |
+| Cubic Stylization <br> <img src="assets/icon_obj.png" width="20" height="20">  | Cubic Stylization   | SIGGRAPH Asia 2019  |[[Paper](https://arxiv.org/abs/1910.02926)]  | [[Project](https://www.dgp.toronto.edu/projects/cubic-stylization/)] |[[Github1](https://github.com/HTDerekLiu/CubicStylization_MATLAB)] <br>[[Github2](https://github.com/HTDerekLiu/CubicStylization_Cpp)]  |
+|  Normal-Driven <br><img src="assets/icon_obj.png" width="20" height="20"> |  Normal‐Driven Spherical Shape Analogies |  Computer Graphics Forum, SGP 2021  | [[Paper](https://arxiv.org/abs/2104.11993)]  | [[Video](https://youtu.be/p4hLJ0xVGcM)] |[[Github1](https://github.com/HTDerekLiu/normal_driven_MATLAB)] <br>[[Github2](https://github.com/HTDerekLiu/normal_driven_cpp)] |
+|  Stealth Shaper  | Stealth Shaper: Reflectivity Optimization as Surface Stylization    | SIGGRAPH Conference 2023 | [[Paper](https://dl.acm.org/doi/10.1145/3588432.3591542)]  | [[Project](https://kenji-tojo.github.io/publications/stealthshaper/)]  | [[Github](https://github.com/kenji-tojo/stealth-shaper)]  |
+
+</details>
+
 ## Mesh Stylization
 **Neural 3D Mesh Renderer**<br>
 *Hiroharu Kato, Yoshitaka Ushiku, Tatsuya Harada*<br>
@@ -158,7 +179,7 @@ _Features_:
 - gradient-based 3d mesh editing including 2d->3d style transfer(image->mesh)
 
 
-**PAPARAZZI: Surface Editing by way of Multi-View Image Processing**<br>
+**Paparazzi: Surface Editing by way of Multi-View Image Processing**<br>
 *Hsueh-Ti Derek Liu, Michael Tao, Alec Jacobson*<br>
 SIGGRAPH Asia 2018.  [[Paper](https://www.dgp.toronto.edu/projects/paparazzi/paparazzi-surface-editing-by-way-of-multi-view-image-processing-siggraph-asia-2018-liu-et-al.pdf)]  [[Project](https://www.dgp.toronto.edu/projects/paparazzi/)]  [[Github](https://github.com/HTDerekLiu/Paparazzi)]  <br>
 _Features_:
