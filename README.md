@@ -110,6 +110,7 @@ Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung<br>
 |Fantasia3D <br><img src="assets/icon_text.png" width="20" height="20">|Fantasia3D: Disentangling Geometry and Appearance for High-quality Text-to-3D Content Creation |ICCV 2023 |[[Paper](https://arxiv.org/abs/2303.13873)]|[[Project](https://fantasia3d.github.io/)]|[[Github](https://github.com/Gorilla-Lab-SCUT/Fantasia3D)]|
 |Magic3D <br><img src="assets/icon_text.png" width="20" height="20">|Magic3D: High-Resolution Text-to-3D Content Creation |CVPR 2023 |[[Paper](https://arxiv.org/abs/2211.10440)]|[[Project](https://research.nvidia.com/labs/dir/magic3d/)]||
 |TECA <br><img src="assets/icon_text.png" width="20" height="20">|TECA: Text-Guided Generation and Editing of Compositional 3D Avatars |3DV 2024 |[[Paper](https://arxiv.org/abs/2309.07125)]|[[Project](https://yfeng95.github.io/teca/)]|[[Github](https://github.com/HaoZhang990127/TECA)] |
+|HyperDreamer <br><img src="assets/icon_text.png" width="20" height="20">|HyperDreamer: Hyper-Realistic 3D Content Generation and Editing from a Single Image |SIGGRAPH Asia 2023 Conf Paper | |[[Project](https://wutong16.github.io/publication/13_siggraphasia2023_hyperdreamer/)]| |
 |  |**Volumetric Stylization**  | || |  |
 | TNST <br><img src="assets/icon_image.png" width="20" height="20">|Transport-Based Neural Style Transfer for Smoke Simulations|  SIGGRAPH Asia 2019| [[Paper](http://arxiv.org/abs/1905.07442)] | [[Video](https://www.youtube.com/watch?v=67qVRhoOQPE)]|[[Github](https://github.com/byungsook/neural-flow-style/tree/tnst)]  |
 | LNST <br><img src="assets/icon_image.png" width="20" height="20">| Lagrangian Neural Style Transfer for Fluids | SIGGRAPH 2020 | [[Paper](http://arxiv.org/abs/2005.00803)] | [[Video](https://www.youtube.com/watch?v=WPmUsIVf3-4)]|[[Github](https://github.com/byungsook/neural-flow-style/tree/lnst)]  |
@@ -144,7 +145,7 @@ Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung<br>
 |ViCA-NeRF | ViCA-NeRF: View-Consistency-Aware 3D Editing of Neural Radiance Fields|NeurIPS 2023 | | |  |
 |CoARF | CoARF: Controllable 3D Artistic Style Transfer for Radiance Fields| 3DV 2024| | |  |
 |MuVieCAST | MuVieCAST: Multi-View Consistent Artistic Style Transfer|3DV 2024 | | |  |
-|DreamEditor | DreamEditor: Text-Driven 3D Scene Editing with Neural Fields| SIGGRAPH Asia 2023 Conf Paper| [[Paper](https://arxiv.org/abs/2306.13455)]| [[Project](https://www.sysu-hcp.net/projects/cv/111.html)] | [[Github](https://github.com/zjy526223908/DreamEditor)]|
+|DreamEditor <br><img src="assets/icon_text.png" width="20" height="20"> | DreamEditor: Text-Driven 3D Scene Editing with Neural Fields| SIGGRAPH Asia 2023 Conf Paper| [[Paper](https://arxiv.org/abs/2306.13455)]| [[Project](https://www.sysu-hcp.net/projects/cv/111.html)] | [[Github](https://github.com/zjy526223908/DreamEditor)]|
 <!--| | | | | |  | -->
 <!-- |ProlificDreamer <br><img src="assets/icon_text.png" width="20" height="20">|ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation |NeurIPS 2023 |[[Paper](https://arxiv.org/abs/2305.16213)]|[[Project](https://ml.cs.tsinghua.edu.cn/prolificdreamer/)]|[[Github](https://github.com/thu-ml/prolificdreamer)]| -->
 <!--| |**Text-driven Stylization** | | | |  |-->
