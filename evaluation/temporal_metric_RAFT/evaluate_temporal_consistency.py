@@ -85,7 +85,8 @@ if __name__ == "__main__":
 
 
     ## Initializing LPIPS model
-    loss_fn_alex = lpips.LPIPS(net='alex').to(device) # best forward scores
+    # loss_fn_alex = lpips.LPIPS(net='alex').to(device) # best forward scores
+    loss_fn_alex = lpips.LPIPS(net='alex', spatial=True).to(device) # best forward scores, set spatial=True to get original results for later masking again
     # loss_fn_vgg = lpips.LPIPS(net='vgg') # closer to "traditional" perceptual loss, when used for optimization
 
     # Create output file, save result in optical flow folder
@@ -146,7 +147,12 @@ if __name__ == "__main__":
                     with torch.no_grad():
                         masked_warp_img21 = warpped_img21 * noc_mask
                         masked_gt_img1 = image1 * noc_mask
-                        dist += loss_fn_alex(masked_warp_img21, masked_gt_img1).view(-1)[0]
+                        # dist += loss_fn_alex(masked_warp_img21, masked_gt_img1).view(-1)[0]
+
+                        dist_layers = loss_fn_alex(masked_warp_img21, masked_gt_img1, retPerLayer=False, normalize=True) # input value in [0,1] need normalizing to [-1,1]
+                        # print("dist_layers.shape", dist_layers.shape) #[1,1,H,W]
+                        dist_layers = dist_layers[0,0,...]
+                        dist += torch.sum(dist_layers * noc_mask) / N
 
                 cnt += 1
                 if cnt % 10 == 0:
