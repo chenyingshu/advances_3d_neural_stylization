@@ -19,18 +19,18 @@ Conference or Journal Year. <br>
 ```
 
 ## Surveys
-<!--**Advances in 3D Neural Stylization: A Survey** <br>
-Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung<br>
--->
-<!--If you find this work useful, please cite our paper:
+**Advances in 3D Neural Stylization: A Survey** <br>
+_Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung._ 2023.<br>
+
+If you find this work useful, please cite our paper:
+<!--journal={arXiv preprint arXiv:XXXX.XXXXX},-->
 ```bibtex
-@article{,
-  title={},
-  author={},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
+@article{chen2023advances3dstyle,
+  title={Advances in 3D Neural Stylization: A Surveychen},
+  author={Chen, Yingshu and Shao, Guocheng and Shum, Ka Chun and Hua, Binh-Son and Yeung, Sai-Kit},
   year={2023}
 }
-```-->
+```
 <details>
   <summary>
     
