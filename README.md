@@ -71,13 +71,12 @@ If you find this work useful, please cite our paper:
 - [Point Cloud Stylization](#point-cloud-stylization)
 - [Novel View Stylization](#novel-view-stylization)
 - [Evaluation]()
-<!-- - [2D Baselines](#) -->
 
 
 <details open>
   <summary>
     
-## Overview ##
+## Overview of 3D Neural Stylization ##
   </summary>
 <div align=left> 
   Image guidance: <img align=top src="assets/icon_image.png" width="32" height="32"> 
@@ -107,8 +106,6 @@ If you find this work useful, please cite our paper:
 |3DStyle-Diffusion<br><img src="assets/icon_text.png" width="20" height="20"> | 3DStyle-Diffusion: Pursuing Fine-grained Text-driven 3D Stylization with 2D Diffusion Models | ACM MM 2023| [[Paper](https://arxiv.org/abs/2311.05464)] | | [[Github](https://github.com/yanghb22-fdu/3dstyle-diffusion-official)] |
 | DreamSpace <br><img src="assets/icon_text.png" width="20" height="20"> | Dreaming Your Room Space with Text-Driven Panoramic Texture Propagation| Arxiv 2023| [[Paper](https://ybbbbt.com/publication/dreamspace/media/DreamSpace.pdf)] | [[Project](https://ybbbbt.com/publication/dreamspace/)] | [[Github](https://github.com/ybbbbt/dreamspace)] |
 | Decorate3D <br><img src="assets/icon_text.png" width="20" height="20"> | Decorate3D: Text-Driven High-Quality Texture Generation for Mesh Decoration in the Wild| NeurIPS 2023| [[Paper](https://decorate3d.github.io/Decorate3D/static/Decorate3D.pdf)] | [[Project](https://decorate3d.github.io/Decorate3D/)] | [[Github](https://github.com/Decorate3D/Decorate3D)] |
-|Fantasia3D <br><img src="assets/icon_text.png" width="20" height="20">|Fantasia3D: Disentangling Geometry and Appearance for High-quality Text-to-3D Content Creation |ICCV 2023 |[[Paper](https://arxiv.org/abs/2303.13873)]|[[Project](https://fantasia3d.github.io/)]|[[Github](https://github.com/Gorilla-Lab-SCUT/Fantasia3D)]|
-|Magic3D <br><img src="assets/icon_text.png" width="20" height="20">|Magic3D: High-Resolution Text-to-3D Content Creation |CVPR 2023 |[[Paper](https://arxiv.org/abs/2211.10440)]|[[Project](https://research.nvidia.com/labs/dir/magic3d/)]||
 |TECA <br><img src="assets/icon_text.png" width="20" height="20">|TECA: Text-Guided Generation and Editing of Compositional 3D Avatars |3DV 2024 |[[Paper](https://arxiv.org/abs/2309.07125)]|[[Project](https://yfeng95.github.io/teca/)]|[[Github](https://github.com/HaoZhang990127/TECA)] |
 |HyperDreamer <br><img src="assets/icon_text.png" width="20" height="20">|HyperDreamer: Hyper-Realistic 3D Content Generation and Editing from a Single Image |SIGGRAPH Asia 2023 Conf Paper | |[[Project](https://wutong16.github.io/publication/13_siggraphasia2023_hyperdreamer/)]| |
 |  |**Volumetric Stylization**  | || |  |
@@ -116,7 +113,6 @@ If you find this work useful, please cite our paper:
 | LNST <br><img src="assets/icon_image.png" width="20" height="20">| Lagrangian Neural Style Transfer for Fluids | SIGGRAPH 2020 | [[Paper](http://arxiv.org/abs/2005.00803)] | [[Video](https://www.youtube.com/watch?v=WPmUsIVf3-4)]|[[Github](https://github.com/byungsook/neural-flow-style/tree/lnst)]  |
 | SKPN <br><img src="assets/icon_image.png" width="20" height="20">| Volumetric appearance stylization with stylizing kernel prediction network|SIGGRAPH 2021  | [[Paper](https://sites.cs.ucsb.edu/~lingqi/publications/paper_volst.pdf)] | [[Video](https://dl.acm.org/doi/abs/10.1145/3450626.3459799)]|  |
 | ENST <br><img src="assets/icon_image.png" width="20" height="20">| Efficient Neural Style Transfer For Volumetric Simulations | SIGGRAPH Asia 2022|  [[Paper](https://studios.disneyresearch.com/app/uploads/2022/10/Efficient-Neural-Style-Transfer-For-Volumetric-Simulations.pdf)]| [[Project](https://studios.disneyresearch.com/2022/11/30/efficient-neural-style-transfer-for-volumetric-simulations/)] |  |
-|3D VADER <br><img src="assets/icon_text.png" width="20" height="20">|Autodecoding Latent 3D Diffusion Models |NeurIPS 2023 |[[Paper](https://arxiv.org/abs/2307.05445)]|[[Project](https://snap-research.github.io/3DVADER/)]|[[Github](https://github.com/snap-research/3DVADER)]|
 | ShaDDR <br> <img src="assets/icon_obj.png" width="20" height="20">  | ShaDDR: Interactive Example-Based Geometry and Texture Generation via 3D Shape Detailization and Differentiable Rendering   | SIGGRAPH Asia 2023 Conf Paper |[[Paper](https://arxiv.org/abs/2306.04889)]  | [[Project](https://qiminchen.github.io/shaddr/)] |[[Github](https://github.com/qiminchen/ShaDDR)] |
 |  | **Point Cloud Stylization** | || |  |
 | PSNet <br><img src="assets/icon_obj.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20">| PSNet: A Style Transfer Network for Point Cloud Stylization on Geometry and Color |WACV 2020 | [[Paper](https://openaccess.thecvf.com/content_WACV_2020/html/Cao_PSNet_A_Style_Transfer_Network_for_Point_Cloud_Stylization_on_WACV_2020_paper.html)]| [[Video](https://www.youtube.com/watch?v=EbUOg1gVcFw&t=1818s)] | [[Github](https://github.com/xucao-42/psnet)] |
@@ -136,7 +132,6 @@ If you find this work useful, please cite our paper:
 | UPST-NeRF <br><img src="assets/icon_image.png" width="20" height="20">| UPST-NeRF: Universal Photorealistic Style Transfer of Neural Radiance Fields for 3D Scene | Arxiv 2022 | [[Paper](https://arxiv.org/pdf/2208.07059.pdf)] | [[Project](https://semchan.github.io/UPST_NeRF/)] | [[Github](https://github.com/semchan/UPST-NeRF)] |
 | LocalStyleNeRF <br><img src="assets/icon_image.png" width="20" height="20">| Locally Stylized Neural Radiance Fields | ICCV 2023 |[[Paper](https://arxiv.org/abs/2309.10684)] | [[Project](https://nerfstyle.hkustvgd.com/)] | [[Github](https://github.com/hkust-vgd/nerfstyle)] |
 | SINE <br><img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_text.png" width="20" height="20">|Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field  | CVPR 2023|[[Paper](https://arxiv.org/abs/2303.13277)]|[[Project](https://zju3dv.github.io/sine/)] |  [[Github](https://github.com/zju3dv/SINE)]|
-| DreamFusion <br><img src="assets/icon_text.png" width="20" height="20">| Locally Stylized Neural Radiance Fields | ICCV 2023 |[[Paper](https://arxiv.org/abs/2209.14988)] | [[Project](https://dreamfusion3d.github.io/)] | [[Github](https://github.com/ashawkey/stable-dreamfusion)](unofficial) |
 | NeRF-art <br><img src="assets/icon_text.png" width="20" height="20">| NeRF-Art: Text-Driven Neural Radiance Fields Stylization | TVCG 2023|[[Paper](https://arxiv.org/abs/2212.08070)]| [[Project](https://cassiepython.github.io/nerfart/)]|  [[Github](https://github.com/cassiePython/NeRF-Art)]|
 | TSNeRF <br><img src="assets/icon_text.png" width="20" height="20">| TSNeRF: Text-driven stylized neural radiance fields via semantic contrastive learning | Computers & Graphics 2023,  CCF CAD/Graphics 2023 | [[Paper](https://www.sciencedirect.com/science/article/pii/S0097849323001796)] | |  |
 |InstructN2N <br><img src="assets/icon_text.png" width="20" height="20"> | Instruct-NeRF2NeRF | ICCV 2023|[[Paper](https://arxiv.org/abs/2303.12789)] |[[Project](https://instruct-nerf2nerf.github.io/)]  | [[Github](https://github.com/ayaanzhaque/instruct-nerf2nerf)] |
@@ -147,9 +142,31 @@ If you find this work useful, please cite our paper:
 |MuVieCAST | MuVieCAST: Multi-View Consistent Artistic Style Transfer|3DV 2024 | | |  |
 |DreamEditor <br><img src="assets/icon_text.png" width="20" height="20"> | DreamEditor: Text-Driven 3D Scene Editing with Neural Fields| SIGGRAPH Asia 2023 Conf Paper| [[Paper](https://arxiv.org/abs/2306.13455)]| [[Project](https://www.sysu-hcp.net/projects/cv/111.html)] | [[Github](https://github.com/zjy526223908/DreamEditor)]|
 <!--| | | | | |  | -->
-<!-- |ProlificDreamer <br><img src="assets/icon_text.png" width="20" height="20">|ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation |NeurIPS 2023 |[[Paper](https://arxiv.org/abs/2305.16213)]|[[Project](https://ml.cs.tsinghua.edu.cn/prolificdreamer/)]|[[Github](https://github.com/thu-ml/prolificdreamer)]| -->
 <!--| |**Text-driven Stylization** | | | |  |-->
 
+</details>
+
+<details>
+  <summary>
+    
+## Other Related 3D Generation
+  </summary>
+  
+<div align=left> 
+  Image guidance: <img align=top src="assets/icon_image.png" width="32" height="32"> 
+  Text guidance: <img align=top src="assets/icon_text.png" width="32" height="32"> 
+  3D guidance: <img align=top src="assets/icon_obj.png" width="32" height="32"> 
+</div>
+
+|  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
+|  ----  |  ----    | ----  |----   |----  |----  |
+| DreamFusion <br><img src="assets/icon_text.png" width="20" height="20">| DreamFusion: Text-to-3D using 2D Diffusion | ICLR 2023 |[[Paper](https://arxiv.org/abs/2209.14988)] | [[Project](https://dreamfusion3d.github.io/)] | [[Github](https://github.com/ashawkey/stable-dreamfusion)]<br>(unofficial) |
+|SJC <br><img src="assets/icon_text.png" width="20" height="20">| Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation | CVPR 2023| [[Paper](https://arxiv.org/abs/2212.00774)]| [[Project](https://pals.ttic.edu/p/score-jacobian-chaining)]| [[Github](https://github.com/pals-ttic/sjc/)]|
+|Magic3D <br><img src="assets/icon_text.png" width="20" height="20">|Magic3D: High-Resolution Text-to-3D Content Creation |CVPR 2023 |[[Paper](https://arxiv.org/abs/2211.10440)]|[[Project](https://research.nvidia.com/labs/dir/magic3d/)]||
+|Fantasia3D <br><img src="assets/icon_text.png" width="20" height="20">|Fantasia3D: Disentangling Geometry and Appearance for High-quality Text-to-3D Content Creation |ICCV 2023 |[[Paper](https://arxiv.org/abs/2303.13873)]|[[Project](https://fantasia3d.github.io/)]|[[Github](https://github.com/Gorilla-Lab-SCUT/Fantasia3D)]|
+|ProlificDreamer <br><img src="assets/icon_text.png" width="20" height="20">|ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation |NeurIPS 2023 |[[Paper](https://arxiv.org/abs/2305.16213)]|[[Project](https://ml.cs.tsinghua.edu.cn/prolificdreamer/)]|[[Github](https://github.com/thu-ml/prolificdreamer)]| 
+|3D VADER <br><img src="assets/icon_text.png" width="20" height="20">|Autodecoding Latent 3D Diffusion Models |NeurIPS 2023 |[[Paper](https://arxiv.org/abs/2307.05445)]|[[Project](https://snap-research.github.io/3DVADER/)]|[[Github](https://github.com/snap-research/3DVADER)]|
+| DreamCraft3D <br><img src="assets/icon_text.png" width="20" height="20"> | DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior| Arxiv 2023| [[Paper](https://arxiv.org/abs/2310.16818)] |[[Project](https://mrtornado24.github.io/DreamCraft3D/)] |  [[Github](https://github.com/deepseek-ai/DreamCraft3D)]| 
 </details>
 
 <details open>
