@@ -145,7 +145,7 @@ If you find this work useful, please cite our paper:
 |Vox-E <br><img src="assets/icon_text.png" width="20" height="20">|Vox-E: Text-guided Voxel Editing of 3D Objects |ICCV 2023 |[[Paper](https://arxiv.org/abs/2303.12048/)]|[[Project](https://tau-vailab.github.io/Vox-E/)]|[[Github](https://github.com/TAU-VAILab/Vox-E)]|
 |ViCA-NeRF | ViCA-NeRF: View-Consistency-Aware 3D Editing of Neural Radiance Fields|NeurIPS 2023 | | |  |
 |CoARF | CoARF: Controllable 3D Artistic Style Transfer for Radiance Fields| 3DV 2024| | |  |
-|MuVieCAST | MuVieCAST: Multi-View Consistent Artistic Style Transfer|3DV 2024 | | |  |
+|MuVieCAST <br><img src="assets/icon_image.png" width="20" height="20">| MuVieCAST: Multi-View Consistent Artistic Style Transfer|3DV 2024 |[[Paper](https://arxiv.org/abs/2312.05046)]|[[Project](https://muviecast.github.io/)]|[[Github](https://github.com/Mirmix/muviecast)]|
 |DreamEditor <br><img src="assets/icon_text.png" width="20" height="20"> | DreamEditor: Text-Driven 3D Scene Editing with Neural Fields| SIGGRAPH Asia 2023 Conf Paper| [[Paper](https://arxiv.org/abs/2306.13455)]| [[Project](https://www.sysu-hcp.net/projects/cv/111.html)] | [[Github](https://github.com/zjy526223908/DreamEditor)]|
 <!--| | | | | |  | -->
 <!--| |**Text-driven Stylization** | | | |  |-->
