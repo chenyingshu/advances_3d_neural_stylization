@@ -151,6 +151,7 @@ If you find this work useful, please cite our paper:
 |DreamEditor <br><img src="assets/icon_text.png" width="20" height="20"> | DreamEditor: Text-Driven 3D Scene Editing with Neural Fields| SIGGRAPH Asia 2023 Conf Paper| [[Paper](https://arxiv.org/abs/2306.13455)]| [[Project](https://www.sysu-hcp.net/projects/cv/111.html)] | [[Github](https://github.com/zjy526223908/DreamEditor)]|
 |3DFaceHybrid <br><img src="assets/icon_image.png" width="20" height="20"> | 3D Face Style Transfer with a Hybrid Solution of NeRF and Mesh Rasterization | WACV 2024 | [[Paper](https://openaccess.thecvf.com/content/WACV2024/html/Feng_3D_Face_Style_Transfer_With_a_Hybrid_Solution_of_NeRF_WACV_2024_paper.html)] | |  |
 |NeRFEditor <br><img src="assets/icon_text.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20"> | NeRFEditor: Differentiable Style Decomposition for 3D Scene Editing| WACV 2024 | [[Paper](https://arxiv.org/abs/2212.03848)] | [[Project](https://chuny1.github.io/NeRFEditor/nerfeditor.html)] |  |
+|Free-Editor <br><img src="assets/icon_text.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20"> | Free-Editor: Zero-shot Text-driven 3D Scene Editing | Arxiv 2023 | [[Paper](https://arxiv.org/abs/2312.13663)] | [[Project](https://free-editor.github.io/)] | |
 <!--| | | | | |  | -->
 <!--| |**Text-driven Stylization** | | | |  |-->
 
