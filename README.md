@@ -69,6 +69,8 @@ If you find this work useful, please cite our paper:
 **Neural Fields for Visual Computing** [[Paper](https://dl.acm.org/doi/abs/10.1145/3587423.3595477)] [[Project](https://neuralfields.cs.brown.edu/siggraph23.html)] <br>
 *Towaki Takikawa, Shunsuke Saito, James Tompkin, Vincent Sitzmann, Srinath Sridhar, Or Litany, Alex Yu.* SIGGRAPH 2023 Courses.<br>
 
+**Generative AI meets 3D: A Survey on Text-to-3D in AIGC Era** [[Paper](https://arxiv.org/abs/2305.06131)]<br>
+*Chenghao Li, Chaoning Zhang, Atish Waghwase, Lik-Hang Lee, Francois Rameau, Yang Yang, Sung-Ho Bae, Choong Seon Hong*<br>
 </details>
 
 ## Table of Contents
