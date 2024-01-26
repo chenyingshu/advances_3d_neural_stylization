@@ -151,10 +151,12 @@ If you find this work useful, please cite our paper:
 |InstructN2N <br><img src="assets/icon_text.png" width="20" height="20"> | Instruct-NeRF2NeRF | ICCV 2023|[[Paper](https://arxiv.org/abs/2303.12789)] |[[Project](https://instruct-nerf2nerf.github.io/)]  | [[Github](https://github.com/ayaanzhaque/instruct-nerf2nerf)] |
 | Blending-NeRF <br><img src="assets/icon_text.png" width="20" height="20">| Blending-NeRF: Text-Driven Localized Editing in Neural Radiance Fields | ICCV 2023 | [[Paper](https://arxiv.org/pdf/2308.11974)] | [[Project](https://seokhunchoi.github.io/Blending-NeRF/)] |  |
 |Vox-E <br><img src="assets/icon_text.png" width="20" height="20">|Vox-E: Text-guided Voxel Editing of 3D Objects |ICCV 2023 |[[Paper](https://arxiv.org/abs/2303.12048/)]|[[Project](https://tau-vailab.github.io/Vox-E/)]|[[Github](https://github.com/TAU-VAILab/Vox-E)]|
+|ClimateNeRF |ClimateNeRF: Extreme Weather Synthesis in Neural Radiance Field| ICCV 2023| [[Paper](https://arxiv.org/abs/2211.13226)]| [[Project](https://climatenerf.github.io/)]| [[Github](https://github.com/y-u-a-n-l-i/Climate_NeRF)]|
 |ViCA-NeRF | ViCA-NeRF: View-Consistency-Aware 3D Editing of Neural Radiance Fields|NeurIPS 2023 | | |  |
 |CoARF | CoARF: Controllable 3D Artistic Style Transfer for Radiance Fields| 3DV 2024| | |  |
 |MuVieCAST <br><img src="assets/icon_image.png" width="20" height="20">| MuVieCAST: Multi-View Consistent Artistic Style Transfer|3DV 2024 |[[Paper](https://arxiv.org/abs/2312.05046)]|[[Project](https://muviecast.github.io/)]|[[Github](https://github.com/Mirmix/muviecast)]|
 |DreamEditor <br><img src="assets/icon_text.png" width="20" height="20"> | DreamEditor: Text-Driven 3D Scene Editing with Neural Fields| SIGGRAPH Asia 2023 Conf Paper| [[Paper](https://arxiv.org/abs/2306.13455)]| [[Project](https://www.sysu-hcp.net/projects/cv/111.html)] | [[Github](https://github.com/zjy526223908/DreamEditor)]|
+|GaussianEditor <br><img src="assets/icon_text.png" width="20" height="20"> | GaussianEditor: Editing 3D Gaussians Delicately with Text Instructions| Arxiv 2023| [[Paper](https://arxiv.org/abs/2311.16037)]| [[Project](https://gaussianeditor.github.io/)] |  |
 |3DFaceHybrid <br><img src="assets/icon_image.png" width="20" height="20"> | 3D Face Style Transfer with a Hybrid Solution of NeRF and Mesh Rasterization | WACV 2024 | [[Paper](https://openaccess.thecvf.com/content/WACV2024/html/Feng_3D_Face_Style_Transfer_With_a_Hybrid_Solution_of_NeRF_WACV_2024_paper.html)] | |  |
 |NeRFEditor <br><img src="assets/icon_text.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20"> | NeRFEditor: Differentiable Style Decomposition for 3D Scene Editing| WACV 2024 | [[Paper](https://arxiv.org/abs/2212.03848)] | [[Project](https://chuny1.github.io/NeRFEditor/nerfeditor.html)] |  |
 |Free-Editor <br><img src="assets/icon_text.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20"> | Free-Editor: Zero-shot Text-driven 3D Scene Editing | Arxiv 2023 | [[Paper](https://arxiv.org/abs/2312.13663)] | [[Project](https://free-editor.github.io/)] | |
@@ -178,6 +180,7 @@ If you find this work useful, please cite our paper:
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
+|CLIP-Mesh <br><img src="assets/icon_text.png" width="20" height="20">|CLIP-Mesh: Generating textured meshes from text using pretrained image-text models| SIGGRAPH Asia 2022 Conf Paper| [[Paper](https://arxiv.org/abs/2203.13333)]| [[Project](https://www.nasir.lol/clipmesh)]| [[Github](https://github.com/NasirKhalid24/CLIP-Mesh)]|
 | DreamFusion <br><img src="assets/icon_text.png" width="20" height="20">| DreamFusion: Text-to-3D using 2D Diffusion | ICLR 2023 |[[Paper](https://arxiv.org/abs/2209.14988)] | [[Project](https://dreamfusion3d.github.io/)] | [[Github](https://github.com/ashawkey/stable-dreamfusion)]<br>(unofficial) |
 |SJC <br><img src="assets/icon_text.png" width="20" height="20">| Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation | CVPR 2023| [[Paper](https://arxiv.org/abs/2212.00774)]| [[Project](https://pals.ttic.edu/p/score-jacobian-chaining)]| [[Github](https://github.com/pals-ttic/sjc/)]|
 |Magic3D <br><img src="assets/icon_text.png" width="20" height="20">|Magic3D: High-Resolution Text-to-3D Content Creation |CVPR 2023 |[[Paper](https://arxiv.org/abs/2211.10440)]|[[Project](https://research.nvidia.com/labs/dir/magic3d/)]||
@@ -185,6 +188,7 @@ If you find this work useful, please cite our paper:
 |ProlificDreamer <br><img src="assets/icon_text.png" width="20" height="20">|ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation |NeurIPS 2023 |[[Paper](https://arxiv.org/abs/2305.16213)]|[[Project](https://ml.cs.tsinghua.edu.cn/prolificdreamer/)]|[[Github](https://github.com/thu-ml/prolificdreamer)]| 
 |3D VADER <br><img src="assets/icon_text.png" width="20" height="20">|Autodecoding Latent 3D Diffusion Models |NeurIPS 2023 |[[Paper](https://arxiv.org/abs/2307.05445)]|[[Project](https://snap-research.github.io/3DVADER/)]|[[Github](https://github.com/snap-research/3DVADER)]|
 | DreamCraft3D <br><img src="assets/icon_text.png" width="20" height="20"> | DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior| Arxiv 2023| [[Paper](https://arxiv.org/abs/2310.16818)] |[[Project](https://mrtornado24.github.io/DreamCraft3D/)] |  [[Github](https://github.com/deepseek-ai/DreamCraft3D)]| 
+
 </details>
 
 <details open>
