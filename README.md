@@ -169,6 +169,7 @@ If you find this work useful, please cite our paper:
 |NeRFEditor <br><img src="assets/icon_text.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20"> | NeRFEditor: Differentiable Style Decomposition for 3D Scene Editing| WACV 2024 | [[Paper](https://arxiv.org/abs/2212.03848)] | [[Project](https://chuny1.github.io/NeRFEditor/nerfeditor.html)] |  |
 |Free-Editor <br><img src="assets/icon_text.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20"> | Free-Editor: Zero-shot Text-driven 3D Scene Editing | Arxiv 2023 | [[Paper](https://arxiv.org/abs/2312.13663)] | [[Project](https://free-editor.github.io/)] | |
 |ED-NeRF <br><img src="assets/icon_text.png" width="20" height="20">|ED-NeRF: Efficient Text-Guided Editing of 3D Scene With Latent Space NeRF |ICLR2024 |[[Paper](https://openreview.net/forum?id=9DvDRTTdlu)] | [[Project](https://ed-nerf.github.io/)] |  |
+|FPRF <br><img src="assets/icon_image.png" width="20" height="20">| FPRF: Feed-Forward Photorealistic Style Transfer of Large-Scale 3D Neural Radiance Fields | AAAI 2024 | [[Paper](https://arxiv.org/abs/2401.05516)] | [[Project](https://kim-geonu.github.io/FPRF/)] |  |
 <!--| | | | | |  | -->
 <!--| |**Text-driven Stylization** | | | |  |-->
 
