@@ -137,7 +137,7 @@ If you find this work useful, please cite our paper:
 |Neural Wavelet |Neural Wavelet-domain Diffusion for 3D Shape Generation, Inversion, and Manipulation | SIGGRAPH Asia 2022 Conf Paper| [[Paper](https://arxiv.org/abs/2302.00190)]||[[Github](https://github.com/edward1997104/Wavelet-Generation)]|
 |SPAGHETTI |SPAGHETTI: Editing Implicit Shapes Through Part Aware Generation| SIGGRAPH 2022, TOG| [[Paper](https://igl.ethz.ch/projects/SPAGHETTI/SPAGHETTI-paper.pdf)]|[[Project](https://igl.ethz.ch/projects/SPAGHETTI/)]| [[Github](https://github.com/amirhertz/spaghetti)]|
 |SALAD |SALAD: Part-Level Latent Diffusion for 3D Shape Generation and Manipulation| ICCV 2023| [[Paper](https://salad3d.github.io/assets/salad.pdf)]| [[Project](https://salad3d.github.io/)]| [[Github](https://github.com/KAIST-Geometric-AI-Group/SALAD)]|
-|  | **Novel View Stylization** | || |  |
+|  | **Novel View or Neural Field Stylization** | || |  |
 |  LSNV <br><img src="assets/icon_image.png" width="20" height="20"> | Learning to stylize novel views |  ICCV 2021  | [[Paper](https://arxiv.org/abs/2105.13509)]   | [[Project](https://hhsinping.github.io/3d_scene_stylization/)]   |  [[Github](https://github.com/hhsinping/stylescene)] |
 | HyperStyle <br><img src="assets/icon_image.png" width="20" height="20"> | Stylizing 3D Scene via Implicit Representation and HyperNetwork |WACV 2022 | [[Paper](https://arxiv.org/abs/2105.13016)] |  [[Project](https://ztex08010518.github.io/3dstyletransfer/)] | [[Github](https://github.com/ztex08010518/Stylizing-3D-Scene)] |
 | StylizedNeRF <br><img src="assets/icon_image.png" width="20" height="20"> | StylizedNeRF: Consistent 3D Scene Stylization as Stylized NeRF via 2D-3D Mutual Learning | CVPR 2022|[[Paper](https://arxiv.org/abs/2205.12183)]| [[Project](http://geometrylearning.com/StylizedNeRF/)]| [[Github](https://github.com/IGLICT/StylizedNeRF)] |
@@ -161,7 +161,6 @@ If you find this work useful, please cite our paper:
 |ClimateNeRF |ClimateNeRF: Extreme Weather Synthesis in Neural Radiance Field| ICCV 2023| [[Paper](https://arxiv.org/abs/2211.13226)]| [[Project](https://climatenerf.github.io/)]| [[Github](https://github.com/y-u-a-n-l-i/Climate_NeRF)]|
 |ViCA-NeRF | ViCA-NeRF: View-Consistency-Aware 3D Editing of Neural Radiance Fields|NeurIPS 2023 | [[Paper](https://arxiv.org/abs/2402.00864)]| [[Project](https://dongjiahua.github.io/VICA-NeRF/)]| [[Github](https://github.com/Dongjiahua/VICA-NeRF)] |
 |CoARF | CoARF: Controllable 3D Artistic Style Transfer for Radiance Fields| 3DV 2024| | |  |
-|MuVieCAST <br><img src="assets/icon_image.png" width="20" height="20">| MuVieCAST: Multi-View Consistent Artistic Style Transfer|3DV 2024 |[[Paper](https://arxiv.org/abs/2312.05046)]|[[Project](https://muviecast.github.io/)]|[[Github](https://github.com/Mirmix/muviecast)]|
 |DreamEditor <br><img src="assets/icon_text.png" width="20" height="20"> | DreamEditor: Text-Driven 3D Scene Editing with Neural Fields| SIGGRAPH Asia 2023 Conf Paper| [[Paper](https://arxiv.org/abs/2306.13455)]| [[Project](https://www.sysu-hcp.net/projects/cv/111.html)] | [[Github](https://github.com/zjy526223908/DreamEditor)]|
 |GaussianEditor(Huawei) <br><img src="assets/icon_text.png" width="20" height="20"> | GaussianEditor: Editing 3D Gaussians Delicately with Text Instructions| Arxiv 2023| [[Paper](https://arxiv.org/abs/2311.16037)]| [[Project](https://gaussianeditor.github.io/)] |  |
 |GaussianEditor(NTU) <br><img src="assets/icon_text.png" width="20" height="20"> | GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting| Arxiv 2023| [[Paper](https://arxiv.org/abs/2311.14521)]| [[Project](https://buaacyw.github.io/gaussian-editor/)] | [[Github](https://github.com/buaacyw/GaussianEditor)] |
@@ -170,6 +169,11 @@ If you find this work useful, please cite our paper:
 |Free-Editor <br><img src="assets/icon_text.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20"> | Free-Editor: Zero-shot Text-driven 3D Scene Editing | Arxiv 2023 | [[Paper](https://arxiv.org/abs/2312.13663)] | [[Project](https://free-editor.github.io/)] | |
 |ED-NeRF <br><img src="assets/icon_text.png" width="20" height="20">|ED-NeRF: Efficient Text-Guided Editing of 3D Scene With Latent Space NeRF |ICLR2024 |[[Paper](https://openreview.net/forum?id=9DvDRTTdlu)] | [[Project](https://ed-nerf.github.io/)] |  |
 |FPRF <br><img src="assets/icon_image.png" width="20" height="20">| FPRF: Feed-Forward Photorealistic Style Transfer of Large-Scale 3D Neural Radiance Fields | AAAI 2024 | [[Paper](https://arxiv.org/abs/2401.05516)] | [[Project](https://kim-geonu.github.io/FPRF/)] |  |
+|  | **Multi-view / Light Field Stylization** | | | |  |
+|StereoNST <br><img src="assets/icon_image.png" width="20" height="20">|Stereoscopic Neural Style Transfer| CVPR 2018| [[Paper](https://arxiv.org/abs/1802.10591)]|[[Video](https://youtu.be/7py0Nq8TxYs)]||
+|NSIST <br><img src="assets/icon_image.png" width="20" height="20"> |Neural Stereoscopic Image Style Transfer |ECCV 2018|[[Paper](https://arxiv.org/abs/1802.09985)]|||
+|LFST <br><img src="assets/icon_image.png" width="20" height="20">|Style Transfer for Light Field Photography | WACV 2020|[[Paper](https://arxiv.org/abs/2002.11220)] ||[[Github](https://github.com/davidmhart/LightFieldStyleTransfer)]
+|MuVieCAST <br><img src="assets/icon_image.png" width="20" height="20">| MuVieCAST: Multi-View Consistent Artistic Style Transfer|3DV 2024 |[[Paper](https://arxiv.org/abs/2312.05046)]|[[Project](https://muviecast.github.io/)]|[[Github](https://github.com/Mirmix/muviecast)]|
 <!--| | | | | |  | -->
 <!--| |**Text-driven Stylization** | | | |  |-->
 
