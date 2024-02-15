@@ -205,7 +205,7 @@ If you find this work useful, please cite our paper:
 | DreamCraft3D <br><img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_text.png" width="20" height="20"> | DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior| ICLR 2024| [[Paper](https://arxiv.org/abs/2310.16818)] |[[Project](https://mrtornado24.github.io/DreamCraft3D/)] |  [[Github](https://github.com/deepseek-ai/DreamCraft3D)]| 
 | DreamGaussian <br><img src="assets/icon_text.png" width="20" height="20"> | DreamGaussian: Generative Gaussian Splatting for Efficient 3D Content Creation | ICLR 2024| [[Paper](https://arxiv.org/abs/2309.16653)]| [[Project](https://dreamgaussian.github.io/)]| [[Github](https://github.com/dreamgaussian/dreamgaussian)]|
 |Progressive3D <br><img src="assets/icon_text.png" width="20" height="20"> |Progressive3D: Progressively Local Editing for Text-to-3D Content Creation with Complex Semantic Prompts|ICLR 2024 | [[Paper](https://arxiv.org/abs/2310.11784)]| [[Project](https://cxh0519.github.io/projects/Progressive3D/)]| [[Github](https://github.com/cxh0519/Progressive3D)]|
-
+|SyncDreamer <br><img src="assets/icon_image.png" width="20" height="20"> |SyncDreamer: Generating Multiview-consistent Images from a Single-view Image| ICLR 2024 | [[Paper](https://arxiv.org/abs/2309.03453)] |[[Project](https://liuyuan-pal.github.io/SyncDreamer/)] |[[Github](https://github.com/liuyuan-pal/SyncDreamer)] |
 </details>
 
 <details open>
