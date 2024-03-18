@@ -182,6 +182,7 @@ If you find this work useful, please cite our paper:
 |PDS <br><img src="assets/icon_text.png" width="20" height="20"> |Posterior Distillation Sampling| CVPR 2024|[[Paper](https://posterior-distillation-sampling.github.io/static/assets/pds.pdf)]|[[Project](https://posterior-distillation-sampling.github.io/)]| [[Github](https://github.com/KAIST-Visual-AI-Group/PDS)]|
 |NeRF Analogies <br><img src="assets/icon_obj.png" width="20" height="20">|NeRF Analogies: Example-Based Visual Attribute Transfer for NeRFs|CVPR 2024|[[Paper](https://arxiv.org/abs/2402.08622)]|[[Project](https://mfischer-ucl.github.io/nerf_analogies/)]||
 |StyleGaussian <br><img src="assets/icon_image.png" width="20" height="20"> | StyleGaussian: Instant 3D Style Transfer with Gaussian Splatting |Arxiv 2024| [[Paper](https://arxiv.org/abs/2403.07807)]|[[Project](https://kunhao-liu.github.io/StyleGaussian/)]|[[Github](https://github.com/Kunhao-Liu/StyleGaussian)]|
+|GaussCtrl <br><img src="assets/icon_text.png" width="20" height="20"> |GaussCtrl: Multi-View Consistent Text-Driven 3D Gaussian Splatting Editing| ARxiv 2024| [[Paper](https://arxiv.org/abs/2403.08733)]| [[Project](https://gaussctrl.active.vision/)]| |
 |  | **Multi-view / Light Field Stylization** | | | |  |
 |StereoNST <br><img src="assets/icon_image.png" width="20" height="20">|Stereoscopic Neural Style Transfer| CVPR 2018| [[Paper](https://arxiv.org/abs/1802.10591)]|[[Video](https://youtu.be/7py0Nq8TxYs)]||
 |NSIST <br><img src="assets/icon_image.png" width="20" height="20"> |Neural Stereoscopic Image Style Transfer |ECCV 2018|[[Paper](https://arxiv.org/abs/1802.09985)]|||
@@ -221,6 +222,7 @@ If you find this work useful, please cite our paper:
 |SyncDreamer <br><img src="assets/icon_image.png" width="20" height="20"> |SyncDreamer: Generating Multiview-consistent Images from a Single-view Image| ICLR 2024 | [[Paper](https://arxiv.org/abs/2309.03453)] |[[Project](https://liuyuan-pal.github.io/SyncDreamer/)] |[[Github](https://github.com/liuyuan-pal/SyncDreamer)] |
 |GaussianDreamer <br><img src="assets/icon_text.png" width="20" height="20"> |GaussianDreamer: Fast Generation from Text to 3D Gaussians by Bridging 2D and 3D Diffusion Models | CVPR 2024| [[Paper](https://arxiv.org/abs/2310.08529)]| [[Project](https://taoranyi.com/gaussiandreamer/)]| [[Github](https://github.com/hustvl/GaussianDreamer)]|
 |GSGEN <br><img src="assets/icon_text.png" width="20" height="20">|GSGEN: Text-to-3D using Gaussian Splatting| CVPR 2024| [[Paper](https://arxiv.org/abs/2309.16585)]||[[Github](https://github.com/gsgen3d/gsgen)]|
+|LucidDreamer <br><img src="assets/icon_text.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20">|LucidDreamer: Domain-free Generation of 3D Gaussian Splatting Scenes| CVPR 2024| [[Paper](https://arxiv.org/abs/2311.13384)]| [[Project](https://luciddreamer-cvlab.github.io/)]| [[Github](https://github.com/luciddreamer-cvlab/LucidDreamer)]|
 </details>
 
 <details open>
