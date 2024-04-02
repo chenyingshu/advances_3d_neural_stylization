@@ -78,7 +78,7 @@ If you find this work useful, please cite our paper:
 - [Volumetric Stylization](#volumetric-stylization)
 - [Point Cloud Stylization](#point-cloud-stylization)
 - [Novel View Stylization](#novel-view-stylization)
-- [Evaluation]()
+- [Evaluation](https://github.com/chenyingshu/advances_3d_neural_stylization/tree/evaluation)
 
 
 <details open>
@@ -128,6 +128,7 @@ If you find this work useful, please cite our paper:
 |TextureDreamer <img src="assets/icon_image.png" width="20" height="20">|TextureDreamer: Image-guided Texture Synthesis through Geometry-aware Diffusion | CVPR 2024| [[Paper](https://arxiv.org/abs/2401.09416)] | [[Project](https://texturedreamer.github.io/)]| |
 |TeMO <img src="assets/icon_text.png" width="20" height="20">|TeMO: Towards Text-Driven 3D Stylization for Multi-Object Meshes |CVPR 2024 | [[Paper](https://arxiv.org/abs/2312.04248)]||||
 |3DPaintbrush <img src="assets/icon_text.png" width="20" height="20"> |3D Paintbrush: Local Stylization of 3D Shapes with Cascaded Score Distillation| CVPR 2024|[[Paper](https://arxiv.org/abs/2311.09571)]|[[Project](https://threedle.github.io/3d-paintbrush/)]|[[Github](https://github.com/threedle/3d-paintbrush)]|
+|As-Plausible-As-Possible|As-Plausible-As-Possible: Plausibility-Aware Mesh Deformation Using 2D Diffusion Priors|CVPR 2024|[[Paper](https://as-plausible-as-possible.github.io/static/APAP.pdf)]| [[Project](https://as-plausible-as-possible.github.io/)]| [[Github](https://github.com/KAIST-Visual-AI-Group/APAP)]|
 |  |**Volumetric Stylization**  | || |  |
 | TNST <img src="assets/icon_image.png" width="20" height="20">|Transport-Based Neural Style Transfer for Smoke Simulations|  SIGGRAPH Asia 2019| [[Paper](http://arxiv.org/abs/1905.07442)] | [[Video](https://www.youtube.com/watch?v=67qVRhoOQPE)]|[[Github](https://github.com/byungsook/neural-flow-style/tree/tnst)]  |
 | LNST <img src="assets/icon_image.png" width="20" height="20">| Lagrangian Neural Style Transfer for Fluids | SIGGRAPH 2020 | [[Paper](http://arxiv.org/abs/2005.00803)] | [[Video](https://www.youtube.com/watch?v=WPmUsIVf3-4)]|[[Github](https://github.com/byungsook/neural-flow-style/tree/lnst)]  |
