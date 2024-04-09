@@ -187,6 +187,7 @@ If you find this work useful, please cite our paper:
 |StyleGaussian <img src="assets/icon_image.png" width="20" height="20"> | StyleGaussian: Instant 3D Style Transfer with Gaussian Splatting |Arxiv 2024| [[Paper](https://arxiv.org/abs/2403.07807)]|[[Project](https://kunhao-liu.github.io/StyleGaussian/)]|[[Github](https://github.com/Kunhao-Liu/StyleGaussian)]|
 |GaussCtrl <img src="assets/icon_text.png" width="20" height="20"> |GaussCtrl: Multi-View Consistent Text-Driven 3D Gaussian Splatting Editing| Arxiv 2024| [[Paper](https://arxiv.org/abs/2403.08733)]| [[Project](https://gaussctrl.active.vision/)]| |
 |UAV-ENeRF  <img src="assets/icon_text.png" width="20" height="20"> |UAV-ENeRF: Text-driven UAV Scene Editing with Neural Radiance Fields|TGRS 2024|[[Paper](https://ieeexplore.ieee.org/document/10476501)]|||
+|Freditor  <img src="assets/icon_text.png" width="20" height="20">|Freditor: High-Fidelity and Transferable NeRF Editing by Frequency Decomposition|Arxiv 2024|[[Paper](https://arxiv.org/abs/2404.02514)] |[[Project](https://aigc3d.github.io/freditor/)]||
 |  | **Multi-view / Light Field Stylization** | | | |  |
 |StereoNST <img src="assets/icon_image.png" width="20" height="20">|Stereoscopic Neural Style Transfer| CVPR 2018| [[Paper](https://arxiv.org/abs/1802.10591)]|[[Video](https://youtu.be/7py0Nq8TxYs)]||
 |NSIST <img src="assets/icon_image.png" width="20" height="20"> |Neural Stereoscopic Image Style Transfer |ECCV 2018|[[Paper](https://arxiv.org/abs/1802.09985)]|||
