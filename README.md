@@ -55,6 +55,9 @@ If you find this work useful, please cite our paper:
 **Diffusion Models: A Comprehensive Survey of Methods and Applications** [[Paper](https://arxiv.org/abs/2209.00796)][[Project](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy)] <br>
 *Ling Yang, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang.* ACM Computing Surveys 2023.
 
+**State of the Art on Diffusion Models for Visual Computing** [[Paper](https://arxiv.org/abs/2310.07204)] [[Project](https://web.stanford.edu/~gordonwz/diffusion/)] <br>
+*Ryan Po, Yifan Wang, Vladislav Golyanik, Kfir Aberman, Jon T. Barron, Amit Bermano, Eric Chan, Tali Dekel, Aleksander Holynski, Angjoo Kanazawa, C. Karen Liu, Lingjie Liu, Ben Mildenhall, Matthias Niessner, Björn Ommer, Christian Theobalt, Peter Wonka, and Gordon Wetzstein.* State of the Art Report at EUROGRAPHICS 2024.
+
 **State of the Art on Neural Rendering** [[Paper](https://arxiv.org/abs/2004.03805)] <br>
 *Ayush Tewari, Ohad Fried, Justus Thies, Vincent Sitzmann, Stephen Lombardi, Kalyan Sunkavalli, Ricardo Martin-Brualla, Tomas Simon, Jason Saragih, Matthias Nießner, Rohit Pandey, Sean Fanello, Gordon Wetzstein, Jun-Yan Zhu, Christian Theobalt, Maneesh Agrawala, Eli Shechtman, Dan B Goldman, Michael Zollhöfer.* State of the Art Report at EUROGRAPHICS 2020. <br>
 **Neural Rendering** [[Project](https://www.neuralrender.com/CVPR/)] CVPR 2020 Tutorial. <br>
@@ -71,6 +74,10 @@ If you find this work useful, please cite our paper:
 
 **Generative AI meets 3D: A Survey on Text-to-3D in AIGC Era** [[Paper](https://arxiv.org/abs/2305.06131)]<br>
 *Chenghao Li, Chaoning Zhang, Atish Waghwase, Lik-Hang Lee, Francois Rameau, Yang Yang, Sung-Ho Bae, Choong Seon Hong*<br>
+
+**Text-to-3D Shape Generation** [[Paper](https://arxiv.org/abs/2403.13289)] [[Project](https://3dlg-hcvc.github.io/tt3dstar/)] <br>
+*Han-Hung Lee, Manolis Savva, and Angel Xuan Chang.* State of the Art Report at EUROGRAPHICS 2024.
+
 </details>
 
 ## Table of Contents
