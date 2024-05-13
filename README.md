@@ -78,6 +78,9 @@ If you find this work useful, please cite our paper:
 **Text-to-3D Shape Generation** [[Paper](https://arxiv.org/abs/2403.13289)] [[Project](https://3dlg-hcvc.github.io/tt3dstar/)] <br>
 *Han-Hung Lee, Manolis Savva, and Angel Xuan Chang.* State of the Art Report at EUROGRAPHICS 2024.
 
+**3D Gaussian Splatting as New Era: A Survey** [[Paper](https://arxiv.org/abs/2402.07181)] <br>
+*Ben Fei, Jingyi Xu, Rui Zhang, Qingyuan Zhou, Weidong Yang, Ying He.* TVCG 2024.
+
 </details>
 
 ## Table of Contents
