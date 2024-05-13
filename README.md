@@ -78,6 +78,9 @@ If you find this work useful, please cite our paper:
 **Text-to-3D Shape Generation** [[Paper](https://arxiv.org/abs/2403.13289)] [[Project](https://3dlg-hcvc.github.io/tt3dstar/)] <br>
 *Han-Hung Lee, Manolis Savva, and Angel Xuan Chang.* State of the Art Report at EUROGRAPHICS 2024.
 
+**3D Gaussian Splatting as New Era: A Survey** [[Paper](https://arxiv.org/abs/2402.07181)] <br>
+*Ben Fei, Jingyi Xu, Rui Zhang, Qingyuan Zhou, Weidong Yang, Ying He.* TVCG 2024.
+
 </details>
 
 ## Table of Contents
@@ -164,7 +167,7 @@ If you find this work useful, please cite our paper:
 | LipRF <img src="assets/icon_image.png" width="20" height="20">| Transforming Radiance Field with Lipschitz Network for Photorealistic 3D Scene Stylization |CVPR 2023 |[[Paper](https://arxiv.org/abs/2303.13232)] | |  |
 |StyleRF  <img src="assets/icon_image.png" width="20" height="20">| StyleRF: Zero-shot 3D Style Transfer of Neural Radiance Fields | CVPR 2023|[[Paper](https://arxiv.org/abs/2303.10598)]|[[Project](https://kunhao-liu.github.io/StyleRF/)] | [[Github](https://github.com/Kunhao-Liu/StyleRF)] |
 | Ref-NPR <img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_text.png" width="20" height="20">| Ref-NPR: Reference-Based Non-Photorealistic Radiance Fields for Controllable Scene Stylization | CVPR 2023|[[Paper](https://arxiv.org/abs/2212.02766)]|[[Project](https://ref-npr.github.io/)] |  [[Github](https://github.com/dvlab-research/Ref-NPR/)] |
-| UPST-NeRF <img src="assets/icon_image.png" width="20" height="20">| UPST-NeRF: Universal Photorealistic Style Transfer of Neural Radiance Fields for 3D Scene | Arxiv 2022 | [[Paper](https://arxiv.org/pdf/2208.07059.pdf)] | [[Project](https://semchan.github.io/UPST_NeRF/)] | [[Github](https://github.com/semchan/UPST-NeRF)] |
+| UPST-NeRF <img src="assets/icon_image.png" width="20" height="20">| UPST-NeRF: Universal Photorealistic Style Transfer of Neural Radiance Fields for 3D Scene | TVCG 2024 <br>(Arxiv 2022) | [[Paper](https://arxiv.org/pdf/2208.07059.pdf)] <br>[[IEEE](https://ieeexplore.ieee.org/document/10475593)] | [[Project](https://semchan.github.io/UPST_NeRF/)] | [[Github](https://github.com/semchan/UPST-NeRF)] |
 | LocalStyleNeRF <img src="assets/icon_image.png" width="20" height="20">| Locally Stylized Neural Radiance Fields | ICCV 2023 |[[Paper](https://arxiv.org/abs/2309.10684)] | [[Project](https://nerfstyle.hkustvgd.com/)] | [[Github](https://github.com/hkust-vgd/nerfstyle)] |
 | SINE <img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_text.png" width="20" height="20">|Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field  | CVPR 2023|[[Paper](https://arxiv.org/abs/2303.13277)]|[[Project](https://zju3dv.github.io/sine/)] |  [[Github](https://github.com/zju3dv/SINE)]|
 | NeRF-Art <img src="assets/icon_text.png" width="20" height="20">| NeRF-Art: Text-Driven Neural Radiance Fields Stylization | TVCG 2023|[[Paper](https://arxiv.org/abs/2212.08070)]| [[Project](https://cassiepython.github.io/nerfart/)]|  [[Github](https://github.com/cassiePython/NeRF-Art)]|
