@@ -190,7 +190,6 @@ If you find this work useful, please cite our paper:
 |FPRF <img src="assets/icon_image.png" width="20" height="20">| FPRF: Feed-Forward Photorealistic Style Transfer of Large-Scale 3D Neural Radiance Fields | AAAI 2024 | [[Paper](https://arxiv.org/abs/2401.05516)] | [[Project](https://kim-geonu.github.io/FPRF/)] |  |
 |PNeSM <img src="assets/icon_image.png" width="20" height="20">|PNeSM: Arbitrary 3D Scene Stylization via Prompt-Based Neural Style Mapping| AAAI 2024 | [[Paper](https://arxiv.org/abs/2403.08252)] | | |
 |Neural3DStrokes <br><img src="assets/icon_obj.png" width="20" height="20">(3D Strokes)|Neural 3D Strokes: Creating Stylized 3D Scenes with Vectorized 3D Strokes|CVPR 2024| [[Paper](https://arxiv.org/abs/2311.15637)]| [[Project](https://buaavrcg.github.io/Neural3DStrokes/)]| [[Github](https://github.com/buaavrcg/Neural3DStrokes)]|
-|MVIP-NeRF|MVIP-NeRF: Multi-view 3D Inpainting on NeRF Scenes via Diffusion Prior| CVPR 2024||||
 |Geo-SRF <img src="assets/icon_image.png" width="20" height="20">|Geometry Transfer for Stylizing Radiance Fields| CVPR 2024| [[Paper]](https://arxiv.org/abs/2402.00863)|[[Project](https://hyblue.github.io/geo-srf/)]|[[Github(TBA)](https://github.com/hyBlue/Geo-SRF)]|
 |S-DyRF <img src="assets/icon_image.png" width="20" height="20">|S-DyRF: Reference-Based Stylized Radiance Fields for Dynamic Scenes|CVPR 2024| [[Paper](https://arxiv.org/abs/2403.06205)]| [[Project](https://xingyi-li.github.io/s-dyrf/)]| [[Github(TBA)](https://github.com/xingyi-li/s-dyrf)]|
 |LAENeRF <img src="assets/icon_image.png" width="20" height="20">|LAENeRF: Local Appearance Editing for Neural Radiance Fields| CVPR 2024 |[[Paper](https://arxiv.org/abs/2312.09913)]|[[Project](https://r4dl.github.io/LAENeRF/)]|[[Github](https://github.com/r4dl/LAENeRF)]|
@@ -202,6 +201,9 @@ If you find this work useful, please cite our paper:
 |Freditor  <img src="assets/icon_text.png" width="20" height="20">|Freditor: High-Fidelity and Transferable NeRF Editing by Frequency Decomposition|Arxiv 2024|[[Paper](https://arxiv.org/abs/2404.02514)] |[[Project](https://aigc3d.github.io/freditor/)]||
 |StylizedGS <img src="assets/icon_image.png" width="20" height="20"> |StylizedGS: Controllable Stylization for 3D Gaussian Splatting| Arxiv 2024| [[Paper](https://arxiv.org/abs/2404.05220)]||
 |TIP-Editor | TIP-Editor: An Accurate 3D Editor Following Both Text-Prompts And Image-Prompts | SIGGRAPH/TOG 2024| [[Paper](https://arxiv.org/abs/2401.14828)]| [[Project](https://zjy526223908.github.io/TIP-Editor/)]| [[Github](https://github.com/zjy526223908/TIP-Editor)]|
+|SC-GS|SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes| CVPR 2024| [[Paper](https://yihua7.github.io/SC-GS-web/materials/SC_GS_Arxiv.pdf)]| [[Project](https://yihua7.github.io/SC-GS-web/)] |[[Github](https://github.com/yihua7/SC-GS)]|
+|SC4D <img src="assets/icon_obj.png" width="20" height="20">|SC4D: Sparse-Controlled Video-to-4D Generation and Motion Transfer| Arxiv 2024| [[Paper](https://arxiv.org/abs/2404.03736)]|[[Project](https://sc4d.github.io/)]||
+|GSDeformer|GSDeformer: Direct Cage-based Deformation for 3D Gaussian Splatting|Arxiv 2024| [[Paper](https://arxiv.org/abs/2405.15491)]| [[Project](https://jhuangbu.github.io/gsdeformer/)]||
 |  | **Multi-view / Light Field Stylization** <div id="table-light-field-style"></div>| | | |  |
 |StereoNST <img src="assets/icon_image.png" width="20" height="20">|Stereoscopic Neural Style Transfer| CVPR 2018| [[Paper](https://arxiv.org/abs/1802.10591)]|[[Video](https://youtu.be/7py0Nq8TxYs)]||
 |NSIST <img src="assets/icon_image.png" width="20" height="20"> |Neural Stereoscopic Image Style Transfer |ECCV 2018|[[Paper](https://arxiv.org/abs/1802.09985)]|||
@@ -209,6 +211,7 @@ If you find this work useful, please cite our paper:
 |MuVieCAST <img src="assets/icon_image.png" width="20" height="20">| MuVieCAST: Multi-View Consistent Artistic Style Transfer|3DV 2024 |[[Paper](https://arxiv.org/abs/2312.05046)]|[[Project](https://muviecast.github.io/)]|[[Github](https://github.com/Mirmix/muviecast)]|
 <!--| | | | | |  | -->
 <!--| |**Text-driven Stylization** | | | |  |-->
+<!--|MVIP-NeRF|MVIP-NeRF: Multi-view 3D Inpainting on NeRF Scenes via Diffusion Prior| CVPR 2024||||-->
 
 </details>
 
