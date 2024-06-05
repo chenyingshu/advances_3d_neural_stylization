@@ -84,10 +84,14 @@ If you find this work useful, please cite our paper:
 </details>
 
 ## Table of Contents
-- [Mesh Stylization](#mesh-stylization) 
-- [Volumetric Stylization](#volumetric-stylization)
-- [Point Cloud Stylization](#point-cloud-stylization)
-- [Neural Field Stylization](#neural-field-stylization)
+- [Mesh Stylization](#table-mesh-style) [(Detail)](#mesh-stylization)
+- [Volumetric Stylization](#table-volume-style) [(Detail)](#volumetric-stylization)
+- [Point Cloud Stylization](#table-point-style) [(Detail)](#point-cloud-stylization)
+- [Implicit Shape Stylization](#table-implicit-shape-style)
+- [Neural Field Stylization](#table-novel-view-style) [(Detail)](#neural-field-stylization)
+- [Multi-view Stylization](#table-light-field-style)
+- [Other 3D Stylization](#other-3d-stylization)
+- [Related 3D Generation](#other-related-3d-generation)
 - [Evaluation](https://github.com/chenyingshu/advances_3d_neural_stylization/tree/evaluation)
 
 
@@ -102,9 +106,16 @@ If you find this work useful, please cite our paper:
   3D guidance: <img align=top src="assets/icon_obj.png" width="32" height="32"> 
 </div>
 
+<details open>
+<summary>
+
+**Mesh Stylization** <div id="table-mesh-style"></div>
+
+</summary>
+
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
-|  | **Mesh Stylization**<div id="table-mesh-style"></div>  | || |  |
+|  | **Mesh Stylization**  | || |  |
 |  Neural Renderer <img src="assets/icon_image.png" width="20" height="20">  | Neural 3D Mesh Renderer |CVPR 2018|[[Paper](https://arxiv.org/abs/1711.07566)]|[[Project](https://hiroharu-kato.com/assets/downloads/cvpr_2018_poster.pdf)] | [[Github](https://github.com/hiroharu-kato/style_transfer_3d)] |
 | Paparazzi <img src="assets/icon_image.png" width="20" height="20">| Paparazzi: Surface Editing by way of Multi-View Image Processing | SIGGRAPH Asia 2018 | [[Paper](https://www.dgp.toronto.edu/projects/paparazzi/paparazzi-surface-editing-by-way-of-multi-view-image-processing-siggraph-asia-2018-liu-et-al.pdf)] | [[Project](https://www.dgp.toronto.edu/projects/paparazzi/)] | [[Github](https://github.com/HTDerekLiu/Paparazzi)] |
 | DGTS <img src="assets/icon_obj.png" width="20" height="20">| Deep Geometric Texture Synthesis| SIGGRAPH 2020 | [[Paper](https://arxiv.org/abs/2007.00074)] | [[Project](https://ranahanocka.github.io/geometric-textures/)]| [[Github](https://github.com/amirhertz/geometric-textures)]|
@@ -151,22 +162,72 @@ If you find this work useful, please cite our paper:
 |CNSTDM <img src="assets/icon_image.png" width="20" height="20">|Controllable Neural Style Transfer for Dynamic Meshes|SIGGRAPH 2024||||
 |MeshNCA <img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_text.png" width="20" height="20">|Mesh Neural Cellular Automata|SIGGRAPH/TOG 2024| [[Paper](https://arxiv.org/abs/2311.02820)]|[[Project](https://meshnca.github.io/)]||
 | |Creating LEGO Figurines From Single Images|SIGGRAPH 2024| | | |
-|  |**Volumetric Stylization** <div id="table-volume-style"></div> | || |  |
+
+</details>
+
+<details open>
+<summary>
+  
+**Volumetric Stylization**
+<div id="table-volume-style"></div>
+    
+</summary>
+
+|  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
+|  ----  |  ----    | ----  |----   |----  |----  |
+|  |**Volumetric Stylization**  | || |  |
 | TNST <img src="assets/icon_image.png" width="20" height="20">|Transport-Based Neural Style Transfer for Smoke Simulations|  SIGGRAPH Asia 2019| [[Paper](http://arxiv.org/abs/1905.07442)] | [[Video](https://www.youtube.com/watch?v=67qVRhoOQPE)]|[[Github](https://github.com/byungsook/neural-flow-style/tree/tnst)]  |
 | LNST <img src="assets/icon_image.png" width="20" height="20">| Lagrangian Neural Style Transfer for Fluids | SIGGRAPH 2020 | [[Paper](http://arxiv.org/abs/2005.00803)] | [[Video](https://www.youtube.com/watch?v=WPmUsIVf3-4)]|[[Github](https://github.com/byungsook/neural-flow-style/tree/lnst)]  |
 | SKPN <img src="assets/icon_image.png" width="20" height="20">| Volumetric appearance stylization with stylizing kernel prediction network|SIGGRAPH 2021  | [[Paper](https://sites.cs.ucsb.edu/~lingqi/publications/paper_volst.pdf)] | [[Video](https://dl.acm.org/doi/abs/10.1145/3450626.3459799)]|  |
 | ENST <img src="assets/icon_image.png" width="20" height="20">| Efficient Neural Style Transfer For Volumetric Simulations | SIGGRAPH Asia 2022|  [[Paper](https://studios.disneyresearch.com/app/uploads/2022/10/Efficient-Neural-Style-Transfer-For-Volumetric-Simulations.pdf)]| [[Project](https://studios.disneyresearch.com/2022/11/30/efficient-neural-style-transfer-for-volumetric-simulations/)] |  |
 | ShaDDR <img src="assets/icon_obj.png" width="20" height="20">  | ShaDDR: Interactive Example-Based Geometry and Texture Generation via 3D Shape Detailization and Differentiable Rendering   | SIGGRAPH Asia 2023 Conf Paper |[[Paper](https://arxiv.org/abs/2306.04889)]  | [[Project](https://qiminchen.github.io/shaddr/)] |[[Github](https://github.com/qiminchen/ShaDDR)] |
-|  | **Point Cloud Stylization** <div id="table-point-style"></div> | || |  |
+</details>
+
+<details open>
+<summary>
+  
+**Point Cloud Stylization**
+<div id="table-point-style"></div>
+    
+</summary>
+
+|  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
+|  ----  |  ----    | ----  |----   |----  |----  |
+|  | **Point Cloud Stylization**  | || |  |
 | PSNet <img src="assets/icon_obj.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20">| PSNet: A Style Transfer Network for Point Cloud Stylization on Geometry and Color |WACV 2020 | [[Paper](https://openaccess.thecvf.com/content_WACV_2020/html/Cao_PSNet_A_Style_Transfer_Network_for_Point_Cloud_Stylization_on_WACV_2020_paper.html)]| [[Video](https://www.youtube.com/watch?v=EbUOg1gVcFw&t=1818s)] | [[Github](https://github.com/xucao-42/psnet)] |
 | PointInverter | PointInverter: Point Cloud Reconstruction and Editing via a Generative Model with Shape Priors | WACV 2023 | [[Paper](https://arxiv.org/abs/2211.08702)]| [[Project](https://ja-yeon-kim.github.io/PointInverter/)] | |
-||**Implicit Shape Stylization** <div id="table-implicit-shape-style"></div>||||
+</details>
+
+<details open>
+<summary>
+  
+**Implicit Shape Stylization**
+ <div id="table-implicit-shape-style"></div>
+    
+</summary>
+
+|  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
+|  ----  |  ----    | ----  |----   |----  |----  |
+||**Implicit Shape Stylization**||||
 |Neural Wavelet |Neural Wavelet-domain Diffusion for 3D Shape Generation, Inversion, and Manipulation | SIGGRAPH Asia 2022 Conf Paper, TOG 2024| [[Paper](https://arxiv.org/abs/2302.00190)]||[[Github](https://github.com/edward1997104/Wavelet-Generation)]|
 |SPAGHETTI |SPAGHETTI: Editing Implicit Shapes Through Part Aware Generation| SIGGRAPH/TOG 2022| [[Paper](https://igl.ethz.ch/projects/SPAGHETTI/SPAGHETTI-paper.pdf)]|[[Project](https://igl.ethz.ch/projects/SPAGHETTI/)]| [[Github](https://github.com/amirhertz/spaghetti)]|
 |SALAD <img src="assets/icon_text.png" width="20" height="20">|SALAD: Part-Level Latent Diffusion for 3D Shape Generation and Manipulation| ICCV 2023| [[Paper](https://salad3d.github.io/assets/salad.pdf)]| [[Project](https://salad3d.github.io/)]| [[Github](https://github.com/KAIST-Geometric-AI-Group/SALAD)]|
 |EXIM <img src="assets/icon_text.png" width="20" height="20">|EXIM: A Hybrid Explicit-Implicit Representation for Text-Guided 3D Shape Generation| SIGGRAPH Asia/TOG 2023| [[Paper](https://arxiv.org/abs/2311.01714)] |[[Project](https://liuzhengzhe.github.io/EXIM.github.io/)] | [[Github](https://github.com/liuzhengzhe/EXIM)] |
 |CNS-Edit|CNS-Edit: 3D Shape Editing via Coupled Neural Shape Optimization|SIGGRAPH 2024|[[Paper](https://arxiv.org/abs/2402.02313)]|||
-|  | **Novel View or Neural Field Stylization** <div id="table-novel-view-style"></div> | || |  |
+</details>
+
+<details open>
+<summary>
+  
+**Novel View or Neural Field Stylization**
+<div id="table-novel-view-style"></div>
+    
+</summary>
+
+
+|  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
+|  ----  |  ----    | ----  |----   |----  |----  |
+|  | **Novel View or Neural Field Stylization**  | || |  |
 |  LSNV <img src="assets/icon_image.png" width="20" height="20"> | Learning to stylize novel views |  ICCV 2021  | [[Paper](https://arxiv.org/abs/2105.13509)]   | [[Project](https://hhsinping.github.io/3d_scene_stylization/)]   |  [[Github](https://github.com/hhsinping/stylescene)] |
 | HyperStyle <img src="assets/icon_image.png" width="20" height="20"> | Stylizing 3D Scene via Implicit Representation and HyperNetwork |WACV 2022 | [[Paper](https://arxiv.org/abs/2105.13016)] |  [[Project](https://ztex08010518.github.io/3dstyletransfer/)] | [[Github](https://github.com/ztex08010518/Stylizing-3D-Scene)] |
 | StylizedNeRF <img src="assets/icon_image.png" width="20" height="20"> | StylizedNeRF: Consistent 3D Scene Stylization as Stylized NeRF via 2D-3D Mutual Learning | CVPR 2022|[[Paper](https://arxiv.org/abs/2205.12183)]| [[Project](http://geometrylearning.com/StylizedNeRF/)]| [[Github](https://github.com/IGLICT/StylizedNeRF)] |
@@ -222,7 +283,18 @@ If you find this work useful, please cite our paper:
 |DreamFont3D <img src="assets/icon_text.png" width="20" height="20">|DreamFont3D: Personalized Text-to-3D Artistic Font Generation|SIGGRAPH 2024 Conf Paper||||
 |Spice-E <img src="assets/icon_text.png" width="20" height="20"><img src="assets/icon_obj.png" width="20" height="20">|Spice-E: Structural Priors in 3D Diffusion using Cross-Entity Attention|SIGGRAPH 2024 Conf Paper|[[Paper](https://arxiv.org/abs/2311.17834)]|[[Project](https://tau-vailab.github.io/Spice-E/)]|[[Github](https://github.com/TAU-VAILab/Spice-E)]|
 |3Doodle <img src="assets/icon_image.png" width="20" height="20">|3Doodle: Compact Abstraction of Objects with 3D Strokes| SIGGRAPH/TOG 2024|[[Paper](https://arxiv.org/abs/2402.03690)]||
-|  | **Multi-view / Light Field Stylization** <div id="table-light-field-style"></div>| | | |  |
+</details>
+
+<details open>
+<summary>
+
+**Multi-view / Light Field Stylization**
+<div id="table-light-field-style"></div>     
+</summary>
+
+|  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
+|  ----  |  ----    | ----  |----   |----  |----  |
+|  | **Multi-view / Light Field Stylization**| | | |  |
 |StereoNST <img src="assets/icon_image.png" width="20" height="20">|Stereoscopic Neural Style Transfer| CVPR 2018| [[Paper](https://arxiv.org/abs/1802.10591)]|[[Video](https://youtu.be/7py0Nq8TxYs)]||
 |NSIST <img src="assets/icon_image.png" width="20" height="20"> |Neural Stereoscopic Image Style Transfer |ECCV 2018|[[Paper](https://arxiv.org/abs/1802.09985)]|||
 |LFST <img src="assets/icon_image.png" width="20" height="20">|Style Transfer for Light Field Photography | WACV 2020|[[Paper](https://arxiv.org/abs/2002.11220)] ||[[Github](https://github.com/davidmhart/LightFieldStyleTransfer)]
@@ -230,6 +302,7 @@ If you find this work useful, please cite our paper:
 <!--| | | | | |  | -->
 <!--| |**Text-driven Stylization** | | | |  |-->
 <!--|MVIP-NeRF|MVIP-NeRF: Multi-view 3D Inpainting on NeRF Scenes via Diffusion Prior| CVPR 2024||||-->
+</details>
 
 </details>
 
