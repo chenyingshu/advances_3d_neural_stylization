@@ -85,11 +85,11 @@ If you find this work useful, please cite our paper:
 
 ## Table of Contents
 - [Mesh Stylization](#table-mesh-style) [(Detail)](#mesh-stylization)
-- [Volumetric Stylization](#table-volume-style) [(Detail)](#volumetric-stylization)
-- [Point Cloud Stylization](#table-point-style) [(Detail)](#point-cloud-stylization)
-- [Implicit Shape Stylization](#table-implicit-shape-style)
 - [Neural Field Stylization](#table-novel-view-style) [(Detail)](#neural-field-stylization)
 - [Multi-view Stylization](#table-light-field-style)
+- [Point Cloud Stylization](#table-point-style) [(Detail)](#point-cloud-stylization)
+- [Volumetric Stylization](#table-volume-style) [(Detail)](#volumetric-stylization)
+- [Implicit Shape Stylization](#table-implicit-shape-style)
 - [Other 3D Stylization](#other-3d-stylization)
 - [Related 3D Generation](#other-related-3d-generation)
 - [Evaluation](https://github.com/chenyingshu/advances_3d_neural_stylization/tree/evaluation)
@@ -296,6 +296,7 @@ If you find this work useful, please cite our paper:
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
 |  |**Volumetric Stylization**  | || |  |
+|StyleRF-VolVis <img src="assets/icon_image.png" width="20" height="20"> |StyleRF-VolVis: Style Transfer of Neural Radiance Fields for Expressive Volume Visualization| IEEE VIS 2024 |[[Paper](https://arxiv.org/abs/2408.00150)]| | |
 | ShaDDR <img src="assets/icon_obj.png" width="20" height="20">  | ShaDDR: Interactive Example-Based Geometry and Texture Generation via 3D Shape Detailization and Differentiable Rendering   | SIGGRAPH Asia 2023 Conf Paper |[[Paper](https://arxiv.org/abs/2306.04889)]  | [[Project](https://qiminchen.github.io/shaddr/)] |[[Github](https://github.com/qiminchen/ShaDDR)] |
 | ENST <img src="assets/icon_image.png" width="20" height="20">| Efficient Neural Style Transfer For Volumetric Simulations | SIGGRAPH Asia 2022|  [[Paper](https://studios.disneyresearch.com/app/uploads/2022/10/Efficient-Neural-Style-Transfer-For-Volumetric-Simulations.pdf)]| [[Project](https://studios.disneyresearch.com/2022/11/30/efficient-neural-style-transfer-for-volumetric-simulations/)] |  |
 | SKPN <img src="assets/icon_image.png" width="20" height="20">| Volumetric appearance stylization with stylizing kernel prediction network|SIGGRAPH 2021  | [[Paper](https://sites.cs.ucsb.edu/~lingqi/publications/paper_volst.pdf)] | [[Video](https://dl.acm.org/doi/abs/10.1145/3450626.3459799)]|  |
