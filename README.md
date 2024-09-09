@@ -116,6 +116,9 @@ If you find this work useful, please cite our paper:
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
 |  | **Mesh Stylization**  | || |  |
+|TexGen <img src="assets/icon_text.png" width="20" height="20">|TexGen: Text-Guided 3D Texture Generation with Multi-view Sampling and Resampling| ECCV 2024 |[[Paper](https://arxiv.org/abs/2408.01291)]| [[Project](https://dong-huo.github.io/TexGen/)]|
+|TexDreamer <img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_text.png" width="20" height="20">|TexDreamer: Towards Zero-Shot High-Fidelity 3D Human Texture Generation| ECCV 2024 | [[Paper](https://arxiv.org/abs/2403.12906)]| [[Project](https://ggxxii.github.io/texdreamer/)]| [[Github](https://github.com/ggxxii/texdreamer)]|
+|Scene-Conditional 3D <img src="assets/icon_image.png" width="20" height="20"> |Scene-Conditional 3D Object Stylization and Composition |ECCV 2024| [[Paper](https://arxiv.org/abs/2312.12419)]| [[Project](https://shallowtoil.github.io/scene-cond-3d/)]||
 |VCD-Texture <img src="assets/icon_text.png" width="20" height="20"> |VCD-Texture: Variance Alignment based 3D-2D Co-Denoising for Text-Guided Texturing| ECCV 2024| [[Paper](https://arxiv.org/abs/2407.04461)]|||
 |MMDMC <img align=top src="assets/icon_obj.png" width="32" height="32">  |Towards High-Quality 3D Motion Transfer with Realistic Apparel Animation|ECCV 2024 |[[Paper](https://arxiv.org/abs/2407.11266)]||[[Data](https://github.com/rongakowang/MMDMC)]|
 |StyleCity <img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_text.png" width="20" height="20"> |StyleCity: Large-Scale 3D Urban Scenes Stylization | ECCV 2024| [[Paper](https://arxiv.org/abs/2404.10681)]|[[Project](https://chenyingshu.github.io/stylecity3d/)]| [[Github(TBA)](https://github.com/chenyingshu/stylecity3d)]|
@@ -180,6 +183,7 @@ If you find this work useful, please cite our paper:
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
 |  | **Novel View or Neural Field Stylization**  | || |  |
+| WaSt-3D <img src="assets/icon_obj.png" width="20" height="20">| WaSt-3D: Wasserstein-2 Distance for Scene-to-Scene Stylization on 3D Gaussians  | ECCV 2024 | | [[Project](https://compvis.github.io/wast3d/)]|  |
 |LatentEditor <img src="assets/icon_text.png" width="20" height="20"> |LatentEditor: Text Driven Local Editing of 3D Scenes |ECCV 2024|[[Paper](https://arxiv.org/abs/2312.09313)]|[[Project](https://latenteditor.github.io/)]|[[Github(TBA)](https://github.com/umarkhalidAI/LatentEditor)]|
 |MIGS <img align=top src="assets/icon_obj.png" width="32" height="32"> |MIGS: Multi-Identity Gaussian Splatting via Tensor Decomposition | ECCV 2024| [[Paper](https://arxiv.org/abs/2407.07284)]| [[Project](https://aggelinacha.github.io/MIGS/)]||
 |3DEgo <img src="assets/icon_text.png" width="20" height="20"> |3DEgo: 3D Editing on the Go!|ECCV 2024| [[Paper](https://arxiv.org/abs/2407.10102)]| [[Project](https://3dego.github.io/)] | [[Data](https://3dego.github.io/)]|
@@ -342,6 +346,8 @@ If you find this work useful, please cite our paper:
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
+|WordRobe <img src="assets/icon_text.png" width="20" height="20"> |WordRobe: Text-Guided Generation of Textured 3D Garments| ECCV 2024 | [[Paper](https://arxiv.org/abs/2403.17541)]| [[Project](https://wordrobe24.github.io/WordRobe_Page/)]| | 
+|CRM <img src="assets/icon_image.png" width="20" height="20">|CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model| ECCV 2024|[[Paper](https://arxiv.org/abs/2403.05034)]||[[Github](https://github.com/thu-ml/CRM)]|
 |HiFi-123 <img src="assets/icon_image.png" width="20" height="20">| HiFi-123: Towards High-fidelity One Image to 3D Content Generation | ECCV 2024| [[Paper](https://arxiv.org/abs/2310.06744)]| [[Project](https://drexubery.github.io/HiFi-123/)]| [[Github](https://github.com/AILab-CVC/HiFi-123)]|
 |UniDream <img src="assets/icon_text.png" width="20" height="20"> |UniDream: Unifying Diffusion Priors for Relightable Text-to-3D Generation| ECCV 2024 | [[Paper](https://arxiv.org/abs/2312.08754)]| [[Project](https://yg256li.github.io/UniDream/)]| [[Github(TBA)](https://github.com/YG256Li/UniDream)] |
 |GVGEN <img src="assets/icon_text.png" width="20" height="20">|GVGEN: Text-to-3D Generation with Volumetric Representation|ECCV 2024| [[Paper](https://arxiv.org/abs/2403.12957)]|[[Project](https://sotamak1r.github.io/gvgen/)]|[[Github](https://github.com/SOTAMak1r/GVGEN)]|
@@ -382,6 +388,8 @@ If you find this work useful, please cite our paper:
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
+|Texture-GS | Texture-GS: Disentangling the Geometry and Texture for 3D Gaussian Splatting Editing| ECCV 2024 | [[Paper](https://arxiv.org/abs/2403.10050)]| [[Project](https://slothfulxtx.github.io/TexGS/)]| [[Github](https://github.com/slothfulxtx/Texture-GS)]|
+|SMooDi <img src="assets/icon_text.png" width="20" height="20">|SMooDi: Stylized Motion Diffusion Model| ECCV 2024| [[Paper](https://arxiv.org/abs/2407.12783)]|[[Project](https://neu-vi.github.io/SMooDi/)]| [[Github](https://github.com/neu-vi/SMooDi)]|
 |SRFoE|Stylized Rendering as a Function of Expectation|SIGGRAPH/TOG 2024|[[Paper](http://cv.rexwe.st/pdf/srfoe.pdf)]||
 |LayGA <img src="assets/icon_obj.png" width="20" height="20">|LayGA: Layered Gaussian Avatars for Animatable Clothing Transfer|SIGGRAPH 2024 Conf Paper| [[Paper](https://arxiv.org/abs/2405.07319)]| [[Project](https://jsnln.github.io/layga/index.html)]||
 |  Stealth Shaper  | Stealth Shaper: Reflectivity Optimization as Surface Stylization    | SIGGRAPH 2023 Conf Paper| [[Paper](https://dl.acm.org/doi/10.1145/3588432.3591542)]  | [[Project](https://kenji-tojo.github.io/publications/stealthshaper/)]  | [[Github](https://github.com/kenji-tojo/stealth-shaper)]  |
