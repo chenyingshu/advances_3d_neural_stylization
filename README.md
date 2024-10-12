@@ -115,7 +115,6 @@ If you find this work useful, please cite our paper:
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
-|  | **Mesh Stylization**  | || |  |
 |TexGen <img src="assets/icon_text.png" width="20" height="20">|TexGen: Text-Guided 3D Texture Generation with Multi-view Sampling and Resampling| ECCV 2024 |[[Paper](https://arxiv.org/abs/2408.01291)]| [[Project](https://dong-huo.github.io/TexGen/)]|
 |TexDreamer <img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_text.png" width="20" height="20">|TexDreamer: Towards Zero-Shot High-Fidelity 3D Human Texture Generation| ECCV 2024 | [[Paper](https://arxiv.org/abs/2403.12906)]| [[Project](https://ggxxii.github.io/texdreamer/)]| [[Github](https://github.com/ggxxii/texdreamer)]|
 |Scene-Conditional 3D <img src="assets/icon_image.png" width="20" height="20"> |Scene-Conditional 3D Object Stylization and Composition |ECCV 2024| [[Paper](https://arxiv.org/abs/2312.12419)]| [[Project](https://shallowtoil.github.io/scene-cond-3d/)]||
@@ -182,8 +181,8 @@ If you find this work useful, please cite our paper:
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
-|  | **Novel View or Neural Field Stylization**  | || |  |
-| WaSt-3D <img src="assets/icon_obj.png" width="20" height="20">| WaSt-3D: Wasserstein-2 Distance for Scene-to-Scene Stylization on 3D Gaussians  | ECCV 2024 | | [[Project](https://compvis.github.io/wast3d/)]|  |
+| ReGS <img src="assets/icon_image.png" width="20" height="20">| ReGS: Reference-based Controllable Scene Stylization with Gaussian Splatting  | NeurIPS 2024 |[[Paper](https://arxiv.org/abs/2407.07220)] | |  |
+| WaSt-3D <img src="assets/icon_obj.png" width="20" height="20">| WaSt-3D: Wasserstein-2 Distance for Scene-to-Scene Stylization on 3D Gaussians  | ECCV 2024 |[[Paper](https://arxiv.org/abs/2409.17917)] | [[Project](https://compvis.github.io/wast3d/)]|  |
 |LatentEditor <img src="assets/icon_text.png" width="20" height="20"> |LatentEditor: Text Driven Local Editing of 3D Scenes |ECCV 2024|[[Paper](https://arxiv.org/abs/2312.09313)]|[[Project](https://latenteditor.github.io/)]|[[Github(TBA)](https://github.com/umarkhalidAI/LatentEditor)]|
 |MIGS <img align=top src="assets/icon_obj.png" width="32" height="32"> |MIGS: Multi-Identity Gaussian Splatting via Tensor Decomposition | ECCV 2024| [[Paper](https://arxiv.org/abs/2407.07284)]| [[Project](https://aggelinacha.github.io/MIGS/)]||
 |3DEgo <img src="assets/icon_text.png" width="20" height="20"> |3DEgo: 3D Editing on the Go!|ECCV 2024| [[Paper](https://arxiv.org/abs/2407.10102)]| [[Project](https://3dego.github.io/)] | [[Data](https://3dego.github.io/)]|
@@ -262,7 +261,6 @@ If you find this work useful, please cite our paper:
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
-|  | **Multi-view / Light Field Stylization**| | | |  |
 |MuVieCAST <img src="assets/icon_image.png" width="20" height="20">| MuVieCAST: Multi-View Consistent Artistic Style Transfer|3DV 2024 |[[Paper](https://arxiv.org/abs/2312.05046)]|[[Project](https://muviecast.github.io/)]|[[Github](https://github.com/Mirmix/muviecast)]|
 |LFST <img src="assets/icon_image.png" width="20" height="20">|Style Transfer for Light Field Photography | WACV 2020|[[Paper](https://arxiv.org/abs/2002.11220)] ||[[Github](https://github.com/davidmhart/LightFieldStyleTransfer)]
 |NSIST <img src="assets/icon_image.png" width="20" height="20"> |Neural Stereoscopic Image Style Transfer |ECCV 2018|[[Paper](https://arxiv.org/abs/1802.09985)]|||
@@ -283,7 +281,6 @@ If you find this work useful, please cite our paper:
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
-|  | **Point Cloud Stylization**  | || |  |
 | PointInverter | PointInverter: Point Cloud Reconstruction and Editing via a Generative Model with Shape Priors | WACV 2023 | [[Paper](https://arxiv.org/abs/2211.08702)]| [[Project](https://ja-yeon-kim.github.io/PointInverter/)] | |
 | PSNet <img src="assets/icon_obj.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20">| PSNet: A Style Transfer Network for Point Cloud Stylization on Geometry and Color |WACV 2020 | [[Paper](https://openaccess.thecvf.com/content_WACV_2020/html/Cao_PSNet_A_Style_Transfer_Network_for_Point_Cloud_Stylization_on_WACV_2020_paper.html)]| [[Video](https://www.youtube.com/watch?v=EbUOg1gVcFw&t=1818s)] | [[Github](https://github.com/xucao-42/psnet)] |
 </details>
@@ -299,7 +296,6 @@ If you find this work useful, please cite our paper:
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
-|  |**Volumetric Stylization**  | || |  |
 |StyleRF-VolVis <img src="assets/icon_image.png" width="20" height="20"> |StyleRF-VolVis: Style Transfer of Neural Radiance Fields for Expressive Volume Visualization| IEEE VIS 2024 |[[Paper](https://arxiv.org/abs/2408.00150)]| | |
 | ShaDDR <img src="assets/icon_obj.png" width="20" height="20">  | ShaDDR: Interactive Example-Based Geometry and Texture Generation via 3D Shape Detailization and Differentiable Rendering   | SIGGRAPH Asia 2023 Conf Paper |[[Paper](https://arxiv.org/abs/2306.04889)]  | [[Project](https://qiminchen.github.io/shaddr/)] |[[Github](https://github.com/qiminchen/ShaDDR)] |
 | ENST <img src="assets/icon_image.png" width="20" height="20">| Efficient Neural Style Transfer For Volumetric Simulations | SIGGRAPH Asia 2022|  [[Paper](https://studios.disneyresearch.com/app/uploads/2022/10/Efficient-Neural-Style-Transfer-For-Volumetric-Simulations.pdf)]| [[Project](https://studios.disneyresearch.com/2022/11/30/efficient-neural-style-transfer-for-volumetric-simulations/)] |  |
@@ -320,7 +316,6 @@ If you find this work useful, please cite our paper:
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
-||**Implicit Shape Stylization**||||
 |NeuSDFusion |NeuSDFusion: A Spatial-Aware Generative Model for 3D Shape Completion, Reconstruction, and Generation|ECCV 2024| [[Paper](https://arxiv.org/abs/2403.18241)]|[[Project](https://weizheliu.github.io/NeuSDFusion/)]||
 |CNS-Edit|CNS-Edit: 3D Shape Editing via Coupled Neural Shape Optimization| SIGGRAPH 2024 |[[Paper](https://arxiv.org/abs/2402.02313)]|||
 |EXIM <img src="assets/icon_text.png" width="20" height="20">|EXIM: A Hybrid Explicit-Implicit Representation for Text-Guided 3D Shape Generation| SIGGRAPH Asia/TOG 2023| [[Paper](https://arxiv.org/abs/2311.01714)] |[[Project](https://liuzhengzhe.github.io/EXIM.github.io/)] | [[Github](https://github.com/liuzhengzhe/EXIM)] |
