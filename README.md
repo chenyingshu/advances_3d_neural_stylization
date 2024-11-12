@@ -115,6 +115,7 @@ If you find this work useful, please cite our paper:
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
+|FlashTex <img src="assets/icon_text.png" width="20" height="20">| FlashTex: Fast Relightable Mesh Texturing with LightControlNet | ECCV 2024(Oral) |[[Paper](https://arxiv.org/abs/2402.13251)]|[[Project](https://flashtex.github.io/)]|[[Github](https://github.com/Roblox/FlashTex)]|
 |TexGen <img src="assets/icon_text.png" width="20" height="20">|TexGen: Text-Guided 3D Texture Generation with Multi-view Sampling and Resampling| ECCV 2024 |[[Paper](https://arxiv.org/abs/2408.01291)]| [[Project](https://dong-huo.github.io/TexGen/)]|
 |TexDreamer <img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_text.png" width="20" height="20">|TexDreamer: Towards Zero-Shot High-Fidelity 3D Human Texture Generation| ECCV 2024 | [[Paper](https://arxiv.org/abs/2403.12906)]| [[Project](https://ggxxii.github.io/texdreamer/)]| [[Github](https://github.com/ggxxii/texdreamer)]|
 |Scene-Conditional 3D <img src="assets/icon_image.png" width="20" height="20"> |Scene-Conditional 3D Object Stylization and Composition |ECCV 2024| [[Paper](https://arxiv.org/abs/2312.12419)]| [[Project](https://shallowtoil.github.io/scene-cond-3d/)]||
@@ -341,6 +342,7 @@ If you find this work useful, please cite our paper:
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
+|Meta 3D AssetGen <img src="assets/icon_image.png" width="20" height="20"> <img src="assets/icon_text.png" width="20" height="20"> |Meta 3D AssetGen: Text-to-Mesh Generation with High-Quality Geometry, Texture, and PBR Materials |NeurIPS 2024 |[[Paper](https://assetgen.github.io/static/AssetGen.pdf)]| [[Project](https://assetgen.github.io/)]| |
 |WordRobe <img src="assets/icon_text.png" width="20" height="20"> |WordRobe: Text-Guided Generation of Textured 3D Garments| ECCV 2024 | [[Paper](https://arxiv.org/abs/2403.17541)]| [[Project](https://wordrobe24.github.io/WordRobe_Page/)]| | 
 |CRM <img src="assets/icon_image.png" width="20" height="20">|CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model| ECCV 2024|[[Paper](https://arxiv.org/abs/2403.05034)]||[[Github](https://github.com/thu-ml/CRM)]|
 |HiFi-123 <img src="assets/icon_image.png" width="20" height="20">| HiFi-123: Towards High-fidelity One Image to 3D Content Generation | ECCV 2024| [[Paper](https://arxiv.org/abs/2310.06744)]| [[Project](https://drexubery.github.io/HiFi-123/)]| [[Github](https://github.com/AILab-CVC/HiFi-123)]|
