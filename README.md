@@ -182,6 +182,8 @@ If you find this work useful, please cite our paper:
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
+| DreamCatalyst <img src="assets/icon_text.png" width="20" height="20"> | DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation| ICLR 2025 | [[Paper](https://arxiv.org/abs/2407.11394)] | [[Project](https://dream-catalyst.github.io/)] | [[Github](https://github.com/kaist-cvml/DreamCatalyst)]|
+|IPDreamer <img src="assets/icon_image.png" width="20" height="20"> |IPDreamer: Appearance-Controllable 3D Object Generation with Complex Image Prompts | ICLR 2025 | [[Paper](https://arxiv.org/abs/2310.05375)]| | [[Github](https://github.com/zengbohan0217/IPDreamer)]|
 | ReGS <img src="assets/icon_image.png" width="20" height="20">| ReGS: Reference-based Controllable Scene Stylization with Gaussian Splatting  | NeurIPS 2024 |[[Paper](https://arxiv.org/abs/2407.07220)] | |  |
 | WaSt-3D <img src="assets/icon_obj.png" width="20" height="20">| WaSt-3D: Wasserstein-2 Distance for Scene-to-Scene Stylization on 3D Gaussians  | ECCV 2024 |[[Paper](https://arxiv.org/abs/2409.17917)] | [[Project](https://compvis.github.io/wast3d/)]|  |
 |LatentEditor <img src="assets/icon_text.png" width="20" height="20"> |LatentEditor: Text Driven Local Editing of 3D Scenes |ECCV 2024|[[Paper](https://arxiv.org/abs/2312.09313)]|[[Project](https://latenteditor.github.io/)]|[[Github(TBA)](https://github.com/umarkhalidAI/LatentEditor)]|
@@ -342,6 +344,7 @@ If you find this work useful, please cite our paper:
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
+|DiffSplat  <img src="assets/icon_image.png" width="20" height="20"> <img src="assets/icon_text.png" width="20" height="20"> |DiffSplat: Repurposing Image Diffusion Models for Scalable Gaussian Splat Generation| ICLR 2025|[[Paper]](https://arxiv.org/abs/2501.16764) |[[Project]](https://chenguolin.github.io/projects/DiffSplat/) | [[Github]](https://github.com/chenguolin/DiffSplat)|
 |Meta 3D AssetGen <img src="assets/icon_image.png" width="20" height="20"> <img src="assets/icon_text.png" width="20" height="20"> |Meta 3D AssetGen: Text-to-Mesh Generation with High-Quality Geometry, Texture, and PBR Materials |NeurIPS 2024 |[[Paper](https://assetgen.github.io/static/AssetGen.pdf)]| [[Project](https://assetgen.github.io/)]| |
 |WordRobe <img src="assets/icon_text.png" width="20" height="20"> |WordRobe: Text-Guided Generation of Textured 3D Garments| ECCV 2024 | [[Paper](https://arxiv.org/abs/2403.17541)]| [[Project](https://wordrobe24.github.io/WordRobe_Page/)]| | 
 |CRM <img src="assets/icon_image.png" width="20" height="20">|CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model| ECCV 2024|[[Paper](https://arxiv.org/abs/2403.05034)]||[[Github](https://github.com/thu-ml/CRM)]|
