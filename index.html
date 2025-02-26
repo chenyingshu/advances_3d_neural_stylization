@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Advances in 3D Neural Stylization: A Survey</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="3D stylization, city stylization, photorealisitic style transfer, neural style transfer" name="keywords">
+	<meta content="StyleCity Project Webpage" name="description">
+
+	<!-- Favicon -->
+	<link href="img/logo.png" rel="icon">
+
+	<!-- Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+	<!-- Customized Bootstrap Stylesheet -->
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Customized Javascript -->
+	<script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<!-- Boostrap (Note: load jquery first) -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XNR8DQ70GF"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-XNR8DQ70GF');
+	</script>
+</head>
+
+
+<body>
+
+	<header class="subsection header-style">
+		<h1>Advances in 3D Neural Stylization: A Survey
+		</h1>
+
+		<p><a href="https://www.chenyingshu.com/" target="_blank">Yingshu Chen</a><sup><i class="far fa-envelope"></i></sup>, <a href="" target="_blank">Guocheng Shao</a>, <a href="https://scholar.google.com/citations?user=LAUhTjAAAAAJ&hl" target="_blank">Ka Chun Shum</a>,
+            <a href="https://sonhua.github.io/" target="_blank">Binh-Son Hua</a>, <a href="https://www.saikit.org/" target="_blank">Sai-Kit Yeung</a>
+		<br>The Hong Kong University of Science and Technology
+		<h5>IJCV 2025 </h5> </p>
+		<div class="btn-group-light">
+			<a href="https://arxiv.org/abs/2311.18328" target="_blank"><button class="btn-light btn-header">Paper</button></a>
+			<a href="https://github.com/chenyingshu/advances_3d_neural_stylization" class="" target="_blank"><button class="btn-light btn-header">Curated List</button></a>
+		</div>
+	</header>
+
+	<!-- Navigation bar -->
+	<nav class="navbar navbar-expand-md fixed-top bg-light justify-content-center" style="display: none" id="navbarSection">
+		<div class="container-fluid">
+			<span class="navbar-brand" >3DNeuralStylization</span>
+
+			<button class="navbar-toggler collapsed"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Top <i class="fas fa-arrow-circle-up"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#abstract">Abstract</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#taxonomy">Taxonomy</a>
+					</li>
+					<!-- <li class="nav-item">
+						<a class="nav-link" href="#materials">Materials</a>
+					</li> -->
+					<li class="nav-item">
+						<a class="nav-link" href="#citation">Citation</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Abastract -->
+	<section class="subsection col" id="tldr">
+
+		<div class="figure-caption text-dark text-center">
+			<h6> <em>TL;DR:</em> A review of 3D neural stylization papers, mainly neural stylization on 3D data with image or text reference.</h6>
+		</div>
+		<div class="figure-group row-cols-md-1">
+			<img class="figure-img" src="img/teaser.jpg">
+		</div>
+		<div class="figure-caption text-dark text-justify">
+			The survey delves into the realm of neural stylization on diverse 3D representations, including meshes, point clouds, volume, and neural fields. 
+            The neural stylization with visual, textual and geometric features retrieved from large-scale neural models empowers artistic, photorealistic, and semantic style transformation of the geometry and appearance of 3D scenes.
+		</div>
+	</section>
+	<section class="subsection" id="abstract">
+		<div>
+			<h2 class="text-dark card-title">Abstract</h2>
+			<div class="abstract-text">
+				We introduce the first vision-and-text-driven texture stylization system for large-scale urban scenes, StyleCity.
+				Taking an image and text as references, StyleCity stylizes a 3D textured mesh of a large-scale urban scene in a semantics-aware fashion and generates a harmonic omnidirectional sky background.
+				To achieve that, we propose to stylize a neural texture field by transferring 2D vision-and-text priors to 3D globally and locally.
+				During 3D stylization, we progressively scale the planned training views of the input 3D scene at different levels in order to preserve high-quality scene content.
+				We then optimize the scene style globally by adapting the scale of the style image with the scale of the training views.
+				Moreover, we enhance local semantics consistency by the semantics-aware style loss which is crucial for photo-realistic stylization.
+				Besides texture stylization, we further adopt a generative diffusion model to synthesize a style-consistent omnidirectional sky image, which offers a more immersive atmosphere and assists the semantic stylization process.
+				The stylized neural texture field can be baked into an arbitrary-resolution texture, enabling seamless integration into conventional rendering pipelines and significantly easing the virtual production prototyping process.
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Method -->
+	<section class="subsection" id="taxonomy">
+		<div>
+			<h2 class="text-dark card-title">Taxonomy</h2>
+
+			<h5 class="text-center">  </h5>
+			<div class="figure-group col row-cols-md-1">
+				<img class="figure-img" src="img/taxonomy.jpg">
+			</div>
+			<div class="figure-caption text-justify">
+				Taxonomy of neural stylization.
+			</div>
+
+		</div>
+	</section>
+
+
+
+	<!-- Materials -->
+	<!-- <section class="subsection" id="materials">
+		<h2 class="text-dark card-title">Materials</h2>
+		<div class="figure-group row-cols-lg-3 align-items-center justify-content-around">
+			<a href="https://arxiv.org/abs/2404.10681"  class="figure-group-vertical" target="_blank">
+				<img class="figure-img img-thumbnail" src="img/paper_thumbnail.jpg">
+				<div class="figure-caption text-uppercase text-center text-black">Paper</div>
+			</a>
+			<a href="assets/StyleCity_supp_doc.pdf" class="figure-group-vertical" target="_blank">
+				<img class="figure-img img-thumbnail" src="img/sub_doc_thumbnail.jpg">
+				<div class="figure-caption text-uppercase text-center text-black">Supplementary Doc</div>
+			</a>
+			<a href="assets/StyleCity_poster.pdf" class="figure-group-vertical" target="_blank">
+				<img class="figure-img img-thumbnail-landscape" src="img/poster_thumbnail.jpg">
+				<div class="figure-caption text-uppercase text-center text-black">Poster</div>
+			</a>
+			<a href="https://sites.google.com/view/cv4metaverse-2024/program" class="figure-group-vertical " target="_blank">
+				<i class="fas fa-file-alt figure-img logo-label"></i>
+				<div class="figure-caption text-uppercase text-center text-black">Extended Abstract<br>(CV2Metaverse Workshop)</div>
+			</a>
+			<a href="https://link.springer.com/chapter/10.1007/978-3-031-73202-7_23" class="figure-group-vertical " target="_blank">
+				<i class="fas fa-file-alt figure-img logo-label"></i>
+				<div class="figure-caption text-uppercase text-center text-black">ECCV Springer Version</div>
+			</a>
+			<a href="https://youtu.be/hSCV4yCF5cU" class="figure-group-vertical" target="_blank">
+				<i class="fab fa-youtube figure-img logo-label "></i>
+				<div class="figure-caption text-uppercase text-center text-black">StyleCity Explained</div>
+			</a>
+			<a href="https://youtu.be/6bL9LrispWg" class="figure-group-vertical" target="_blank">
+				<i class="fab fa-youtube figure-img logo-label "></i>
+				<div class="figure-caption text-uppercase text-center text-black">High-res Results</div>
+			</a>
+			<a href="https://github.com/chenyingshu/stylecity3d" class="figure-group-vertical" target="_blank">
+				<i class="fab fa-github figure-img logo-label "></i>
+				<div class="figure-caption text-uppercase text-center text-black">Code(TBA)</div>
+			</a>
+			<a href="https://github.com/chenyingshu/google_3dtile_collection" class="figure-group-vertical" target="_blank">
+				<i class="fas fa-database figure-img logo-label  "></i>
+				<div class="figure-caption text-uppercase text-center text-black">Data Collector</div>
+			</a>
+			<a href="https://hkust-vgd.ust.hk/stylecity3d" class="figure-group-vertical " target="_blank">
+				<i class="fas fa-binoculars figure-img logo-label"></i>
+				<div class="figure-caption text-uppercase text-center text-black">Online Viewer</div>
+			</a>
+		</div>
+	</section> -->
+
+	<!-- Citation -->
+	<section class="subsection" id="citation">
+		<h2 class="text-dark card-title">Citation</h2>
+		<div class="citation-container">
+			<pre><code id="citationText">
+@article{chen2023advances3dstyle,
+    title={Advances in 3D Neural Stylization: A Survey},
+    author={Chen, Yingshu and Shao, Guocheng and Shum, Ka Chun and Hua, Binh-Son and Yeung, Sai-Kit},
+    journal={arXiv preprint arXiv:2311.18328},
+    year={2023}
+}</code></pre>
+
+			<div class="clipboard-container">
+				<button class="clipboard-copy-btn btn"  onclick="copyCitation()" onmouseleave="resetTooltip()">
+					<i class="far fa-clone"></i>
+					<span class="tooltiptext" id="copyTooltip">Copy</span>
+				</button>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Other Related Works -->
+
+
+	<!-- Acknowlegement -->
+
+	<section class="subsection footer">
+		<hr>
+        <p class="text-center">Webpage is maintained by <a href="https://github.com/chenyingshu/">chenyingshu</a>.</p>
+    </section>
+
+</body>
