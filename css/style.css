@@ -9860,7 +9860,7 @@ h6,
     }
    /* widest screen*/
    .header-style.subsection {
-      padding: 5%  0 3%  0;
+      padding: 5%  0 2%  0;
     }
 }
 
@@ -10122,3 +10122,19 @@ input[type="range"] {
   opacity: 1;
 }
 
+/* Teaser alternation*/
+.teaser-mobile {
+  display: none;
+}
+.teaser-landscape {
+  display: block;
+}
+@media (max-width: 768px) {
+
+  .teaser-mobile {
+    display: block;
+  }
+  .teaser-landscape {
+    display: none;
+  }
+}

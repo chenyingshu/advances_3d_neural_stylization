@@ -54,7 +54,7 @@
 	<!-- Navigation bar -->
 	<nav class="navbar navbar-expand-md fixed-top bg-light justify-content-center" style="display: none" id="navbarSection">
 		<div class="container-fluid">
-			<span class="navbar-brand" >3DNeuralStylization</span>
+			<span class="navbar-brand" >3D Neural Stylization</span>
 
 			<button class="navbar-toggler collapsed"
 					type="button"
@@ -93,10 +93,11 @@
 			<h6> <em>TL;DR:</em> A review of 3D neural stylization papers, mainly neural stylization on 3D data with image or text reference.</h6>
 		</div>
 		<div class="figure-group row-cols-md-1">
-			<img class="figure-img" src="img/teaser.jpg">
+			<img class="figure-img teaser-mobile" src="img/teaser_portrait.jpg">
+			<img class="figure-img teaser-landscape" src="img/teaser_landscape.jpg">
 		</div>
 		<div class="figure-caption text-dark text-justify">
-			The survey delves into the realm of neural stylization on diverse 3D representations, including meshes, point clouds, volume, and neural fields. 
+			The survey delves into the realm of neural stylization on diverse 3D representations, including meshes, point clouds, volume, and neural fields.
             The neural stylization with visual, textual and geometric features retrieved from large-scale neural models empowers artistic, photorealistic, and semantic style transformation of the geometry and appearance of 3D scenes.
 		</div>
 	</section>
@@ -122,13 +123,28 @@
 		<div>
 			<h2 class="text-dark card-title">Taxonomy</h2>
 
-			<h5 class="text-center">  </h5>
-			<div class="figure-group col row-cols-md-1">
-				<img class="figure-img" src="img/taxonomy.jpg">
+<!--			<h5 class="text-center">  </h5>-->
+			<div class="figure-group row-cols-md-1">
+				<img class="figure-img" src="img/taxonomy_v2_final.jpg">
 			</div>
-			<div class="figure-caption text-justify">
+			<h5 class="text-center text-dark">
 				Taxonomy of neural stylization.
-			</div>
+			</h5>
+			<div class="figure-caption"> The taxonomy for neural stylization methods
+				consists of the following aspects:</div>
+			<ul class="figure-caption fa-ul list-unstyled ul-check primary">
+				<li><span class="fa-li"><i class="fas fa-chevron-right"></i></span> <i><b>Representations</b></i>. We categorize stylization methods based on data representations such as image,
+					mesh, volume, point cloud, and neural field.</li>
+				<li><span class="fa-li"><i class="fas fa-chevron-right"></i></span> <i><b>Neural Style Feature</b></i>. We categorize based on
+					image visual features, textual semantic features, or 3D latent features derived from pre-trained
+					models, typically neural classifiers or generative models.</li>
+				<li><span class="fa-li"><i class="fas fa-chevron-right"></i></span> <i><b>Optimization</b></i>. This refers to optimization-based
+					or prediction-based stylization methods with single, multiple, or arbitrary styles supported. </li>
+				<li><span class="fa-li"><i class="fas fa-chevron-right"></i></span> <i><b>Stylization Genres</b></i>. This refers to different types
+					of stylization, mainly including geometry stylization operating on asset shape and surface
+					patterns, and appearance stylization focusing on color, texture and visual patterns to align with
+					specific styles from artistic paintings to realistic concepts.</li>
+			</ul>
 
 		</div>
 	</section>
