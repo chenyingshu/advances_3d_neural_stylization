@@ -1,211 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Advances in 3D Neural Stylization: A Survey</title>
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<meta content="3D stylization, city stylization, photorealisitic style transfer, neural style transfer" name="keywords">
-	<meta content="StyleCity Project Webpage" name="description">
+    <meta charset="utf-8">
+    <title>Advances in 3D Neural Stylization: A Survey</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="3D stylization, city stylization, photorealisitic style transfer, neural style transfer"
+          name="keywords">
+    <meta content="StyleCity Project Webpage" name="description">
 
-	<!-- Favicon -->
-	<link href="img/logo.png" rel="icon">
+    <!-- Favicon -->
+    <!--    <link href="img/logo.png" rel="icon">-->
 
-	<!-- Font Awesome -->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
-	<!-- Customized Bootstrap Stylesheet -->
-	<link href="css/style.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-	<!-- Customized Javascript -->
-	<script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+    <!-- Customized Javascript -->
+    <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 
-	<!-- Boostrap (Note: load jquery first) -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!-- Boostrap (Note: load jquery first) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"></script>
 
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XNR8DQ70GF"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XNR8DQ70GF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-		gtag('config', 'G-XNR8DQ70GF');
-	</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-XNR8DQ70GF');
+    </script>
 </head>
 
 
 <body>
 
-	<header class="subsection header-style">
-		<h1>Advances in 3D Neural Stylization: A Survey
-		</h1>
+<header class="subsection header-style">
+    <h1>Advances in 3D Neural Stylization: A Survey
+    </h1>
 
-		<p><a href="https://www.chenyingshu.com/" target="_blank">Yingshu Chen</a><sup><i class="far fa-envelope"></i></sup>, <a href="" target="_blank">Guocheng Shao</a>, <a href="https://scholar.google.com/citations?user=LAUhTjAAAAAJ&hl" target="_blank">Ka Chun Shum</a>,
-            <a href="https://sonhua.github.io/" target="_blank">Binh-Son Hua</a>, <a href="https://www.saikit.org/" target="_blank">Sai-Kit Yeung</a>
-		<br>The Hong Kong University of Science and Technology
-		<h5>IJCV 2025 </h5> </p>
-		<div class="btn-group-light">
-			<a href="https://arxiv.org/abs/2311.18328" target="_blank"><button class="btn-light btn-header">Paper</button></a>
-			<a href="https://github.com/chenyingshu/advances_3d_neural_stylization" class="" target="_blank"><button class="btn-light btn-header">Curated List</button></a>
-		</div>
-	</header>
+    <p><a href="https://www.chenyingshu.com/" target="_blank">Yingshu Chen</a><sup><i class="far fa-envelope"></i></sup>, <a
+            href="" target="_blank">Guocheng Shao</a>, <a
+            href="https://scholar.google.com/citations?user=LAUhTjAAAAAJ&hl" target="_blank">Ka Chun Shum</a>,
+        <a href="https://sonhua.github.io/" target="_blank">Binh-Son Hua</a>, <a href="https://www.saikit.org/"
+                                                                                 target="_blank">Sai-Kit Yeung</a>
+        <br>The Hong Kong University of Science and Technology
+    <h5>IJCV 2025 </h5> </p>
+    <div class="btn-group-light">
+        <a href="https://arxiv.org/abs/2311.18328" target="_blank">
+            <button class="btn-light btn-header">Paper</button>
+        </a>
+        <a href="https://github.com/chenyingshu/advances_3d_neural_stylization" class="" target="_blank">
+            <button class="btn-light btn-header">Curated List</button>
+        </a>
+    </div>
+</header>
 
-	<!-- Navigation bar -->
-	<nav class="navbar navbar-expand-md fixed-top bg-light justify-content-center" style="display: none" id="navbarSection">
-		<div class="container-fluid">
-			<span class="navbar-brand" >3D Neural Stylization</span>
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-md fixed-top bg-light justify-content-center" style="display: none" id="navbarSection">
+    <div class="container-fluid">
+        <span class="navbar-brand">3D Neural Stylization</span>
 
-			<button class="navbar-toggler collapsed"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbarNav"
-					aria-controls="navbarNav"
-					aria-expanded="false"
-					aria-label="Toggle navigation">
-				<i class="fas fa-bars"></i>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#">Top <i class="fas fa-arrow-circle-up"></i></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#abstract">Abstract</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#taxonomy">Taxonomy</a>
-					</li>
-					<!-- <li class="nav-item">
-						<a class="nav-link" href="#materials">Materials</a>
-					</li> -->
-					<li class="nav-item">
-						<a class="nav-link" href="#citation">Citation</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<!-- Abastract -->
-	<section class="subsection col" id="tldr">
+        <button class="navbar-toggler collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Top <i
+                            class="fas fa-arrow-circle-up"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#abstract">Abstract</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#taxonomy">Taxonomy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#collection">Collection</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#materials">Materials</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#citation">Citation</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Abastract -->
+<section class="subsection col" id="tldr">
 
-		<div class="figure-caption text-dark text-center">
-			<h6> <em>TL;DR:</em> A review of 3D neural stylization papers, mainly neural stylization on 3D data with image or text reference.</h6>
-		</div>
-		<div class="figure-group row-cols-md-1">
-			<img class="figure-img teaser-mobile" src="img/teaser_portrait.jpg">
-			<img class="figure-img teaser-landscape" src="img/teaser_landscape.jpg">
-		</div>
-		<div class="figure-caption text-dark text-justify">
-			The survey delves into the realm of neural stylization on diverse 3D representations, including meshes, point clouds, volume, and neural fields.
-            The neural stylization with visual, textual and geometric features retrieved from large-scale neural models empowers artistic, photorealistic, and semantic style transformation of the geometry and appearance of 3D scenes.
-		</div>
-	</section>
-	<section class="subsection" id="abstract">
-		<div>
-			<h2 class="text-dark card-title">Abstract</h2>
-			<div class="abstract-text">
-				Modern artificial intelligence offers a novel and transformative approach to creating digital art across
-				diverse styles and modalities like images, videos and 3D data, unleashing the power of creativity and
-				revolutionizing the way that we perceive and interact with visual content. This paper reports on
-				recent advances in stylized 3D asset creation and manipulation with the expressive power of neural
-				networks. We establish a taxonomy for neural stylization, considering crucial design choices such
-				as scene representation, guidance data, optimization strategies, and output styles. Building on such
-				taxonomy, our survey first revisits the background of neural stylization on 2D images, and then presents
-				in-depth discussions on recent neural stylization methods for 3D data, accompanied by a benchmark
-				evaluating selected mesh and neural field stylization methods. Based on the insights gained from the
-				survey, we highlight the practical significance, open challenges, future research, and potential impacts
-				of neural stylization, which facilitates researchers and practitioners to navigate the rapidly evolving
-				landscape of 3D content creation using modern artificial intelligence.
-			</div>
-		</div>
-	</section>
-
-
-	<!-- Method -->
-	<section class="subsection" id="taxonomy">
-		<div>
-			<h2 class="text-dark card-title">Taxonomy</h2>
-
-<!--			<h5 class="text-center">  </h5>-->
-			<div class="figure-group row-cols-md-1">
-				<img class="figure-img" src="img/taxonomy_v2_final.jpg">
-			</div>
-			<h5 class="text-center text-dark">
-				Taxonomy of neural stylization.
-			</h5>
-			<div class="figure-caption"> The taxonomy for neural stylization methods
-				consists of the following aspects:</div>
-			<ul class="figure-caption fa-ul list-unstyled ul-check primary">
-				<li><span class="fa-li"><i class="fas fa-chevron-right"></i></span> <i><b>Representations</b></i>. We categorize stylization methods based on data representations such as image,
-					mesh, volume, point cloud, and neural field.</li>
-				<li><span class="fa-li"><i class="fas fa-chevron-right"></i></span> <i><b>Neural Style Feature</b></i>. We categorize based on
-					image visual features, textual semantic features, or 3D latent features derived from pre-trained
-					models, typically neural classifiers or generative models.</li>
-				<li><span class="fa-li"><i class="fas fa-chevron-right"></i></span> <i><b>Optimization</b></i>. This refers to optimization-based
-					or prediction-based stylization methods with single, multiple, or arbitrary styles supported. </li>
-				<li><span class="fa-li"><i class="fas fa-chevron-right"></i></span> <i><b>Stylization Genres</b></i>. This refers to different types
-					of stylization, mainly including geometry stylization operating on asset shape and surface
-					patterns, and appearance stylization focusing on color, texture and visual patterns to align with
-					specific styles from artistic paintings to realistic concepts.</li>
-			</ul>
-
-		</div>
-	</section>
+    <div class="figure-caption text-dark text-center">
+        <h6><em>TL;DR:</em> A review of 3D neural stylization papers, mainly neural stylization on 3D data with image or
+            text reference.</h6>
+    </div>
+    <div class="figure-group row-cols-md-1">
+        <img class="figure-img teaser-mobile" src="img/teaser_portrait.jpg">
+        <img class="figure-img teaser-landscape" src="img/teaser_landscape.jpg">
+    </div>
+    <div class="figure-caption text-dark text-justify">
+        The survey delves into the realm of neural stylization on diverse 3D representations, including meshes, point
+        clouds, volume, and neural fields.
+        The neural stylization with visual, textual and geometric features retrieved from large-scale neural models
+        empowers artistic, photorealistic, and semantic style transformation of the geometry and appearance of 3D
+        scenes.
+    </div>
+</section>
+<section class="subsection" id="abstract">
+    <div>
+        <h2 class="text-dark card-title">Abstract</h2>
+        <div class="abstract-text">
+            Modern artificial intelligence offers a novel and transformative approach to creating digital art across
+            diverse styles and modalities like images, videos and 3D data, unleashing the power of creativity and
+            revolutionizing the way that we perceive and interact with visual content. This paper reports on
+            recent advances in stylized 3D asset creation and manipulation with the expressive power of neural
+            networks. We establish a taxonomy for neural stylization, considering crucial design choices such
+            as scene representation, guidance data, optimization strategies, and output styles. Building on such
+            taxonomy, our survey first revisits the background of neural stylization on 2D images, and then presents
+            in-depth discussions on recent neural stylization methods for 3D data, accompanied by a benchmark
+            evaluating selected mesh and neural field stylization methods. Based on the insights gained from the
+            survey, we highlight the practical significance, open challenges, future research, and potential impacts
+            of neural stylization, which facilitates researchers and practitioners to navigate the rapidly evolving
+            landscape of 3D content creation using modern artificial intelligence.
+        </div>
+    </div>
+</section>
 
 
+<!-- Method -->
+<section class="subsection" id="taxonomy">
+    <div>
+        <h2 class="text-dark card-title">Taxonomy</h2>
 
-	<!-- Materials -->
-	<!-- <section class="subsection" id="materials">
-		<h2 class="text-dark card-title">Materials</h2>
-		<div class="figure-group row-cols-lg-3 align-items-center justify-content-around">
-			<a href="https://arxiv.org/abs/2404.10681"  class="figure-group-vertical" target="_blank">
-				<img class="figure-img img-thumbnail" src="img/paper_thumbnail.jpg">
-				<div class="figure-caption text-uppercase text-center text-black">Paper</div>
-			</a>
-			<a href="assets/StyleCity_supp_doc.pdf" class="figure-group-vertical" target="_blank">
-				<img class="figure-img img-thumbnail" src="img/sub_doc_thumbnail.jpg">
-				<div class="figure-caption text-uppercase text-center text-black">Supplementary Doc</div>
-			</a>
-			<a href="assets/StyleCity_poster.pdf" class="figure-group-vertical" target="_blank">
-				<img class="figure-img img-thumbnail-landscape" src="img/poster_thumbnail.jpg">
-				<div class="figure-caption text-uppercase text-center text-black">Poster</div>
-			</a>
-			<a href="https://sites.google.com/view/cv4metaverse-2024/program" class="figure-group-vertical " target="_blank">
-				<i class="fas fa-file-alt figure-img logo-label"></i>
-				<div class="figure-caption text-uppercase text-center text-black">Extended Abstract<br>(CV2Metaverse Workshop)</div>
-			</a>
-			<a href="https://link.springer.com/chapter/10.1007/978-3-031-73202-7_23" class="figure-group-vertical " target="_blank">
-				<i class="fas fa-file-alt figure-img logo-label"></i>
-				<div class="figure-caption text-uppercase text-center text-black">ECCV Springer Version</div>
-			</a>
-			<a href="https://youtu.be/hSCV4yCF5cU" class="figure-group-vertical" target="_blank">
-				<i class="fab fa-youtube figure-img logo-label "></i>
-				<div class="figure-caption text-uppercase text-center text-black">StyleCity Explained</div>
-			</a>
-			<a href="https://youtu.be/6bL9LrispWg" class="figure-group-vertical" target="_blank">
-				<i class="fab fa-youtube figure-img logo-label "></i>
-				<div class="figure-caption text-uppercase text-center text-black">High-res Results</div>
-			</a>
-			<a href="https://github.com/chenyingshu/stylecity3d" class="figure-group-vertical" target="_blank">
-				<i class="fab fa-github figure-img logo-label "></i>
-				<div class="figure-caption text-uppercase text-center text-black">Code(TBA)</div>
-			</a>
-			<a href="https://github.com/chenyingshu/google_3dtile_collection" class="figure-group-vertical" target="_blank">
-				<i class="fas fa-database figure-img logo-label  "></i>
-				<div class="figure-caption text-uppercase text-center text-black">Data Collector</div>
-			</a>
-			<a href="https://hkust-vgd.ust.hk/stylecity3d" class="figure-group-vertical " target="_blank">
-				<i class="fas fa-binoculars figure-img logo-label"></i>
-				<div class="figure-caption text-uppercase text-center text-black">Online Viewer</div>
-			</a>
-		</div>
-	</section> -->
+        <!--			<h5 class="text-center">  </h5>-->
+        <div class="figure-group row-cols-md-1">
+            <img class="figure-img" src="img/taxonomy_v2_final.jpg">
+        </div>
+        <h5 class="text-center text-dark">
+            Taxonomy of neural stylization.
+        </h5>
+        <div class="figure-caption"> The taxonomy for neural stylization methods
+            consists of the following aspects:
+        </div>
+        <ul class="figure-caption fa-ul list-unstyled ul-check primary">
+            <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span> <i><b>Representations</b></i>. We
+                categorize stylization methods based on data representations such as image,
+                mesh, volume, point cloud, and neural field.
+            </li>
+            <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span> <i><b>Neural Style Feature</b></i>. We
+                categorize based on
+                image visual features, textual semantic features, or 3D latent features derived from pre-trained
+                models, typically neural classifiers or generative models.
+            </li>
+            <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span> <i><b>Optimization</b></i>. This refers
+                to optimization-based
+                or prediction-based stylization methods with single, multiple, or arbitrary styles supported.
+            </li>
+            <li><span class="fa-li"><i class="fas fa-chevron-right"></i></span> <i><b>Stylization Genres</b></i>. This
+                refers to different types
+                of stylization, mainly including geometry stylization operating on asset shape and surface
+                patterns, and appearance stylization focusing on color, texture and visual patterns to align with
+                specific styles from artistic paintings to realistic concepts.
+            </li>
+        </ul>
 
-	<!-- Citation -->
-	<section class="subsection" id="citation">
-		<h2 class="text-dark card-title">Citation</h2>
-		<div class="citation-container">
+    </div>
+</section>
+
+<!-- Paper Collection -->
+<section class="subsection" id="collection">
+    <div>
+        <h2 class="text-dark card-title">Paper Collection <i class="fas fa-question-circle" data-toggle="tooltip"
+                                                             style="color: #f9a392;"
+                                                             title="Activate the tags to display the matched papers. You can activate multiple tags for 'Guidance' and 'Style Genre'."></i>
+        </h2>
+        <div class="selector-container" style="background-color: #f0f0f0; border-radius: 30px; padding: 20px;">
+
+            <div class="groups-container">
+                <!-- 3D Representation Group -->
+                <div class="button-group">
+                    <h4>3D Representation</h4>
+                    <button type="button" class="btn btn-outline-primary" data-toggle="button" aria-pressed="false">
+                        Point Cloud
+                    </button>
+                    <button type="button" class="btn btn-outline-primary" data-toggle="button" aria-pressed="false">
+                        Mesh
+                    </button>
+                    <button type="button" class="btn btn-outline-primary" data-toggle="button" aria-pressed="false">
+                        Voxel
+                    </button>
+                    <button type="button" class="btn btn-outline-primary" data-toggle="button" aria-pressed="false">
+                        NeRF
+                    </button>
+                    <button type="button" class="btn btn-outline-primary" data-toggle="button" aria-pressed="false">
+                        3DGS
+                    </button>
+                    <button type="button" class="btn btn-outline-primary" data-toggle="button" aria-pressed="false">
+                        Implicit Shape
+                    </button>
+                </div>
+
+                <!-- Guidance Group -->
+                <div class="button-group">
+                    <h4>Guidance</h4>
+                    <button type="button" class="btn btn-outline-success" data-toggle="button" aria-pressed="false">
+                        Text-guided
+                    </button>
+                    <button type="button" class="btn btn-outline-success" data-toggle="button" aria-pressed="false">
+                        Image-guided
+                    </button>
+                    <button type="button" class="btn btn-outline-success" data-toggle="button" aria-pressed="false">
+                        3D-guided
+                    </button>
+                </div>
+
+                <!-- Optimization Type Group -->
+                <div class="button-group">
+                    <h4>Optimization</h4>
+                    <button type="button" class="btn btn-outline-warning" data-toggle="button" aria-pressed="false">
+                        Feed-forward
+                    </button>
+                    <button type="button" class="btn btn-outline-warning" data-toggle="button" aria-pressed="false">
+                        Single-style
+                    </button>
+                    <button type="button" class="btn btn-outline-warning" data-toggle="button" aria-pressed="false">
+                        Multi-style
+                    </button>
+                </div>
+
+                <!-- Style Genre Group -->
+                <div class="button-group">
+                    <h4>Style Genre</h4>
+                    <button type="button" class="btn btn-outline-secondary" data-toggle="button" aria-pressed="false">
+                        Geometry
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary" data-toggle="button" aria-pressed="false">
+                        Appearance
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div style="height: 4vh"></div>
+        <!-- Dynamically render the paper cards from database-->
+        <div class="row row-cols-1 row-cols-md-3"></div>
+        <!--        <div class="row row-cols-1 row-cols-md-3">-->
+        <!--            <div class="col mb-4">-->
+        <!--                <div class="card h-100">-->
+        <!--                    <div class="card-body">-->
+        <!--                        <h6 class="card-title">FlashTex: Fast Relightable Mesh Texturing with LightControlNet</h6>-->
+        <!--                        <p class="card-text">ECCV 2024 Oral</p>-->
+        <!--                        <button type="button" class="btn btn-outline-primary" disabled> Mesh </button>-->
+        <!--                        <button type="button" class="btn btn-outline-success" disabled> Text-guided </button>-->
+        <!--                        <button type="button" class="btn btn-outline-warning" disabled> Single-style </button>-->
+        <!--                        <button type="button" class="btn btn-outline-secondary" disabled> Appearance </button>-->
+        <!--                    </div>-->
+        <!--                    <div class="card-footer">-->
+        <!--                        <a href="https://link.springer.com/chapter/10.1007/978-3-031-73202-7_23" class="figure-group-vertical " target="_blank" data-toggle="tooltip" title="View Paper">-->
+        <!--                            <i class="fas fa-file-alt figure-img logo-label"></i>-->
+        <!--                        </a>-->
+        <!--                        <a href="https://github.com/chenyingshu/stylecity3d" class="figure-group-vertical" target="_blank" data-toggle="tooltip" title="View Code">-->
+        <!--                            <i class="fab fa-github figure-img logo-label "></i>-->
+        <!--                        </a>-->
+        <!--                        <a href="https://github.com/chenyingshu/stylecity3d" class="figure-group-vertical" target="_blank" data-toggle="tooltip" title="View Page">-->
+        <!--                            <i class="fas fa-pager figure-img logo-label "></i>-->
+        <!--                        </a>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+    </div>
+</section>
+
+<!-- Materials -->
+<!-- <section class="subsection" id="materials">
+    <h2 class="text-dark card-title">Materials</h2>
+    <div class="figure-group row-cols-lg-3 align-items-center justify-content-around">
+        <a href="https://arxiv.org/abs/2404.10681"  class="figure-group-vertical" target="_blank">
+            <img class="figure-img img-thumbnail" src="img/paper_thumbnail.jpg">
+            <div class="figure-caption text-uppercase text-center text-black">Paper</div>
+        </a>
+        <a href="assets/StyleCity_supp_doc.pdf" class="figure-group-vertical" target="_blank">
+            <img class="figure-img img-thumbnail" src="img/sub_doc_thumbnail.jpg">
+            <div class="figure-caption text-uppercase text-center text-black">Supplementary Doc</div>
+        </a>
+        <a href="assets/StyleCity_poster.pdf" class="figure-group-vertical" target="_blank">
+            <img class="figure-img img-thumbnail-landscape" src="img/poster_thumbnail.jpg">
+            <div class="figure-caption text-uppercase text-center text-black">Poster</div>
+        </a>
+        <a href="https://sites.google.com/view/cv4metaverse-2024/program" class="figure-group-vertical " target="_blank">
+            <i class="fas fa-file-alt figure-img logo-label"></i>
+            <div class="figure-caption text-uppercase text-center text-black">Extended Abstract<br>(CV2Metaverse Workshop)</div>
+        </a>
+        <a href="https://link.springer.com/chapter/10.1007/978-3-031-73202-7_23" class="figure-group-vertical " target="_blank">
+            <i class="fas fa-file-alt figure-img logo-label"></i>
+            <div class="figure-caption text-uppercase text-center text-black">ECCV Springer Version</div>
+        </a>
+        <a href="https://youtu.be/hSCV4yCF5cU" class="figure-group-vertical" target="_blank">
+            <i class="fab fa-youtube figure-img logo-label "></i>
+            <div class="figure-caption text-uppercase text-center text-black">StyleCity Explained</div>
+        </a>
+        <a href="https://youtu.be/6bL9LrispWg" class="figure-group-vertical" target="_blank">
+            <i class="fab fa-youtube figure-img logo-label "></i>
+            <div class="figure-caption text-uppercase text-center text-black">High-res Results</div>
+        </a>
+        <a href="https://github.com/chenyingshu/stylecity3d" class="figure-group-vertical" target="_blank">
+            <i class="fab fa-github figure-img logo-label "></i>
+            <div class="figure-caption text-uppercase text-center text-black">Code(TBA)</div>
+        </a>
+        <a href="https://github.com/chenyingshu/google_3dtile_collection" class="figure-group-vertical" target="_blank">
+            <i class="fas fa-database figure-img logo-label  "></i>
+            <div class="figure-caption text-uppercase text-center text-black">Data Collector</div>
+        </a>
+        <a href="https://hkust-vgd.ust.hk/stylecity3d" class="figure-group-vertical " target="_blank">
+            <i class="fas fa-binoculars figure-img logo-label"></i>
+            <div class="figure-caption text-uppercase text-center text-black">Online Viewer</div>
+        </a>
+    </div>
+</section> -->
+
+<!-- Citation -->
+<section class="subsection" id="citation">
+    <h2 class="text-dark card-title">Citation</h2>
+    <div class="citation-container">
 			<pre><code id="citationText">
 @article{chen2023advances3dstyle,
     title={Advances in 3D Neural Stylization: A Survey},
@@ -214,24 +348,24 @@
     year={2023}
 }</code></pre>
 
-			<div class="clipboard-container">
-				<button class="clipboard-copy-btn btn"  onclick="copyCitation()" onmouseleave="resetTooltip()">
-					<i class="far fa-clone"></i>
-					<span class="tooltiptext" id="copyTooltip">Copy</span>
-				</button>
-			</div>
-		</div>
-	</section>
+        <div class="clipboard-container">
+            <button class="clipboard-copy-btn btn" onclick="copyCitation()" onmouseleave="resetTooltip()">
+                <i class="far fa-clone"></i>
+                <span class="tooltiptext" id="copyTooltip">Copy</span>
+            </button>
+        </div>
+    </div>
+</section>
 
 
-	<!-- Other Related Works -->
+<!-- Other Related Works -->
 
 
-	<!-- Acknowlegement -->
+<!-- Acknowlegement -->
 
-	<section class="subsection footer">
-		<hr>
-        <p class="text-center">Webpage is maintained by <a href="https://github.com/chenyingshu/">chenyingshu</a>.</p>
-    </section>
+<section class="subsection footer">
+    <hr>
+    <p class="text-center">Webpage is maintained by <a href="https://github.com/chenyingshu/">chenyingshu</a>.</p>
+</section>
 
 </body>

@@ -2403,7 +2403,7 @@ textarea.form-control {
 }
 
 .btn.disabled, .btn:disabled {
-  opacity: 0.65;
+  opacity: 0.95;
 }
 
 .btn:not(:disabled):not(.disabled) {
@@ -2712,8 +2712,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #F9A392;
+  color: #d27763;
   border-color: #F9A392;
+  border-width: medium;
 }
 
 .btn-outline-primary:hover {
@@ -2727,7 +2728,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #F9A392;
+  color: #d27763;
   background-color: transparent;
 }
 
@@ -2744,8 +2745,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #6EBBF6;
+  color: #348ccc;
   border-color: #6EBBF6;
+  border-width: medium;
 }
 
 .btn-outline-secondary:hover {
@@ -2759,7 +2761,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-  color: #6EBBF6;
+  color: #348ccc;
   background-color: transparent;
 }
 
@@ -2778,6 +2780,7 @@ fieldset:disabled a.btn {
 .btn-outline-success {
   color: #28a745;
   border-color: #28a745;
+  border-width: medium;
 }
 
 .btn-outline-success:hover {
@@ -2810,6 +2813,7 @@ fieldset:disabled a.btn {
 .btn-outline-info {
   color: #17a2b8;
   border-color: #17a2b8;
+  border-width: medium;
 }
 
 .btn-outline-info:hover {
@@ -2840,8 +2844,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-warning {
-  color: #ffc107;
+  color: #d29e04;
   border-color: #ffc107;
+  border-width: medium;
 }
 
 .btn-outline-warning:hover {
@@ -2855,7 +2860,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-warning.disabled, .btn-outline-warning:disabled {
-  color: #ffc107;
+  color: #d29e04;
   background-color: transparent;
 }
 
@@ -4422,7 +4427,11 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
-
+.card.h-100 .btn {
+  padding: 0.25rem 0.5rem; /* Smaller padding */
+  font-size: 0.8rem; /* Smaller font size */
+  border-radius: 0.25rem; /* Optional: Adjust border radius */
+}
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -4451,7 +4460,9 @@ input[type="button"].btn-block {
   min-height: 1px;
   padding: 1.25rem;
 }
-
+.card-body > * {
+  margin: 3px; /* Adjust the padding value as needed */
+}
 .card-title {
   margin-bottom: 0.75rem;
 }
@@ -4481,11 +4492,18 @@ input[type="button"].btn-block {
 }
 
 .card-footer {
-  padding: 0.75rem 1.25rem;
+  padding: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
+  display: flex; /* Enable Flexbox */
+  justify-content: space-between; /* Spread items horizontally */
+  align-items: center; /* Center items vertically */
 }
-
+.card-footer a {
+  flex: 1; /* Allow each link to grow and take equal space */
+  text-align: center; /* Center the icons horizontally */
+  padding: 2px; /* Optional: Add padding to the links */
+}
 .card-header-tabs {
   margin-right: -0.625rem;
   margin-bottom: -0.75rem;
@@ -5637,7 +5655,13 @@ a.close.disabled {
   word-wrap: break-word;
   opacity: 0;
 }
-
+.tooltip-inner {
+  border-radius: 8px; /* Adjust the border-radius as needed */
+  background-color: #333; /* Optional: Change tooltip background color */
+  color: #fff; /* Optional: Change tooltip text color */
+  padding: 8px 12px; /* Optional: Adjust padding */
+  font-size: 14px; /* Optional: Adjust font size */
+}
 .tooltip.show {
   opacity: 0.9;
 }
@@ -9917,13 +9941,13 @@ code {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2rem;
+  /*margin-bottom: 2rem;*/
 }
 
 .logo-label {
   padding-top: calc(0.25rem + 1px);
   padding-bottom: calc(0.25rem + 1px);
-  font-size: 5rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
@@ -10136,5 +10160,53 @@ input[type="range"] {
   }
   .teaser-landscape {
     display: none;
+  }
+}
+
+
+/* Flexbox container for horizontal layout */
+.groups-container {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between; /* Spread groups evenly */
+  align-items: flex-start; /* Align groups to the top */
+  gap: 20px; /* Space between groups */
+}
+
+/* Slider line between groups */
+.slider-line {
+  width: 1px;
+  height: 100%;
+  background-color: #ccc; /* Light gray line */
+  margin: 0 10px; /* Space around the line */
+}
+
+/* Button group styling */
+.button-group {
+  display: flex;
+  /*flex-direction: column;*/
+  flex-flow: row wrap;
+  max-width: 25%;
+  gap: 10px; /* Space between buttons */
+  flex: 0 0 auto; /* Let the width adapt to the content */
+  padding: 0.5rem; /* Optional: Add padding for better spacing */
+  /*border: 1px solid #ddd; !* Optional: Add a border for visual separation *!*/
+  /*border-radius: 1rem; !* Optional: Add rounded corners *!*/
+}
+.button-group h4 {
+  display: block; /* Ensure the h4 is a block-level element */
+  width: 100%; /* Make the h4 take the full width */
+}
+
+.button-group .btn {
+  display: inline-block; /* Ensure buttons are inline-block for proper alignment */
+}
+/* Button styling */
+.btn {
+  white-space: nowrap; /* Prevent button text from wrapping */
+}
+@media (max-width: 768px) {
+  .groups-container {
+    flex-direction: column; /* Stack groups vertically on small screens */
   }
 }

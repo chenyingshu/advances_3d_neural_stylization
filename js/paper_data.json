@@ -1,0 +1,3815 @@
+[
+  {
+    "title": "FlashTex: Fast Relightable Mesh Texturing with LightControlNet",
+    "conference": "ECCV 2024(Oral)",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2402.13251",
+      "code": "https://github.com/Roblox/FlashTex",
+      "project": "https://flashtex.github.io/"
+    }
+  },
+  {
+    "title": "TexGen: Text-Guided 3D Texture Generation with Multi-view Sampling and Resampling",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2408.01291",
+      "project": "https://dong-huo.github.io/TexGen/"
+    }
+  },
+  {
+    "title": "TexDreamer: Towards Zero-Shot High-Fidelity 3D Human Texture Generation",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Feed-forward"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.12906",
+      "code": "https://github.com/ggxxii/texdreamer",
+      "project": "https://ggxxii.github.io/texdreamer/"
+    }
+  },
+  {
+    "title": "Scene-Conditional 3D Object Stylization and Composition",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2312.12419",
+      "project": "https://shallowtoil.github.io/scene-cond-3d/"
+    }
+  },
+  {
+    "title": "VCD-Texture: Variance Alignment based 3D-2D Co-Denoising for Text-Guided Texturing",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2407.04461"
+    }
+  },
+  {
+    "title": "Towards High-Quality 3D Motion Transfer with Realistic Apparel Animation",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "3D-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2407.11266",
+      "code": "https://github.com/rongakowang/MMDMC"
+    }
+  },
+  {
+    "title": "StyleCity: Large-Scale 3D Urban Scenes Stylization",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2404.10681",
+      "code": "https://github.com/chenyingshu/stylecity3d",
+      "project": "https://chenyingshu.github.io/stylecity3d/"
+    }
+  },
+  {
+    "title": "Creating LEGO Figurines From Single Images",
+    "conference": "SIGGRAPH 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://dl.acm.org/doi/10.1145/3658167"
+    }
+  },
+  {
+    "title": "Controllable Neural Style Transfer for Dynamic Meshes",
+    "conference": "SIGGRAPH 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      }
+    ],
+    "links": {
+      "paper": "https://dl.acm.org/doi/10.1145/3641519.3657474"
+    }
+  },
+  {
+    "title": "HeadArtist: Text-conditioned 3D Head Generation with Self Score Distillation",
+    "conference": "SIGGRAPH 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2312.07539",
+      "code": "https://github.com/KumapowerLIU/HeadArtist",
+      "project": "https://kumapowerliu.github.io/HeadArtist/"
+    }
+  },
+  {
+    "title": "MaPa: Text-driven Photorealistic Material Painting for 3D Shapes",
+    "conference": "SIGGRAPH 2024 Conf Paper",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2404.17569",
+      "project": "https://zhanghe3z.github.io/MaPa/"
+    }
+  },
+  {
+    "title": "Diffusion Texture Painting",
+    "conference": "SIGGRAPH 2024 Conf Paper",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://dl.acm.org/doi/10.1145/3641519.3657458",
+      "code": "https://github.com/nv-tlabs/DiffusionTexturePainting",
+      "project": "https://research.nvidia.com/labs/toronto-ai/DiffusionTexturePainting/"
+    }
+  },
+  {
+    "title": "TexPainter: Generative Mesh Texturing With Multi-view Consistency",
+    "conference": "SIGGRAPH 2024 Conf Paper",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2406.18539",
+      "code": "https://github.com/Quantuman134/TexPainter",
+      "project": "https://quantuman134.github.io/"
+    }
+  },
+  {
+    "title": "DreamMat: High-quality PBR Material Generation With Geometry- and Light-aware Diffusion Models",
+    "conference": "SIGGRAPH/TOG 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2405.17176",
+      "code": "https://github.com/zzzyuqing/DreamMat",
+      "project": "https://zzzyuqing.github.io/dreammat.github.io/"
+    }
+  },
+  {
+    "title": "EASI-Tex: Edge-Aware Mesh Texturing from Single Image",
+    "conference": "SIGGRAPH/TOG 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2405.17393",
+      "code": "https://github.com/sairajk/easi-tex",
+      "project": "https://sairajk.github.io/easi-tex/"
+    }
+  },
+  {
+    "title": "Coin3D: Controllable and Interactive 3D Assets Generation With Proxy-guided Conditioning",
+    "conference": "SIGGRAPH 2024 Conf Paper",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2405.08054",
+      "code": "https://github.com/zju3dv/Coin3D",
+      "project": "https://zju3dv.github.io/coin3d/"
+    }
+  },
+  {
+    "title": "ThemeStation: Generating Theme-Aware 3D Assets from Few Exemplars",
+    "conference": "SIGGRAPH 2024 Conf Paper",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "3D-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.15383",
+      "code": "https://github.com/3DTopia/ThemeStation",
+      "project": "https://3dthemestation.github.io/"
+    }
+  },
+  {
+    "title": "DressCode: Autoregressively Sewing and Generating Garments from Text Guidance",
+    "conference": "SIGGRAPH/TOG 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2401.16465",
+      "code": "https://github.com/IHe-KaiI/DressCode",
+      "project": "https://ihe-kaii.github.io/DressCode/"
+    }
+  },
+  {
+    "title": "Mesh Neural Cellular Automata",
+    "conference": "SIGGRAPH/TOG 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2311.02820",
+      "code": "https://github.com/IVRL/MeshNCA",
+      "project": "https://meshnca.github.io/"
+    }
+  },
+  {
+    "title": "Paint3D: Paint Anything 3D with Lighting-Less Texture Diffusion Models",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2312.13913",
+      "code": "https://github.com/OpenTexture/Paint3D",
+      "project": "https://paint3d.github.io/"
+    }
+  },
+  {
+    "title": "TextureDreamer: Image-guided Texture Synthesis through Geometry-aware Diffusion",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2401.09416",
+      "project": "https://texturedreamer.github.io/"
+    }
+  },
+  {
+    "title": "TeMO: Towards Text-Driven 3D Stylization for Multi-Object Meshes",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Multi-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2312.04248",
+      "code": "https://github.com/zhangxuying1004/TeMO"
+    }
+  },
+  {
+    "title": "3D Paintbrush: Local Stylization of 3D Shapes with Cascaded Score Distillation",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2311.09571",
+      "code": "https://github.com/threedle/3d-paintbrush",
+      "project": "https://threedle.github.io/3d-paintbrush/"
+    }
+  },
+  {
+    "title": "As-Plausible-As-Possible: Plausibility-Aware Mesh Deformation Using 2D Diffusion Priors",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://as-plausible-as-possible.github.io/static/APAP.pdf",
+      "code": "https://github.com/KAIST-Visual-AI-Group/APAP",
+      "project": "https://as-plausible-as-possible.github.io/"
+    }
+  },
+  {
+    "title": "SceneTex: High-Quality Texture Synthesis for Indoor Scenes via Diffusion Priors",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2311.17261",
+      "code": "https://github.com/daveredrum/SceneTex",
+      "project": "https://daveredrum.github.io/SceneTex/"
+    }
+  },
+  {
+    "title": "Paint-it: Text-to-Texture Synthesis via Deep Convolutional Texture Map Optimization and Physically-Based Rendering",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://kim-youwang.github.io/media/paint-it/paint-it.pdf",
+      "code": "https://github.com/postech-ami/paint-it",
+      "project": "https://kim-youwang.github.io/paint-it"
+    }
+  },
+  {
+    "title": "Dreaming Your Room Space with Text-Driven Panoramic Texture Propagation",
+    "conference": "IEEE VR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://ybbbbt.com/publication/dreamspace/media/DreamSpace.pdf",
+      "code": "https://github.com/ybbbbt/dreamspace",
+      "project": "https://ybbbbt.com/publication/dreamspace/"
+    }
+  },
+  {
+    "title": "TECA: Text-Guided Generation and Editing of Compositional 3D Avatars",
+    "conference": "3DV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2309.07125",
+      "code": "https://github.com/HaoZhang990127/TECA",
+      "project": "https://yfeng95.github.io/teca/"
+    }
+  },
+  {
+    "title": "StyleAvatar: Stylizing Animatable Head Avatars",
+    "conference": "WACV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://openaccess.thecvf.com/content/WACV2024/papers/Perez_StyleAvatar_Stylizing_Animatable_Head_Avatars_WACV_2024_paper.pdf"
+    }
+  },
+  {
+    "title": "Text2Scene: Text-Driven Indoor Scene Stylization With Part-Aware Details",
+    "conference": "CVPR 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://openaccess.thecvf.com/content/CVPR2023/html/Hwang_Text2Scene_Text-Driven_Indoor_Scene_Stylization_With_Part-Aware_Details_CVPR_2023_paper.html",
+      "project": "https://www.youtube.com/watch?v=CGIXY2kwIYM"
+    }
+  },
+  {
+    "title": "TextDeformer: Geometry Manipulation using Text Guidance",
+    "conference": "SIGGRAPH 2023 Conf Paper",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2304.13348",
+      "code": "https://github.com/threedle/TextDeformer",
+      "project": "https://threedle.github.io/TextDeformer/"
+    }
+  },
+  {
+    "title": "TEXTure: Text-Guided Texturing of 3D Shapes",
+    "conference": "SIGGRAPH 2023 Conf Paper",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2302.01721",
+      "code": "https://github.com/TEXTurePaper/TEXTurePaper",
+      "project": "https://texturepaper.github.io/TEXTurePaper/"
+    }
+  },
+  {
+    "title": "Creative Birds: Self-Supervised Single-View 3D Style Transfer",
+    "conference": "ICCV 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2307.14127",
+      "code": "https://github.com/wrk226/creative_birds"
+    }
+  },
+  {
+    "title": "Text2Tex: Text-driven Texture Synthesis via Diffusion Models",
+    "conference": "ICCV 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://daveredrum.github.io/Text2Tex/static/Text2Tex.pdf",
+      "code": "https://github.com/daveredrum/Text2Tex",
+      "project": "https://daveredrum.github.io/Text2Tex/"
+    }
+  },
+  {
+    "title": "TexFusion: Synthesizing 3D Textures with Text-Guided Image Diffusion Models",
+    "conference": "ICCV 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://openaccess.thecvf.com//content/ICCV2023/papers/Cao_TexFusion_Synthesizing_3D_Textures_with_Text-Guided_Image_Diffusion_Models_ICCV_2023_paper.pdf",
+      "project": "https://research.nvidia.com/labs/toronto-ai/publication/2023_iccv_texfusion/"
+    }
+  },
+  {
+    "title": "X-Mesh:Towards Fast and Accurate Text-driven 3D Stylization via Dynamic Textual Guidance",
+    "conference": "ICCV 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2303.15764",
+      "code": "https://github.com/xmu-xiaoma666/X-Mesh",
+      "project": "https://xmu-xiaoma666.github.io/Projects/X-Mesh/"
+    }
+  },
+  {
+    "title": "Texture Generation on 3D Meshes with Point-UV Diffusion",
+    "conference": "ICCV 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Feed-forward"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://cvmi-lab.github.io/Point-UV-Diffusion/paper/point_uv_diffusion.pdf",
+      "code": "https://github.com/CVMI-Lab/Point-UV-Diffusion",
+      "project": "https://cvmi-lab.github.io/Point-UV-Diffusion/"
+    }
+  },
+  {
+    "title": "3DStyle-Diffusion: Pursuing Fine-grained Text-driven 3D Stylization with 2D Diffusion Models",
+    "conference": "ACM MM 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2311.05464",
+      "code": "https://github.com/yanghb22-fdu/3dstyle-diffusion-official"
+    }
+  },
+  {
+    "title": "RoomDreamer: Text-Driven 3D Indoor Scene Synthesis with Coherent Geometry and Texture",
+    "conference": "ACM MM 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2305.11337",
+      "project": "https://youtu.be/p4xgwj4QJcQ"
+    }
+  },
+  {
+    "title": "Decorate3D: Text-Driven High-Quality Texture Generation for Mesh Decoration in the Wild",
+    "conference": "NeurIPS 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://decorate3d.github.io/Decorate3D/static/Decorate3D.pdf",
+      "code": "https://github.com/Decorate3D/Decorate3D",
+      "project": "https://decorate3d.github.io/Decorate3D/"
+    }
+  },
+  {
+    "title": "HyperDreamer: Hyper-Realistic 3D Content Generation and Editing from a Single Image",
+    "conference": "SIGGRAPH Asia 2023 Conf Paper",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2312.04543",
+      "code": "https://github.com/wutong16/HyperDreamer",
+      "project": "https://ys-imtech.github.io/HyperDreamer/"
+    }
+  },
+  {
+    "title": "AlteredAvatar: Stylizing Dynamic 3D Avatars with Fast Style Adaptation",
+    "conference": "Arxiv 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2305.19245",
+      "project": "https://alteredavatar.github.io/"
+    }
+  },
+  {
+    "title": "HeadSculpt: Crafting 3D Head Avatars with Text",
+    "conference": "Neurips 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2306.03038",
+      "code": "https://github.com/BrandonHanx/HeadSculpt",
+      "project": "https://brandonhan.uk/HeadSculpt/"
+    }
+  },
+  {
+    "title": "StyleMesh: Style Transfer for Indoor 3D Scene Reconstructions",
+    "conference": "CVPR 2022",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2112.01530",
+      "code": "https://github.com/lukasHoel/stylemesh",
+      "project": "https://lukashoel.github.io/stylemesh/"
+    }
+  },
+  {
+    "title": "Latent-NeRF for Shape-Guided Generation of 3D Shapes and Textures",
+    "conference": "CVPR 2022",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2211.07600",
+      "code": "https://github.com/eladrich/latent-nerf",
+      "project": "https://youtu.be/WwOXzWvGNdc"
+    }
+  },
+  {
+    "title": "Text2Mesh: Text-Driven Neural Stylization for Meshes",
+    "conference": "CVPR 2022",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2112.03221",
+      "code": "https://github.com/threedle/text2mesh",
+      "project": "https://threedle.github.io/text2mesh/"
+    }
+  },
+  {
+    "title": "TANGO: Text-driven Photorealistic and Robust 3D Stylization via Lighting Decomposition",
+    "conference": "NeurIPS 2022",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "http://arxiv.org/abs/2210.11277",
+      "code": "https://github.com/Gorilla-Lab-SCUT/tango",
+      "project": "https://cyw-3d.github.io/tango/"
+    }
+  },
+  {
+    "title": "CLIP-Mesh: Generating textured meshes from text using pretrained image-text models",
+    "conference": "SIGGRAPH Asia 2022",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2203.13333",
+      "code": "https://github.com/NasirKhalid24/CLIP-Mesh",
+      "project": "https://www.nasir.lol/clipmesh"
+    }
+  },
+  {
+    "title": "3DStyleNet: Creating 3D Shapes with Geometric and Texture Style",
+    "conference": "ICCV 2021",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "3D-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Feed-forward"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://research.nvidia.com/labs/toronto-ai/3DStyleNet/assets/3dstyle-paper.pdf",
+      "project": "https://research.nvidia.com/labs/toronto-ai/3DStyleNet/"
+    }
+  },
+  {
+    "title": "Deep Geometric Texture Synthesis",
+    "conference": "SIGGRAPH 2020",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "3D-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2007.00074",
+      "code": "https://github.com/amirhertz/geometric-textures",
+      "project": "https://ranahanocka.github.io/geometric-textures/"
+    }
+  },
+  {
+    "title": "Paparazzi: Surface Editing by way of Multi-View Image Processing",
+    "conference": "SIGGRAPH Asia 2018",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      }
+    ],
+    "links": {
+      "paper": "https://www.dgp.toronto.edu/projects/paparazzi/paparazzi-surface-editing-by-way-of-multi-view-image-processing-siggraph-asia-2018-liu-et-al.pdf",
+      "code": "https://github.com/HTDerekLiu/Paparazzi",
+      "project": "https://www.dgp.toronto.edu/projects/paparazzi/"
+    }
+  },
+  {
+    "title": "Neural 3D Mesh Renderer",
+    "conference": "CVPR 2018",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/1711.07566",
+      "code": "https://github.com/hiroharu-kato/style_transfer_3d",
+      "project": "https://hiroharu-kato.com/assets/downloads/cvpr_2018_poster.pdf"
+    }
+  },
+  {
+    "title": "DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation",
+    "conference": "ICLR 2025",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2407.11394",
+      "code": "https://github.com/kaist-cvml/DreamCatalyst",
+      "project": "https://dream-catalyst.github.io/"
+    }
+  },
+  {
+    "title": "IPDreamer: Appearance-Controllable 3D Object Generation with Complex Image Prompts",
+    "conference": "ICLR 2025",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2310.05375",
+      "code": "https://github.com/zengbohan0217/IPDreamer"
+    }
+  },
+  {
+    "title": "ReGS: Reference-based Controllable Scene Stylization with Gaussian Splatting",
+    "conference": "NeurIPS 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "3DGS"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2407.07220"
+    }
+  },
+  {
+    "title": "WaSt-3D: Wasserstein-2 Distance for Scene-to-Scene Stylization on 3D Gaussians",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "3DGS"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "3D-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2409.17917",
+      "project": "https://compvis.github.io/wast3d/"
+    }
+  },
+  {
+    "title": "LatentEditor: Text Driven Local Editing of 3D Scenes",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2312.09313",
+      "code": "https://github.com/umarkhalidAI/LatentEditor",
+      "project": "https://latenteditor.github.io/"
+    }
+  },
+  {
+    "title": "MIGS: Multi-Identity Gaussian Splatting via Tensor Decomposition",
+    "conference": "ECCV 2024(Oral)",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "3DGS"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "3D-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2407.07284",
+      "project": "https://aggelinacha.github.io/MIGS/"
+    }
+  },
+  {
+    "title": "3DEgo: 3D Editing on the Go!",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "3DGS"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2407.10102",
+      "code": "https://3dego.github.io/",
+      "project": "https://3dego.github.io/"
+    }
+  },
+  {
+    "title": "View-Consistent 3D Editing with Gaussian Splatting",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "3DGS"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.11868",
+      "project": "https://yuxuanw.me/vcedit/"
+    }
+  },
+  {
+    "title": "Taming Latent Diffusion Model for Neural Radiance Field Inpainting",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2404.09995",
+      "project": "https://hubert0527.github.io/MALD-NeRF/"
+    }
+  },
+  {
+    "title": "DATENeRF: Depth-Aware Text-based Editing of NeRFs",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2404.04526",
+      "project": "https://datenerf.github.io/DATENeRF/"
+    }
+  },
+  {
+    "title": "Gaussian Grouping: Segment and Edit Anything in 3D Scenes",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "3DGS"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2312.00732",
+      "code": "https://github.com/lkeab/gaussian-grouping",
+      "project": "https://ymq2017.github.io/gaussian-grouping/"
+    }
+  },
+  {
+    "title": "Watch Your Steps: Local Image and Scene Editing by Text Instructions",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2308.08947",
+      "project": "https://ashmrz.github.io/WatchYourSteps/"
+    }
+  },
+  {
+    "title": "Chat-Edit-3D: Interactive 3D Scene Editing via Text Prompts",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-primary",
+        "text": "3DGS"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2407.06842",
+      "code": "https://github.com/Fangkang515/CE3D",
+      "project": "https://sk-fun.fun/CE3D/"
+    }
+  },
+  {
+    "title": "GaussCtrl: Multi-View Consistent Text-Driven 3D Gaussian Splatting Editing",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "3DGS"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.08733",
+      "code": "https://github.com/ActiveVisionLab/gaussctrl",
+      "project": "https://gaussctrl.active.vision/"
+    }
+  },
+  {
+    "title": "Free-Editor: Zero-shot Text-driven 3D Scene Editing",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2312.13663",
+      "code": "https://github.com/nazmul-karim170/FreeEditor-Text-to-3D-Scene-Editing",
+      "project": "https://free-editor.github.io/"
+    }
+  },
+  {
+    "title": "Freditor: High-Fidelity and Transferable NeRF Editing by Frequency Decomposition",
+    "conference": "Arxiv 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2404.02514",
+      "project": "https://aigc3d.github.io/freditor/"
+    }
+  },
+  {
+    "title": "StyleGaussian: Instant 3D Style Transfer with Gaussian Splatting",
+    "conference": "Arxiv 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "3DGS"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Feed-forward"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.07807",
+      "code": "https://github.com/Kunhao-Liu/StyleGaussian",
+      "project": "https://kunhao-liu.github.io/StyleGaussian/"
+    }
+  },
+  {
+    "title": "StylizedGS: Controllable Stylization for 3D Gaussian Splatting",
+    "conference": "Arxiv 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "3DGS"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2404.05220"
+    }
+  },
+  {
+    "title": "3D Face Style Transfer with a Hybrid Solution of NeRF and Mesh Rasterization",
+    "conference": "WACV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-primary",
+        "text": "Mesh"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://openaccess.thecvf.com/content/WACV2024/html/Feng_3D_Face_Style_Transfer_With_a_Hybrid_Solution_of_NeRF_WACV_2024_paper.html"
+    }
+  },
+  {
+    "title": "NeRFEditor: Differentiable Style Decomposition for 3D Scene Editing",
+    "conference": "WACV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2212.03848",
+      "project": "https://chuny1.github.io/NeRFEditor/nerfeditor.html"
+    }
+  },
+  {
+    "title": "TIP-Editor: An Accurate 3D Editor Following Both Text-Prompts And Image-Prompts",
+    "conference": "SIGGRAPH/TOG 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "3DGS"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2401.14828",
+      "code": "https://github.com/zjy526223908/TIP-Editor",
+      "project": "https://zjy526223908.github.io/TIP-Editor/"
+    }
+  },
+  {
+    "title": "Portrait3D: Text-Guided High-Quality 3D Portrait Generation Using Pyramid Representation and GANs Prior",
+    "conference": "SIGGRAPH/TOG 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2404.10394",
+      "code": "https://github.com/oneThousand1000/Portrait3D",
+      "project": "https://onethousandwu.com/portrait3d.github.io/"
+    }
+  },
+  {
+    "title": "SketchDream: Sketch-based Text-to-3D Generation and Editing",
+    "conference": "SIGGRAPH/TOG 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2405.06461",
+      "code": "https://github.com/IGLICT/SketchDream/",
+      "project": "https://geometrylearning.com/SketchDream/"
+    }
+  },
+  {
+    "title": "DreamFont3D: Personalized Text-to-3D Artistic Font Generation",
+    "conference": "SIGGRAPH 2024 Conf Paper",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://dl.acm.org/doi/10.1145/3641519.3657476"
+    }
+  },
+  {
+    "title": "Spice-E: Structural Priors in 3D Diffusion using Cross-Entity Attention",
+    "conference": "SIGGRAPH 2024 Conf Paper",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "3D-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2311.17834",
+      "code": "https://github.com/TAU-VAILab/Spice-E",
+      "project": "https://tau-vailab.github.io/Spice-E/"
+    }
+  },
+  {
+    "title": "ED-NeRF: Efficient Text-Guided Editing of 3D Scene With Latent Space NeRF",
+    "conference": "ICLR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://openreview.net/forum?id=9DvDRTTdlu",
+      "project": "https://ed-nerf.github.io/"
+    }
+  },
+  {
+    "title": "FPRF: Feed-Forward Photorealistic Style Transfer of Large-Scale 3D Neural Radiance Fields",
+    "conference": "AAAI 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Feed-forward"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2401.05516",
+      "code": "https://github.com/postech-ami/FPRF",
+      "project": "https://kim-geonu.github.io/FPRF/"
+    }
+  },
+  {
+    "title": "PNeSM: Arbitrary 3D Scene Stylization via Prompt-Based Neural Style Mapping",
+    "conference": "AAAI 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.08252"
+    }
+  },
+  {
+    "title": "Neural 3D Strokes: Creating Stylized 3D Scenes with Vectorized 3D Strokes",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "3D-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2311.15637",
+      "code": "https://github.com/buaavrcg/Neural3DStrokes",
+      "project": "https://buaavrcg.github.io/Neural3DStrokes/"
+    }
+  },
+  {
+    "title": "Geometry Transfer for Stylizing Radiance Fields",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "code": "https://github.com/hyBlue/Geo-SRF",
+      "project": "https://hyblue.github.io/geo-srf/"
+    }
+  },
+  {
+    "title": "S-DyRF: Reference-Based Stylized Radiance Fields for Dynamic Scenes",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.06205",
+      "code": "https://github.com/xingyi-li/s-dyrf",
+      "project": "https://xingyi-li.github.io/s-dyrf/"
+    }
+  },
+  {
+    "title": "LAENeRF: Local Appearance Editing for Neural Radiance Fields",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2312.09913",
+      "code": "https://github.com/r4dl/LAENeRF",
+      "project": "https://r4dl.github.io/LAENeRF/"
+    }
+  },
+  {
+    "title": "Posterior Distillation Sampling",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://posterior-distillation-sampling.github.io/static/assets/pds.pdf",
+      "code": "https://github.com/KAIST-Visual-AI-Group/PDS",
+      "project": "https://posterior-distillation-sampling.github.io/"
+    }
+  },
+  {
+    "title": "NeRF Analogies: Example-Based Visual Attribute Transfer for NeRFs",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "3D-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2402.08622",
+      "project": "https://mfischer-ucl.github.io/nerf_analogies/"
+    }
+  },
+  {
+    "title": "UAV-ENeRF: Text-driven UAV Scene Editing with Neural Radiance Fields",
+    "conference": "TGRS 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://ieeexplore.ieee.org/document/10476501"
+    }
+  },
+  {
+    "title": "SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "3DGS"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://yihua7.github.io/SC-GS-web/materials/SC_GS_Arxiv.pdf",
+      "code": "https://github.com/yihua7/SC-GS",
+      "project": "https://yihua7.github.io/SC-GS-web/"
+    }
+  },
+  {
+    "title": "Cinematic Behavior Transfer via NeRF-based Differentiable Filming",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2311.17754",
+      "code": "https://github.com/VirtualFilmStudio/Cinetransfer",
+      "project": "https://virtualfilmstudio.github.io/projects/cinetransfer/"
+    }
+  },
+  {
+    "title": "SC4D: Sparse-Controlled Video-to-4D Generation and Motion Transfer",
+    "conference": "Arxiv 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "3DGS"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2404.03736",
+      "project": "https://sc4d.github.io/"
+    }
+  },
+  {
+    "title": "GSDeformer: Direct Cage-based Deformation for 3D Gaussian Splatting",
+    "conference": "Arxiv 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "3DGS"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "3D-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2405.15491",
+      "project": "https://jhuangbu.github.io/gsdeformer/"
+    }
+  },
+  {
+    "title": "IReNe: Instant Recoloring of Neural Radiance Fields",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2405.19876",
+      "project": "https://iviazz97.github.io/irene/"
+    }
+  },
+  {
+    "title": "Control4D: Efficient 4D Portrait Editing with Text",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "3DGS"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2305.20082",
+      "project": "https://control4darxiv.github.io/"
+    }
+  },
+  {
+    "title": "Instruct 4D-to-4D: Editing 4D Scenes as Pseudo-3D Scenes Using 2D Diffusion",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2406.09402",
+      "project": "https://immortalco.github.io/Instruct-4D-to-4D/"
+    }
+  },
+  {
+    "title": "GaussianEditor: Editing 3D Gaussians Delicately with Text Instructions",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "3DGS"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2311.16037",
+      "project": "https://gaussianeditor.github.io/"
+    }
+  },
+  {
+    "title": "GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting",
+    "conference": "CVPR 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "3DGS"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2311.14521",
+      "code": "https://github.com/buaacyw/GaussianEditor",
+      "project": "https://buaacyw.github.io/gaussian-editor/"
+    }
+  },
+  {
+    "title": "CoARF: Controllable 3D Artistic Style Transfer for Radiance Fields",
+    "conference": "3DV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://studios.disneyresearch.com/app/uploads/2024/03/CoARF_paper.pdf",
+      "project": "https://studios.disneyresearch.com/2024/03/18/coarf-controllable-3d-artistic-style-transfer-for-radiance-fields/"
+    }
+  },
+  {
+    "title": "RePaint-NeRF: NeRF Editing via Semantic Masks and Diffusion Models",
+    "conference": "IJCAI 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2306.05668",
+      "code": "https://github.com/StarsTesla/RePaint-NeRF",
+      "project": "https://starstesla.github.io/repaintnerf/"
+    }
+  },
+  {
+    "title": "DreamEditor: Text-Driven 3D Scene Editing with Neural Fields",
+    "conference": "SIGGRAPH Asia 2023 Conf Paper",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2306.13455",
+      "code": "https://github.com/zjy526223908/DreamEditor",
+      "project": "https://www.sysu-hcp.net/projects/cv/111.html"
+    }
+  },
+  {
+    "title": "UPST-NeRF: Universal Photorealistic Style Transfer of Neural Radiance Fields for 3D Scene",
+    "conference": "TVCG 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Feed-forward"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://ieeexplore.ieee.org/document/10475593",
+      "code": "https://github.com/semchan/UPST-NeRF",
+      "project": "https://semchan.github.io/UPST_NeRF/"
+    }
+  },
+  {
+    "title": "ViCA-NeRF: View-Consistency-Aware 3D Editing of Neural Radiance Fields",
+    "conference": "NeurIPS 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2402.00864",
+      "code": "https://github.com/Dongjiahua/VICA-NeRF",
+      "project": "https://dongjiahua.github.io/VICA-NeRF/"
+    }
+  },
+  {
+    "title": "TSNeRF: Text-driven stylized neural radiance fields via semantic contrastive learning",
+    "conference": "Computers & Graphics 2023,  CCF CAD/Graphics 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://www.sciencedirect.com/science/article/pii/S0097849323001796"
+    }
+  },
+  {
+    "title": "Locally Stylized Neural Radiance Fields",
+    "conference": "ICCV 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Multi-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2309.10684",
+      "code": "https://github.com/hkust-vgd/nerfstyle",
+      "project": "https://nerfstyle.hkustvgd.com/"
+    }
+  },
+  {
+    "title": "Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions",
+    "conference": "ICCV 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2303.12789",
+      "code": "https://github.com/ayaanzhaque/instruct-nerf2nerf",
+      "project": "https://instruct-nerf2nerf.github.io/"
+    }
+  },
+  {
+    "title": "Blending-NeRF: Text-Driven Localized Editing in Neural Radiance Fields",
+    "conference": "ICCV 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/pdf/2308.11974",
+      "project": "https://seokhunchoi.github.io/Blending-NeRF/"
+    }
+  },
+  {
+    "title": "Vox-E: Text-guided Voxel Editing of 3D Objects",
+    "conference": "ICCV 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Voxel"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2303.12048/",
+      "code": "https://github.com/TAU-VAILab/Vox-E",
+      "project": "https://tau-vailab.github.io/Vox-E/"
+    }
+  },
+  {
+    "title": "ClimateNeRF: Extreme Weather Synthesis in Neural Radiance Field",
+    "conference": "ICCV 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2211.13226",
+      "code": "https://github.com/y-u-a-n-l-i/Climate_NeRF",
+      "project": "https://climatenerf.github.io/"
+    }
+  },
+  {
+    "title": "Transforming Radiance Field with Lipschitz Network for Photorealistic 3D Scene Stylization",
+    "conference": "CVPR 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2303.13232"
+    }
+  },
+  {
+    "title": "StyleRF: Zero-shot 3D Style Transfer of Neural Radiance Fields",
+    "conference": "CVPR 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Feed-forward"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2303.10598",
+      "code": "https://github.com/Kunhao-Liu/StyleRF",
+      "project": "https://kunhao-liu.github.io/StyleRF/"
+    }
+  },
+  {
+    "title": "Ref-NPR: Reference-Based Non-Photorealistic Radiance Fields for Controllable Scene Stylization",
+    "conference": "CVPR 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2212.02766",
+      "code": "https://github.com/dvlab-research/Ref-NPR/",
+      "project": "https://ref-npr.github.io/"
+    }
+  },
+  {
+    "title": "Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field",
+    "conference": "CVPR 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2303.13277",
+      "code": "https://github.com/zju3dv/SINE",
+      "project": "https://zju3dv.github.io/sine/"
+    }
+  },
+  {
+    "title": "NeRF-Art: Text-Driven Neural Radiance Fields Stylization",
+    "conference": "TVCG 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2212.08070",
+      "code": "https://github.com/cassiePython/NeRF-Art",
+      "project": "https://cassiepython.github.io/nerfart/"
+    }
+  },
+  {
+    "title": "Instant Photorealistic Neural Radiance Fields Stylization",
+    "conference": "ICASSP 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2303.16884",
+      "code": "https://github.com/lsx0101/Instant-NeRF-Stylization"
+    }
+  },
+  {
+    "title": "SNeRF: Stylized Neural Implicit Representations for 3D Scenes",
+    "conference": "SIGGRAPH 2022",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2207.02363",
+      "project": "https://research.facebook.com/publications/snerf-stylized-neural-implicit-representations-for-3d-scenes/"
+    }
+  },
+  {
+    "title": "Artistic Style Novel View Synthesis Based on A Single Image",
+    "conference": "CVPRW 2022, SIGGRAPH Posters 2022",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://openaccess.thecvf.com/content/CVPR2022W/CVFAD/papers/Tseng_Artistic_Style_Novel_View_Synthesis_Based_on_a_Single_Image_CVPRW_2022_paper.pdf",
+      "code": "https://github.com/Kuan-Wei-Tseng/ArtNV",
+      "project": "https://kuan-wei-tseng.github.io/ArtNV"
+    }
+  },
+  {
+    "title": "StylizedNeRF: Consistent 3D Scene Stylization as Stylized NeRF via 2D-3D Mutual Learning",
+    "conference": "CVPR 2022",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Feed-forward"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2205.12183",
+      "code": "https://github.com/IGLICT/StylizedNeRF",
+      "project": "http://geometrylearning.com/StylizedNeRF/"
+    }
+  },
+  {
+    "title": "3D Photo Stylization: Learning to Generate Stylized Novel Views from a Single Image",
+    "conference": "CVPR 2022",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Feed-forward"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2112.00169",
+      "code": "https://github.com/fmu2/3d_photo_stylization",
+      "project": "https://pages.cs.wisc.edu/~fmu/style3d/"
+    }
+  },
+  {
+    "title": "ARF: Artistic Radiance Fields",
+    "conference": "ECCV 2022",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2206.06360",
+      "code": "https://github.com/Kai-46/ARF-svox2",
+      "project": "https://www.cs.cornell.edu/projects/arf/"
+    }
+  },
+  {
+    "title": "Unified Implicit Neural Stylization",
+    "conference": "ECCV 2022",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Multi-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2204.01943",
+      "code": "https://github.com/VITA-Group/INS",
+      "project": "https://zhiwenfan.github.io/INS/"
+    }
+  },
+  {
+    "title": "Stylizing 3D Scene via Implicit Representation and HyperNetwork",
+    "conference": "WACV 2022",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Feed-forward"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2105.13016",
+      "code": "https://github.com/ztex08010518/Stylizing-3D-Scene",
+      "project": "https://ztex08010518.github.io/3dstyletransfer/"
+    }
+  },
+  {
+    "title": "Learning to stylize novel views",
+    "conference": "ICCV 2021",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "NeRF"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2105.13509",
+      "code": "https://github.com/hhsinping/stylescene",
+      "project": "https://hhsinping.github.io/3d_scene_stylization/"
+    }
+  },
+  {
+    "title": "PointInverter: Point Cloud Reconstruction and Editing via a Generative Model with Shape Priors",
+    "conference": "WACV 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Point Cloud"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "3D-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Feed-forward"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2211.08702",
+      "project": "https://ja-yeon-kim.github.io/PointInverter/"
+    }
+  },
+  {
+    "title": "PSNet: A Style Transfer Network for Point Cloud Stylization on Geometry and Color",
+    "conference": "WACV 2020",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Point Cloud"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "3D-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://openaccess.thecvf.com/content_WACV_2020/html/Cao_PSNet_A_Style_Transfer_Network_for_Point_Cloud_Stylization_on_WACV_2020_paper.html",
+      "code": "https://github.com/xucao-42/psnet",
+      "project": "https://www.youtube.com/watch?v=EbUOg1gVcFw&t=1818s"
+    }
+  },
+  {
+    "title": "StyleRF-VolVis: Style Transfer of Neural Radiance Fields for Expressive Volume Visualization",
+    "conference": "IEEE VIS 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Voxel"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2408.00150"
+    }
+  },
+  {
+    "title": "ShaDDR: Interactive Example-Based Geometry and Texture Generation via 3D Shape Detailization and Differentiable Rendering",
+    "conference": "SIGGRAPH Asia 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Voxel"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "3D-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2306.04889",
+      "code": "https://github.com/qiminchen/ShaDDR",
+      "project": "https://qiminchen.github.io/shaddr/"
+    }
+  },
+  {
+    "title": "Efficient Neural Style Transfer For Volumetric Simulations",
+    "conference": "SIGGRAPH Asia 2022",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Voxel"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "3D-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Feed-forward"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Multi-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      }
+    ],
+    "links": {
+      "paper": "https://studios.disneyresearch.com/app/uploads/2022/10/Efficient-Neural-Style-Transfer-For-Volumetric-Simulations.pdf",
+      "project": "https://studios.disneyresearch.com/2022/11/30/efficient-neural-style-transfer-for-volumetric-simulations/"
+    }
+  },
+  {
+    "title": "Volumetric appearance stylization with stylizing kernel prediction network",
+    "conference": "SIGGRAPH 2021",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Voxel"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Feed-forward"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "https://sites.cs.ucsb.edu/~lingqi/publications/paper_volst.pdf",
+      "project": "https://dl.acm.org/doi/abs/10.1145/3450626.3459799"
+    }
+  },
+  {
+    "title": "Lagrangian Neural Style Transfer for Fluids",
+    "conference": "SIGGRAPH 2020",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Voxel"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Appearance"
+      }
+    ],
+    "links": {
+      "paper": "http://arxiv.org/abs/2005.00803",
+      "code": "https://github.com/byungsook/neural-flow-style/tree/lnst",
+      "project": "https://www.youtube.com/watch?v=WPmUsIVf3-4"
+    }
+  },
+  {
+    "title": "Transport-Based Neural Style Transfer for Smoke Simulations",
+    "conference": "SIGGRAPH Asia 2019",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Voxel"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      }
+    ],
+    "links": {
+      "paper": "http://arxiv.org/abs/1905.07442",
+      "code": "https://github.com/byungsook/neural-flow-style/tree/tnst",
+      "project": "https://www.youtube.com/watch?v=67qVRhoOQPE"
+    }
+  },
+  {
+    "title": "NeuSDFusion: A Spatial-Aware Generative Model for 3D Shape Completion, Reconstruction, and Generation",
+    "conference": "ECCV 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Implicit Shape"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Image-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.18241",
+      "project": "https://weizheliu.github.io/NeuSDFusion/"
+    }
+  },
+  {
+    "title": "CNS-Edit: 3D Shape Editing via Coupled Neural Shape Optimization",
+    "conference": "SIGGRAPH 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Implicit Shape"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "3D-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2402.02313"
+    }
+  },
+  {
+    "title": "EXIM: A Hybrid Explicit-Implicit Representation for Text-Guided 3D Shape Generation",
+    "conference": "SIGGRAPH Asia/TOG 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Implicit Shape"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Single-style"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2311.01714",
+      "code": "https://github.com/liuzhengzhe/EXIM",
+      "project": "https://liuzhengzhe.github.io/EXIM.github.io/"
+    }
+  },
+  {
+    "title": "SALAD: Part-Level Latent Diffusion for 3D Shape Generation and Manipulation",
+    "conference": "ICCV 2023",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Implicit Shape"
+      },
+      {
+        "class": "btn-outline-success",
+        "text": "Text-guided"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Feed-forward"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      }
+    ],
+    "links": {
+      "paper": "https://salad3d.github.io/assets/salad.pdf",
+      "code": "https://github.com/KAIST-Geometric-AI-Group/SALAD",
+      "project": "https://salad3d.github.io/"
+    }
+  },
+  {
+    "title": "Neural Wavelet-domain Diffusion for 3D Shape Generation, Inversion, and Manipulation",
+    "conference": "SIGGRAPH Asia 2022 Conf Paper, TOG 2024",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Implicit Shape"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Feed-forward"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      }
+    ],
+    "links": {
+      "paper": "https://arxiv.org/abs/2302.00190",
+      "code": "https://github.com/edward1997104/Wavelet-Generation"
+    }
+  },
+  {
+    "title": "SPAGHETTI: Editing Implicit Shapes Through Part Aware Generation",
+    "conference": "SIGGRAPH/TOG 2022",
+    "tags": [
+      {
+        "class": "btn-outline-primary",
+        "text": "Implicit Shape"
+      },
+      {
+        "class": "btn-outline-warning",
+        "text": "Feed-forward"
+      },
+      {
+        "class": "btn-outline-secondary",
+        "text": "Geometry"
+      }
+    ],
+    "links": {
+      "paper": "https://igl.ethz.ch/projects/SPAGHETTI/SPAGHETTI-paper.pdf",
+      "code": "https://github.com/amirhertz/spaghetti",
+      "project": "https://igl.ethz.ch/projects/SPAGHETTI/"
+    }
+  }
+]
