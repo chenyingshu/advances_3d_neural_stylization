@@ -10167,18 +10167,10 @@ input[type="range"] {
 /* Flexbox container for horizontal layout */
 .groups-container {
   display: flex;
-  padding: 0 20px;
+  padding: 0 1rem;
   justify-content: space-between; /* Spread groups evenly */
   align-items: flex-start; /* Align groups to the top */
   gap: 20px; /* Space between groups */
-}
-
-/* Slider line between groups */
-.slider-line {
-  width: 1px;
-  height: 100%;
-  background-color: #ccc; /* Light gray line */
-  margin: 0 10px; /* Space around the line */
 }
 
 /* Button group styling */
