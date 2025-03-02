@@ -10197,8 +10197,110 @@ input[type="range"] {
 .btn {
   white-space: nowrap; /* Prevent button text from wrapping */
 }
-@media (max-width: 768px) {
+/* Responsive adjustments for mobile screens */
+@media (max-width: 992px) {
   .groups-container {
-    flex-direction: column; /* Stack groups vertically on small screens */
+    flex-direction: row; /* Keep groups in a row */
+    flex-wrap: wrap; /* Allow wrapping for multiple rows */
+    gap: 10px; /* Reduce gap between groups */
+  }
+
+  .button-group {
+    max-width: 48%; /* Set width for 2 groups per row */
+    flex: 1 1 48%; /* Allow flexibility for 2 groups per row */
+    font-size: 0.8rem; /* Decrease font size for mobile */
+  }
+
+  .button-group h4 {
+    font-size: 0.9rem; /* Decrease heading font size for mobile */
+  }
+
+  .button-group .btn {
+    font-size: 0.8rem; /* Decrease button font size for mobile */
+  }
+  .row-cols-md-3 > * {
+    flex: 0 0 50%; /* 2 cards per row */
+    max-width: 50%;
+  }
+  .card-body {
+    padding: 1rem; /* Reduce padding for small screens */
+  }
+
+  .card-title {
+    font-size: 1.1rem; /* Smaller font size for card titles */
+  }
+
+  .card-text {
+    font-size: 0.9rem; /* Smaller font size for card text */
+  }
+
+  .card-header {
+    font-size: 1rem; /* Smaller font size for card headers */
+  }
+
+  .card-footer a {
+    font-size: 0.8rem; /* Smaller font size for card footer links */
+  }
+
+  .card.h-100 .btn {
+    padding: 0.2rem 0.4rem; /* Smaller padding */
+    font-size: 0.7rem; /* Smaller font size */
+    border-radius: 0.25rem; /* Optional: Adjust border radius */
+  }
+}
+@media (max-width: 568px) {
+  .groups-container {
+    padding: 0;
+  }
+  .button-group {
+    max-width: 48%; /* Set width for 2 groups per row */
+    flex: 1 1 48%; /* Allow flexibility for 2 groups per row */
+    font-size: 0.8rem; /* Decrease font size for mobile */
+  }
+
+  .button-group h4 {
+    font-size: 0.8rem; /* Decrease heading font size for mobile */
+  }
+
+  .button-group .btn {
+    padding: 0.1rem 0.3rem; /* Smaller padding */
+    font-size: 0.7rem; /* Decrease button font size for mobile */
+  }
+
+  .row-cols-md-3 > * {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .card-body {
+    padding: 0.75rem; /* Further reduce padding for extra small screens */
+  }
+
+  .card-title {
+    font-size: 0.75rem; /* Even smaller font size for card titles */
+  }
+
+  .card-text {
+    font-size: 0.75rem; /* Even smaller font size for card text */
+  }
+
+  .card-header {
+    font-size: 0.5rem; /* Even smaller font size for card headers */
+  }
+
+  .card-footer a {
+    font-size: 0.5rem; /* Even smaller font size for card footer links */
+  }
+
+  .card.h-100 .btn {
+    padding: 0.15rem 0.3rem; /* Smaller padding */
+    font-size: 0.6rem; /* Smaller font size */
+    border-radius: 0.25rem; /* Optional: Adjust border radius */
+  }
+
+  .logo-label {
+    padding-top: calc(0.25rem + 1px);
+    padding-bottom: calc(0.25rem + 1px);
+    font-size: 1.5rem;
+    line-height: 1.5;
   }
 }
