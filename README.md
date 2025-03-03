@@ -20,14 +20,14 @@ Conference or Journal Year. <br>
 
 ## Surveys
 **Advances in 3D Neural Stylization: A Survey** <br>
-_Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung._ 2023.<br>
+_Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung._ 2023.<br/><br/>
 <a href="http://www.chenyingshu.com/advances_3d_neural_stylization/"><img src="https://img.shields.io/badge/WEBSITE-Access%20Here-blue?style=for-the-badge"></a>
 <a href="https://arxiv.org/abs/2311.18328"><img src="https://img.shields.io/badge/arxiv-2311.18328-red?style=for-the-badge"></a>
 <a href="https://github.com/chenyingshu/advances_3d_neural_stylization"><img src="https://img.shields.io/badge/CODE-Access%20Github-0366d6?style=for-the-badge"></a>
 <!--<a href="https://chenyingshu.github.ioadvances_3d_neural_stylization/assets/survey.pdf"><img src="https://img.shields.io/badge/paper-download%20paper-green?style=for-the-badge"></a>-->
-<br>
 
-If you find this work useful, please cite our paper:
+### Citation
+😊 If you find this work useful, please cite our paper:
 ```bibtex
 @article{chen2023advances3dstyle,
   title={Advances in 3D Neural Stylization: A Survey},
@@ -36,6 +36,11 @@ If you find this work useful, please cite our paper:
   year={2023}
 }
 ```
+
+### Acknowledgement
+The paper was partially supported by a grant from the Research Grants Council of the Hong Kong Special Administrative Region, China (Project No. HKUST 16202323) and an internal grant from HKUST (R9429).<br/>
+Binh-Son Hua is supported by Research Ireland under the Research Ireland Frontiers for the Future Programme - Project, award number 22/FFP-P/11522.
+
 <details>
   <summary>
     
@@ -642,3 +647,4 @@ _Features_:
 - text-guided local editing
 
 <!--[[Paper]()] [[Project]()] [[Github]()] <br>-->
+
