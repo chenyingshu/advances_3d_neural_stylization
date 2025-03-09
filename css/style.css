@@ -325,7 +325,7 @@ legend {
 
 @media (max-width: 1200px) {
   legend {
-    font-size: calc(1.275rem + 0.3vw) ;
+    font-size: calc(1.275rem) ;
   }
 }
 
@@ -4175,7 +4175,8 @@ input[type="button"].btn-block {
   }
 }
 
-@media (max-width: 767.98px) {
+/*@media (max-width: 767.98px) {*/
+  @media (max-width: 851.98px) {
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl {
     padding-right: 0;
@@ -4183,7 +4184,8 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {*/
+@media (min-width: 852px) {
   .navbar-expand-md {
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -10178,7 +10180,7 @@ input[type="range"] {
   display: flex;
   /*flex-direction: column;*/
   flex-flow: row wrap;
-  max-width: 25%;
+  max-width: calc(25% - 0.5rem);
   gap: 10px; /* Space between buttons */
   flex: 0 0 auto; /* Let the width adapt to the content */
   padding: 0.5rem; /* Optional: Add padding for better spacing */
@@ -10198,7 +10200,7 @@ input[type="range"] {
   white-space: nowrap; /* Prevent button text from wrapping */
 }
 /* Responsive adjustments for mobile screens */
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   .groups-container {
     flex-direction: row; /* Keep groups in a row */
     flex-wrap: wrap; /* Allow wrapping for multiple rows */
