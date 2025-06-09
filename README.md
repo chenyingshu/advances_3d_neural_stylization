@@ -15,25 +15,29 @@ markdown format:
 **Here is the Paper Name.**<br>
 *[Author 1](homepage), Author 2, and Author 3.*<br>
 Conference or Journal Year. <br>
-[[Paper](link)] [[Project](link)] [[Github](link)] [[Video](link)] [[Data](link)]
+[[Paper](link)] [[Project](link)] [[Github](link)] [[Video](link)] [[Data](link)] <br>
+_Features_:
+- highlight feature 1
+- highlight feature 2
 ```
 
 ## Surveys
 **Advances in 3D Neural Stylization: A Survey** <br>
-_Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung._ 2023.<br/><br/>
+_Yingshu Chen, Guocheng Shao, Ka Chun Shum, Binh-Son Hua, Sai-Kit Yeung._ IJCV 2025.<br/><br/>
 <a href="http://www.chenyingshu.com/advances_3d_neural_stylization/"><img src="https://img.shields.io/badge/WEBSITE-Access%20Here-blue?style=for-the-badge"></a>
 <a href="https://arxiv.org/abs/2311.18328"><img src="https://img.shields.io/badge/arxiv-2311.18328-red?style=for-the-badge"></a>
 <a href="https://github.com/chenyingshu/advances_3d_neural_stylization"><img src="https://img.shields.io/badge/CODE-Access%20Github-0366d6?style=for-the-badge"></a>
-<!--<a href="https://chenyingshu.github.ioadvances_3d_neural_stylization/assets/survey.pdf"><img src="https://img.shields.io/badge/paper-download%20paper-green?style=for-the-badge"></a>-->
 
 ### Citation
 😊 If you find this work useful, please cite our paper:
 ```bibtex
-@article{chen2023advances3dstyle,
-  title={Advances in 3D Neural Stylization: A Survey},
+@article{chen2025advances,
+  title={Advances in 3D neural stylization: a survey},
   author={Chen, Yingshu and Shao, Guocheng and Shum, Ka Chun and Hua, Binh-Son and Yeung, Sai-Kit},
-  journal={arXiv preprint arXiv:2311.18328},
-  year={2023}
+  journal={International Journal of Computer Vision},
+  pages={1--36},
+  year={2025},
+  publisher={Springer}
 }
 ```
 
@@ -96,7 +100,7 @@ Binh-Son Hua is supported by Research Ireland under the Research Ireland Frontie
 - [Implicit Shape Stylization](#table-implicit-shape-style)
 - [Other 3D Stylization](#other-3d-stylization)
 - [Related 3D Generation](#other-related-3d-generation)
-- [Evaluation](https://github.com/chenyingshu/advances_3d_neural_stylization/tree/evaluation)
+- [Evaluation](https://github.com/chenyingshu/advances_3d_neural_stylization/tree/main/evaluation_codes)
 
 
 <details open>
@@ -119,6 +123,8 @@ Binh-Son Hua is supported by Research Ireland under the Research Ireland Frontie
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
+|Geometry in Style <img src="assets/icon_text.png" width="20" height="20">|Geometry in Style: 3D Stylization via Surface Normal Deformation | CVPR 2025|[Paper](https://arxiv.org/abs/2503.23241)|[Project](https://threedle.github.io/geometry-in-style/)|[Github](https://github.com/threedle/geometry-in-style/)|
+|MeshUp <img src="assets/icon_text.png" width="20" height="20">|MeshUp: Multi-Target Mesh Deformation via Blended Score Distillation | 3DV 2025(Honorable Mention) | [Paper](https://arxiv.org/abs/2408.14899)| [Project](https://threedle.github.io/MeshUp/) | [Github](https://github.com/threedle/MeshUp) |
 |FlashTex <img src="assets/icon_text.png" width="20" height="20">| FlashTex: Fast Relightable Mesh Texturing with LightControlNet | ECCV 2024(Oral) |[[Paper](https://arxiv.org/abs/2402.13251)]|[[Project](https://flashtex.github.io/)]|[[Github](https://github.com/Roblox/FlashTex)]|
 |TexGen <img src="assets/icon_text.png" width="20" height="20">|TexGen: Text-Guided 3D Texture Generation with Multi-view Sampling and Resampling| ECCV 2024 |[[Paper](https://arxiv.org/abs/2408.01291)]| [[Project](https://dong-huo.github.io/TexGen/)]|
 |TexDreamer <img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_text.png" width="20" height="20">|TexDreamer: Towards Zero-Shot High-Fidelity 3D Human Texture Generation| ECCV 2024 | [[Paper](https://arxiv.org/abs/2403.12906)]| [[Project](https://ggxxii.github.io/texdreamer/)]| [[Github](https://github.com/ggxxii/texdreamer)]|
@@ -186,6 +192,8 @@ Binh-Son Hua is supported by Research Ireland under the Research Ireland Frontie
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
+|SGSST <img src="assets/icon_image.png" width="20" height="20">|SGSST: Scaling Gaussian Splatting Style Transfer | CVPR 2025 | [Paper](https://arxiv.org/abs/2412.03371)|[Project](https://www.idpoisson.fr/galerne/sgsst/) | [Github](https://github.com/JianlingWANG2021/SGSST)|
+|Morpheus  <img src="assets/icon_text.png" width="20" height="20">  | Morpheus: Text-Driven 3D Gaussian Splat Shape and Color Stylization | CVPR 2025 | [Paper](https://arxiv.org/abs/2503.02009) |[Project](https://nianticlabs.github.io/morpheus/) | |
 | DreamCatalyst <img src="assets/icon_text.png" width="20" height="20"> | DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation| ICLR 2025 | [[Paper](https://arxiv.org/abs/2407.11394)] | [[Project](https://dream-catalyst.github.io/)] | [[Github](https://github.com/kaist-cvml/DreamCatalyst)]|
 |IPDreamer <img src="assets/icon_image.png" width="20" height="20"> |IPDreamer: Appearance-Controllable 3D Object Generation with Complex Image Prompts | ICLR 2025 | [[Paper](https://arxiv.org/abs/2310.05375)]| | [[Github](https://github.com/zengbohan0217/IPDreamer)]|
 | ReGS <img src="assets/icon_image.png" width="20" height="20">| ReGS: Reference-based Controllable Scene Stylization with Gaussian Splatting  | NeurIPS 2024 |[[Paper](https://arxiv.org/abs/2407.07220)] | |  |
