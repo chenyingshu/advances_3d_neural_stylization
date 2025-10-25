@@ -123,6 +123,7 @@ Binh-Son Hua is supported by Research Ireland under the Research Ireland Frontie
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
+|ReStyle3D <img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_obj.png" width="20" height="20">|ReStyle3D: Scene-level Appearance Transfer with Semantic Correspondencesn | SIGGRAPH 2025|[[Paper](https://arxiv.org/abs/2502.10377)] |[[Project](https://restyle3d.github.io/)]| [[Github](https://github.com/GradientSpaces/ReStyle3D)]|
 |Geometry in Style <img src="assets/icon_text.png" width="20" height="20">|Geometry in Style: 3D Stylization via Surface Normal Deformation | CVPR 2025|[[Paper](https://arxiv.org/abs/2503.23241)] |[[Project](https://threedle.github.io/geometry-in-style/)]| [[Github](https://github.com/threedle/geometry-in-style/)]|
 |MeshUp <img src="assets/icon_text.png" width="20" height="20">|MeshUp: Multi-Target Mesh Deformation via Blended Score Distillation | 3DV 2025(Honorable Mention) | [[Paper](https://arxiv.org/abs/2408.14899)] | [[Project](https://threedle.github.io/MeshUp/)] | [[Github](https://github.com/threedle/MeshUp)] |
 |FlashTex <img src="assets/icon_text.png" width="20" height="20">| FlashTex: Fast Relightable Mesh Texturing with LightControlNet | ECCV 2024(Oral) |[[Paper](https://arxiv.org/abs/2402.13251)]|[[Project](https://flashtex.github.io/)]|[[Github](https://github.com/Roblox/FlashTex)]|
