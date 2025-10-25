@@ -123,7 +123,6 @@ Binh-Son Hua is supported by Research Ireland under the Research Ireland Frontie
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
-|ReStyle3D <img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_obj.png" width="20" height="20">|ReStyle3D: Scene-level Appearance Transfer with Semantic Correspondencesn | SIGGRAPH 2025|[[Paper](https://arxiv.org/abs/2502.10377)] |[[Project](https://restyle3d.github.io/)]| [[Github](https://github.com/GradientSpaces/ReStyle3D)]|
 |Geometry in Style <img src="assets/icon_text.png" width="20" height="20">|Geometry in Style: 3D Stylization via Surface Normal Deformation | CVPR 2025|[[Paper](https://arxiv.org/abs/2503.23241)] |[[Project](https://threedle.github.io/geometry-in-style/)]| [[Github](https://github.com/threedle/geometry-in-style/)]|
 |MeshUp <img src="assets/icon_text.png" width="20" height="20">|MeshUp: Multi-Target Mesh Deformation via Blended Score Distillation | 3DV 2025(Honorable Mention) | [[Paper](https://arxiv.org/abs/2408.14899)] | [[Project](https://threedle.github.io/MeshUp/)] | [[Github](https://github.com/threedle/MeshUp)] |
 |FlashTex <img src="assets/icon_text.png" width="20" height="20">| FlashTex: Fast Relightable Mesh Texturing with LightControlNet | ECCV 2024(Oral) |[[Paper](https://arxiv.org/abs/2402.13251)]|[[Project](https://flashtex.github.io/)]|[[Github](https://github.com/Roblox/FlashTex)]|
@@ -193,6 +192,7 @@ Binh-Son Hua is supported by Research Ireland under the Research Ireland Frontie
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
+|ReStyle3D <img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_obj.png" width="20" height="20">|Scene-level Appearance Transfer with Semantic Correspondences| SIGGRAPH 2025|[[Paper](https://arxiv.org/abs/2502.10377)] |[[Project](https://restyle3d.github.io/)]| [[Github](https://github.com/GradientSpaces/ReStyle3D)]|
 |PrEditor3D <img src="assets/icon_text.png" width="20" height="20">|PrEditor3D: Fast and Precise 3D Shape Editing |CVPR 2025 | [[Paper](https://arxiv.org/abs/2412.06592)] | [[Project](https://ziyaerkoc.com/preditor3d/)] | |
 |CTRL-D <img src="assets/icon_text.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20"> |CTRL-D: Controllable Dynamic 3D Scene Editing with Personalized 2D Diffusion |CVPR 2025 | [[Paper](https://arxiv.org/abs/2412.01792)] | [[Project](https://ihe-kaii.github.io/CTRL-D/)] | [[Github](https://github.com/IHe-KaiI/CTRL-D)]|
 |Instruct-4DGS <img src="assets/icon_text.png" width="20" height="20"> | Efficient Dynamic Scene Editing via 4D Gaussian-based Static-Dynamic Separation | CVPR 2025 | [[Paper](https://arxiv.org/abs/2502.02091)] | [[Project](https://hanbyelcho.info/instruct-4dgs/)] |  |
