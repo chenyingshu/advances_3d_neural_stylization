@@ -192,6 +192,7 @@ Binh-Son Hua is supported by Research Ireland under the Research Ireland Frontie
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
+|Styl3R <img src="assets/icon_text.png" width="20" height="20">|Styl3R: Instant 3D Stylized Reconstruction for Arbitrary Scenes and Styles |NeurIPS 2025 | [[Paper](https://arxiv.org/abs/2505.21060)] | [[Project](https://nickisdope.github.io/Styl3R/)] | |
 |PrEditor3D <img src="assets/icon_text.png" width="20" height="20">|PrEditor3D: Fast and Precise 3D Shape Editing |CVPR 2025 | [[Paper](https://arxiv.org/abs/2412.06592)] | [[Project](https://ziyaerkoc.com/preditor3d/)] | |
 |CTRL-D <img src="assets/icon_text.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20"> |CTRL-D: Controllable Dynamic 3D Scene Editing with Personalized 2D Diffusion |CVPR 2025 | [[Paper](https://arxiv.org/abs/2412.01792)] | [[Project](https://ihe-kaii.github.io/CTRL-D/)] | [[Github](https://github.com/IHe-KaiI/CTRL-D)]|
 |Instruct-4DGS <img src="assets/icon_text.png" width="20" height="20"> | Efficient Dynamic Scene Editing via 4D Gaussian-based Static-Dynamic Separation | CVPR 2025 | [[Paper](https://arxiv.org/abs/2502.02091)] | [[Project](https://hanbyelcho.info/instruct-4dgs/)] |  |
