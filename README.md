@@ -192,7 +192,7 @@ Binh-Son Hua is supported by Research Ireland under the Research Ireland Frontie
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
-|ReStyle3D <img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_obj.png" width="20" height="20">|Scene-level Appearance Transfer with Semantic Correspondences| SIGGRAPH 2025|[[Paper](https://arxiv.org/abs/2502.10377)] |[[Project](https://restyle3d.github.io/)]| [[Github](https://github.com/GradientSpaces/ReStyle3D)]|
+|ReStyle3D <img src="assets/icon_image.png" width="20" height="20">|Scene-level Appearance Transfer with Semantic Correspondences| SIGGRAPH 2025|[[Paper](https://arxiv.org/abs/2502.10377)] |[[Project](https://restyle3d.github.io/)]| [[Github](https://github.com/GradientSpaces/ReStyle3D)]|
 |PrEditor3D <img src="assets/icon_text.png" width="20" height="20">|PrEditor3D: Fast and Precise 3D Shape Editing |CVPR 2025 | [[Paper](https://arxiv.org/abs/2412.06592)] | [[Project](https://ziyaerkoc.com/preditor3d/)] | |
 |CTRL-D <img src="assets/icon_text.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20"> |CTRL-D: Controllable Dynamic 3D Scene Editing with Personalized 2D Diffusion |CVPR 2025 | [[Paper](https://arxiv.org/abs/2412.01792)] | [[Project](https://ihe-kaii.github.io/CTRL-D/)] | [[Github](https://github.com/IHe-KaiI/CTRL-D)]|
 |Instruct-4DGS <img src="assets/icon_text.png" width="20" height="20"> | Efficient Dynamic Scene Editing via 4D Gaussian-based Static-Dynamic Separation | CVPR 2025 | [[Paper](https://arxiv.org/abs/2502.02091)] | [[Project](https://hanbyelcho.info/instruct-4dgs/)] |  |
@@ -281,6 +281,7 @@ Binh-Son Hua is supported by Research Ireland under the Research Ireland Frontie
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
+|ReStyle3D <img src="assets/icon_image.png" width="20" height="20">|Scene-level Appearance Transfer with Semantic Correspondences| SIGGRAPH 2025|[[Paper](https://arxiv.org/abs/2502.10377)] |[[Project](https://restyle3d.github.io/)]| [[Github](https://github.com/GradientSpaces/ReStyle3D)]|
 |MuVieCAST <img src="assets/icon_image.png" width="20" height="20">| MuVieCAST: Multi-View Consistent Artistic Style Transfer|3DV 2024 |[[Paper](https://arxiv.org/abs/2312.05046)]|[[Project](https://muviecast.github.io/)]|[[Github](https://github.com/Mirmix/muviecast)]|
 |LFST <img src="assets/icon_image.png" width="20" height="20">|Style Transfer for Light Field Photography | WACV 2020|[[Paper](https://arxiv.org/abs/2002.11220)] ||[[Github](https://github.com/davidmhart/LightFieldStyleTransfer)]
 |NSIST <img src="assets/icon_image.png" width="20" height="20"> |Neural Stereoscopic Image Style Transfer |ECCV 2018|[[Paper](https://arxiv.org/abs/1802.09985)]|||
