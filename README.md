@@ -1,6 +1,8 @@
 # <p align='center'>`Advances in 3D Neural Stylization`</p>
 
-A review of 3D neural stylization papers, mainly neural stylization on 3D data with image or text reference.
+A review of 3D neural stylization papers, mainly neural stylization on 3D data with vision, text, or 3D/4D style reference.
+> _Definition._ 3D neural stylization refers to the process that employs **deep learning techniques** and **stylization algorithms** to generate **stylized 3D digital assets or the stylized rendering** from
+these assets, including the alteration of appearance and/or geometry.
 
 Other variants are also welcomed, e.g., with other/no reference, 3D-aware neural stylization, non-neural 3D stylization.
 
@@ -109,9 +111,9 @@ Binh-Son Hua is supported by Research Ireland under the Research Ireland Frontie
 ## Overview of 3D Neural Stylization ##
   </summary>
 <div align=left> 
-  Image/Video guidance: <img align=top src="assets/icon_image.png" width="32" height="32"> 
-  Text guidance: <img align=top src="assets/icon_text.png" width="32" height="32"> 
-  3D/4D guidance: <img align=top src="assets/icon_obj.png" width="32" height="32"> 
+  Image/Video style guidance: <img align=top src="assets/icon_image.png" width="32" height="32"> 
+  Text style guidance: <img align=top src="assets/icon_text.png" width="32" height="32"> 
+  3D/4D style guidance: <img align=top src="assets/icon_obj.png" width="32" height="32"> 
 </div>
 
 <details open>
