@@ -125,6 +125,8 @@ Binh-Son Hua is supported by Research Ireland under the Research Ireland Frontie
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
+|CMD <img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_text.png" width="20" height="20">| CMD: Controllable Multiview Diffusion for 3D Editing and Progressive Generation | SIGGRAPH 2025|[[Paper](https://arxiv.org/abs/2505.07003)] |[[Project](https://penghtyx.github.io/CMD/)]| [[Github(TBA)](https://github.com/pengHTYX/CMD/)]|
+|3D Stylization LRM <img src="assets/icon_image.png" width="20" height="20">| 3D Stylization via Large Reconstruction Model | SIGGRAPH 2025|[[Paper](https://arxiv.org/abs/2504.21836)] |[[Project](https://ipekoztas.github.io/3DStylizationLRM/)]| [[Github](https://github.com/ipekoztas/3D-Stylization-LRM/)]|
 |Geometry in Style <img src="assets/icon_text.png" width="20" height="20">|Geometry in Style: 3D Stylization via Surface Normal Deformation | CVPR 2025|[[Paper](https://arxiv.org/abs/2503.23241)] |[[Project](https://threedle.github.io/geometry-in-style/)]| [[Github](https://github.com/threedle/geometry-in-style/)]|
 |MeshUp <img src="assets/icon_text.png" width="20" height="20">|MeshUp: Multi-Target Mesh Deformation via Blended Score Distillation | 3DV 2025(Honorable Mention) | [[Paper](https://arxiv.org/abs/2408.14899)] | [[Project](https://threedle.github.io/MeshUp/)] | [[Github](https://github.com/threedle/MeshUp)] |
 |FlashTex <img src="assets/icon_text.png" width="20" height="20">| FlashTex: Fast Relightable Mesh Texturing with LightControlNet | ECCV 2024(Oral) |[[Paper](https://arxiv.org/abs/2402.13251)]|[[Project](https://flashtex.github.io/)]|[[Github](https://github.com/Roblox/FlashTex)]|
@@ -340,6 +342,7 @@ Binh-Son Hua is supported by Research Ireland under the Research Ireland Frontie
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
+|StructRe | StructRe: Rewriting for Structured Shape Modeling| TOG 2025| [[Paper](https://arxiv.org/abs/2311.17510)]|[[Project](https://jiepengwang.github.io/StructRe/)]||
 |NeuSDFusion |NeuSDFusion: A Spatial-Aware Generative Model for 3D Shape Completion, Reconstruction, and Generation|ECCV 2024| [[Paper](https://arxiv.org/abs/2403.18241)]|[[Project](https://weizheliu.github.io/NeuSDFusion/)]||
 |CNS-Edit|CNS-Edit: 3D Shape Editing via Coupled Neural Shape Optimization| SIGGRAPH 2024 |[[Paper](https://arxiv.org/abs/2402.02313)]|||
 |EXIM <img src="assets/icon_text.png" width="20" height="20">|EXIM: A Hybrid Explicit-Implicit Representation for Text-Guided 3D Shape Generation| SIGGRAPH Asia/TOG 2023| [[Paper](https://arxiv.org/abs/2311.01714)] |[[Project](https://liuzhengzhe.github.io/EXIM.github.io/)] | [[Github](https://github.com/liuzhengzhe/EXIM)] |
