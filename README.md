@@ -52,6 +52,9 @@ Binh-Son Hua is supported by Research Ireland under the Research Ireland Frontie
     
 ### Other related surveys, courses
   </summary>
+
+**Advances in Neural 3D Mesh Texturing: A Survey** [[Paper](https://arxiv.org/abs/2606.00137)] [[Project](https://sairajk.github.io/neural-mesh-texturing/)] <br>
+*Sai Raj Kishore Perla, Hao (Richard) Zhang, Ali Mahdavi-Amiri.* Eurographics STAR (CGF), 2026.
   
 **Neural Style Transfer: A Review** [[Paper](https://arxiv.org/abs/1705.04058)] [[Project](https://github.com/ycjing/Neural-Style-Transfer-Papers)] <br>
 *Yongcheng Jing, Yezhou Yang, Zunlei Feng, Jingwen Ye, Yizhou Yu, Mingli Song.* TVCG, 2019.
@@ -126,6 +129,7 @@ Binh-Son Hua is supported by Research Ireland under the Research Ireland Frontie
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
+|EASI-Tex <img src="assets/icon_image.png" width="20" height="20">| EASI-Tex: Edge-Aware Mesh Texturing from Single Image | ACM ToG (SIGGRAPH) 2024|[[Paper](https://arxiv.org/abs/2405.17393)] |[[Project](https://sairajk.github.io/easi-tex/)]| [[Github](https://github.com/sairajk/easi-tex)]|
 |CMD <img src="assets/icon_image.png" width="20" height="20"><img src="assets/icon_text.png" width="20" height="20">| CMD: Controllable Multiview Diffusion for 3D Editing and Progressive Generation | SIGGRAPH 2025|[[Paper](https://arxiv.org/abs/2505.07003)] |[[Project](https://penghtyx.github.io/CMD/)]| [[Github(TBA)](https://github.com/pengHTYX/CMD/)]|
 |3D Stylization LRM <img src="assets/icon_image.png" width="20" height="20">| 3D Stylization via Large Reconstruction Model | SIGGRAPH 2025|[[Paper](https://arxiv.org/abs/2504.21836)] |[[Project](https://ipekoztas.github.io/3DStylizationLRM/)]| [[Github](https://github.com/ipekoztas/3D-Stylization-LRM/)]|
 |Geometry in Style <img src="assets/icon_text.png" width="20" height="20">|Geometry in Style: 3D Stylization via Surface Normal Deformation | CVPR 2025|[[Paper](https://arxiv.org/abs/2503.23241)] |[[Project](https://threedle.github.io/geometry-in-style/)]| [[Github](https://github.com/threedle/geometry-in-style/)]|
