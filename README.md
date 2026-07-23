@@ -52,6 +52,9 @@ Binh-Son Hua is supported by Research Ireland under the Research Ireland Frontie
     
 ### Other related surveys, courses
   </summary>
+
+**Advances in Neural 3D Mesh Texturing: A Survey** [[Paper](https://arxiv.org/abs/2606.00137)] [[Project](https://sairajk.github.io/neural-mesh-texturing/)] <br>
+*Sai Raj Kishore Perla, Hao (Richard) Zhang, Ali Mahdavi-Amiri.* Eurographics STAR (CGF), 2026.
   
 **Neural Style Transfer: A Review** [[Paper](https://arxiv.org/abs/1705.04058)] [[Project](https://github.com/ycjing/Neural-Style-Transfer-Papers)] <br>
 *Yongcheng Jing, Yezhou Yang, Zunlei Feng, Jingwen Ye, Yizhou Yu, Mingli Song.* TVCG, 2019.
