@@ -200,6 +200,7 @@ Binh-Son Hua is supported by Research Ireland under the Research Ireland Frontie
 
 |  Abbr.  |  Title   | Venue  | Paper  | Project  | Github  |
 |  ----  |  ----    | ----  |----   |----  |----  |
+|GAST <img src="assets/icon_image.png" width="20" height="20">| Geometry-Aware Style Transfer in 3D Gaussian Splatting |ECCV 2026 | [[Paper](https://arxiv.org/abs/2606.24144)] | [[Project](https://kjun627.github.io/gast-web/)] | [[Github](https://github.com/oweixx/gast)]|
 |  ViP3DE <img src="assets/icon_text.png" width="20" height="20">| Fast Multi-view Consistent 3D Editing with Video Priors |AAAI 2026 | [[Paper](https://arxiv.org/abs/2511.23172)] | [[Project](https://mt-cly.github.io/ViP3DE/)] | [[Github](https://github.com/mt-cly/ViP3DEdit)]|
 |Styl3R <img src="assets/icon_image.png" width="20" height="20">|Styl3R: Instant 3D Stylized Reconstruction for Arbitrary Scenes and Styles |NeurIPS 2025 | [[Paper](https://arxiv.org/abs/2505.21060)] | [[Project](https://nickisdope.github.io/Styl3R/)] |[[Github](https://github.com/WU-CVGL/Styl3R)] |
 | CLIPGaussian <img src="assets/icon_text.png" width="20" height="20"><img src="assets/icon_image.png" width="20" height="20">| CLIPGaussian: Universal and Multimodal Style Transfer Based on Gaussian Splatting |NeurIPS 2025 | [[Paper](https://arxiv.org/abs/2505.22854)] | [[Project](https://kornelhowil.github.io/CLIPGaussian/)] | [[Github](https://github.com/kornelhowil/CLIPGaussian)]|
